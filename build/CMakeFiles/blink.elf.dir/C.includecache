@@ -236,6 +236,8 @@ stm32f1xx_hal.h
 main.h
 ../Inc/main.h
 
+../UserSrc/Inc/lesson3.h
+
 /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.h
@@ -285,6 +287,8 @@ stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.h
 
 /home/anton/Desktop/Projects/STM32/blink/Src/main.c
+lesson3.h
+-
 main.h
 /home/anton/Desktop/Projects/STM32/blink/Src/main.h
 stm32f1xx_hal.h
@@ -303,10 +307,14 @@ stm32f1xx_it.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_it.h
 
 /home/anton/Desktop/Projects/STM32/blink/Src/system_stm32f1xx.c
-stm32f103xb.h
--
 stm32f1xx.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx.h
+
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson3.c
+stm32f1xx_hal_conf.h
+-
+stm32f1xx_hal.h
+-
 
 /opt/cross/arm-none-eabi/include/_ansi.h
 newlib.h

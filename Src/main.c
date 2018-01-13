@@ -37,6 +37,7 @@
   */
 
 /* Includes ------------------------------------------------------------------*/
+#include <lesson3.h>
 #include "main.h"
 #include "stm32f1xx_hal.h"
 
@@ -64,8 +65,7 @@ static void MX_GPIO_Init(void);
 
 /* USER CODE END 0 */
 
-int main(void)
-{
+int main(void) {
 
   /* USER CODE BEGIN 1 */
 
@@ -97,8 +97,7 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1) {
-    HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13); //Toggle LED
-    HAL_Delay(100); //Delay 1 Seconds
+    lesson3();
   }
   /* USER CODE END 3 */
 
@@ -159,8 +158,7 @@ void SystemClock_Config(void)
         * EVENT_OUT
         * EXTI
 */
-static void MX_GPIO_Init(void)
-{
+static void MX_GPIO_Init(void) {
 
   GPIO_InitTypeDef GPIO_InitStruct;
 

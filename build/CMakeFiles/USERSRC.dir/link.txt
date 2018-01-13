@@ -1,0 +1,2 @@
+/opt/cross/bin/arm-none-eabi-ar qc libUSERSRC.a  CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.obj
+/opt/cross/bin/arm-none-eabi-ranlib libUSERSRC.a

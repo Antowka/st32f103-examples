@@ -18,10 +18,10 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/opt/cross/arm-none-eabi/include"
   "../Inc"
-  "../Src"
   "../Drivers/STM32F1xx_HAL_Driver/Inc"
   "../Drivers/CMSIS/Include"
   "../Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+  "../UserSrc/Inc"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "/home/anton/Desktop/Projects/STM32/blink/Src/system_stm32f1xx.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj"
@@ -37,10 +37,10 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/opt/cross/arm-none-eabi/include"
   "../Inc"
-  "../Src"
   "../Drivers/STM32F1xx_HAL_Driver/Inc"
   "../Drivers/CMSIS/Include"
   "../Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+  "../UserSrc/Inc"
   )
 
 # Targets to which this target links.

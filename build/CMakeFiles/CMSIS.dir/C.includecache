@@ -231,8 +231,6 @@ stm32f1xx_hal_hcd.h
 ../Inc/stm32f1xx_hal_hcd.h
 
 /home/anton/Desktop/Projects/STM32/blink/Src/system_stm32f1xx.c
-stm32f103xb.h
--
 stm32f1xx.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx.h
 

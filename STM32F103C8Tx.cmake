@@ -9,7 +9,8 @@ CMAKE_FORCE_CXX_COMPILER(arm-none-eabi-g++ GNU)
 
 SET(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103C8Tx_FLASH.ld)
 #Uncomment for software floating point
-SET(COMMON_FLAGS "-mcpu=cortex-m3 -mthumb -mthumb-interwork -mfloat-abi=soft -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0")
+#SET(COMMON_FLAGS "-mcpu=cortex-m3 -mthumb -mthumb-interwork -mfloat-abi=soft -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0")
+SET(COMMON_FLAGS "-mcpu=cortex-m3 -mthumb -mno-thumb-interwork -mfpu=vfp -msoft-float -mfix-cortex-m3-ldrd")
 SET(CMAKE_CXX_FLAGS  "${COMMON_FLAGS} -std=c++11")
 SET(CMAKE_C_FLAGS  "${COMMON_FLAGS} -std=gnu99")
 SET(CMAKE_EXE_LINKER_FLAGS "-Wl,-gc-sections,-M=binary.map -T ${LINKER_SCRIPT}")

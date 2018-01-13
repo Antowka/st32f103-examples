@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named USERSRC
+
+# Build rule for target.
+USERSRC: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 USERSRC
+.PHONY : USERSRC
+
+# fast build rule for target.
+USERSRC/fast:
+	$(MAKE) -f CMakeFiles/USERSRC.dir/build.make CMakeFiles/USERSRC.dir/build
+.PHONY : USERSRC/fast
+
+#=============================================================================
 # Target rules for targets named blink.elf
 
 # Build rule for target.
@@ -620,6 +633,36 @@ Src/system_stm32f1xx.c.s:
 	$(MAKE) -f CMakeFiles/CMSIS.dir/build.make CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.s
 .PHONY : Src/system_stm32f1xx.c.s
 
+UserSrc/Src/lesson3.obj: UserSrc/Src/lesson3.c.obj
+
+.PHONY : UserSrc/Src/lesson3.obj
+
+# target to build an object file
+UserSrc/Src/lesson3.c.obj:
+	$(MAKE) -f CMakeFiles/USERSRC.dir/build.make CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.obj
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+.PHONY : UserSrc/Src/lesson3.c.obj
+
+UserSrc/Src/lesson3.i: UserSrc/Src/lesson3.c.i
+
+.PHONY : UserSrc/Src/lesson3.i
+
+# target to preprocess a source file
+UserSrc/Src/lesson3.c.i:
+	$(MAKE) -f CMakeFiles/USERSRC.dir/build.make CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.i
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.i
+.PHONY : UserSrc/Src/lesson3.c.i
+
+UserSrc/Src/lesson3.s: UserSrc/Src/lesson3.c.s
+
+.PHONY : UserSrc/Src/lesson3.s
+
+# target to generate assembly for a file
+UserSrc/Src/lesson3.c.s:
+	$(MAKE) -f CMakeFiles/USERSRC.dir/build.make CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.s
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.s
+.PHONY : UserSrc/Src/lesson3.c.s
+
 startup/startup_stm32f103xb.obj: startup/startup_stm32f103xb.s.obj
 
 .PHONY : startup/startup_stm32f103xb.obj
@@ -637,6 +680,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... USERSRC"
 	@echo "... blink.elf"
 	@echo "... CMSIS"
 	@echo "... HAL"
@@ -688,6 +732,9 @@ help:
 	@echo "... Src/system_stm32f1xx.obj"
 	@echo "... Src/system_stm32f1xx.i"
 	@echo "... Src/system_stm32f1xx.s"
+	@echo "... UserSrc/Src/lesson3.obj"
+	@echo "... UserSrc/Src/lesson3.i"
+	@echo "... UserSrc/Src/lesson3.s"
 	@echo "... startup/startup_stm32f103xb.obj"
 .PHONY : help
 

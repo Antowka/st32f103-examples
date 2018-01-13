@@ -28,10 +28,10 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/opt/cross/arm-none-eabi/include"
   "../Inc"
-  "../Src"
   "../Drivers/STM32F1xx_HAL_Driver/Inc"
   "../Drivers/CMSIS/Include"
   "../Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+  "../UserSrc/Inc"
   )
 
 # Targets to which this target links.
