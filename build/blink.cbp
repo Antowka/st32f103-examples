@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="blink"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/anton/Desktop/Projects/STM32/blink/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/anton/Desktop/Projects/STM32/blink/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/anton/Desktop/Projects/STM32/blink/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="blink.elf">
+				<Option output="/home/anton/Desktop/Projects/STM32/blink/build/blink.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anton/Desktop/Projects/STM32/blink/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Src"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include-fixed"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 blink.elf"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="blink.elf/fast">
+				<Option output="/home/anton/Desktop/Projects/STM32/blink/build/blink.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anton/Desktop/Projects/STM32/blink/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Src"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include-fixed"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 blink.elf/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMSIS">
+				<Option output="/home/anton/Desktop/Projects/STM32/blink/build/libCMSIS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anton/Desktop/Projects/STM32/blink/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Src"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include-fixed"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 CMSIS"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMSIS/fast">
+				<Option output="/home/anton/Desktop/Projects/STM32/blink/build/libCMSIS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anton/Desktop/Projects/STM32/blink/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Src"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include-fixed"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 CMSIS/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HAL">
+				<Option output="/home/anton/Desktop/Projects/STM32/blink/build/libHAL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anton/Desktop/Projects/STM32/blink/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Src"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include-fixed"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 HAL"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HAL/fast">
+				<Option output="/home/anton/Desktop/Projects/STM32/blink/build/libHAL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anton/Desktop/Projects/STM32/blink/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Src"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include-fixed"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 HAL/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/STM32F103C8Tx_FLASH.ld">
+			<Option target="blink.elf"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/main.c">
+			<Option target="blink.elf"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_msp.c">
+			<Option target="blink.elf"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_it.c">
+			<Option target="blink.elf"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/system_stm32f1xx.c">
+			<Option target="blink.elf"/>
+			<Option target="CMSIS"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/startup/startup_stm32f103xb.s">
+			<Option target="CMSIS"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/STM32F103C8Tx.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

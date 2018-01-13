@@ -1,0 +1,5 @@
+/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/rebuild_cache.dir
+/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/edit_cache.dir
+/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir
+/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/CMSIS.dir
+/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/HAL.dir

@@ -1,0 +1,28 @@
+/opt/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -DCMAKE_TOOLCHAIN_FILE=STM32F103C8Tx.cmake -G "CodeBlocks - Unix Makefiles" /home/anton/Desktop/Projects/STM32/blink
+CMake Deprecation Warning at /opt/clion-2017.2.3/bin/cmake/share/cmake-3.8/Modules/CMakeForceCompiler.cmake:69 (message):
+  The CMAKE_FORCE_C_COMPILER macro is deprecated.  Instead just set
+  CMAKE_C_COMPILER and allow CMake to identify the compiler.
+Call Stack (most recent call first):
+  STM32F103C8Tx.cmake:7 (CMAKE_FORCE_C_COMPILER)
+  build/CMakeFiles/3.8.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:2 (project)
+
+
+CMake Deprecation Warning at /opt/clion-2017.2.3/bin/cmake/share/cmake-3.8/Modules/CMakeForceCompiler.cmake:83 (message):
+  The CMAKE_FORCE_CXX_COMPILER macro is deprecated.  Instead just set
+  CMAKE_CXX_COMPILER and allow CMake to identify the compiler.
+Call Stack (most recent call first):
+  STM32F103C8Tx.cmake:8 (CMAKE_FORCE_CXX_COMPILER)
+  build/CMakeFiles/3.8.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_TOOLCHAIN_FILE
+
+
+-- Build files have been written to: /home/anton/Desktop/Projects/STM32/blink/build

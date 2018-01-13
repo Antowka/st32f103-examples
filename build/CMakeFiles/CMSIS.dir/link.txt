@@ -1,0 +1,2 @@
+/opt/cross/bin/arm-none-eabi-ar qc libCMSIS.a  CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj CMakeFiles/CMSIS.dir/startup/startup_stm32f103xb.s.obj
+/opt/cross/bin/arm-none-eabi-ranlib libCMSIS.a
