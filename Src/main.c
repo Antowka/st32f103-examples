@@ -96,12 +96,9 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-  /* USER CODE END WHILE */
-
-  /* USER CODE BEGIN 3 */
-
+  while (1) {
+    HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13); //Toggle LED
+    HAL_Delay(100); //Delay 1 Seconds
   }
   /* USER CODE END 3 */
 
