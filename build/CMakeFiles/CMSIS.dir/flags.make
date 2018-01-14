@@ -9,7 +9,7 @@ ASM_DEFINES = -DSTM32F103xB
 
 ASM_INCLUDES = -I/opt/cross/arm-none-eabi/include -I/home/anton/Desktop/Projects/STM32/blink/Inc -I/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc -I/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include -I/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/anton/Desktop/Projects/STM32/blink/UserSrc/Inc 
 
-C_FLAGS = -mcpu=cortex-m3 -mthumb -mno-thumb-interwork -mfpu=vfp -msoft-float -mfix-cortex-m3-ldrd -Os -g -fno-schedule-insns -fno-schedule-insns2 -std=gnu99  
+C_FLAGS = -mcpu=cortex-m3 -mthumb -mno-thumb-interwork -mfpu=vfp -msoft-float -mfix-cortex-m3-ldrd -Os -g -std=gnu99  
 
 C_DEFINES = -DSTM32F103xB
 

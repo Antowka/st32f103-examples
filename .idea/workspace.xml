@@ -14,19 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc8c2fb-3b1e-493b-9bbe-c4cdfee2f23f" name="Default" comment="first commit">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_.dir/depend.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_.dir/flags.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_SRC.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_SRC.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_SRC.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_SRC.dir/depend.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_SRC.dir/flags.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_SRC.dir/progress.make" afterPath="" />
+    <list default="true" id="7dc8c2fb-3b1e-493b-9bbe-c4cdfee2f23f" name="Default" comment="lesson3 interrupt">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" />
@@ -63,31 +51,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libCMSIS.a" afterPath="$PROJECT_DIR$/build/libCMSIS.a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libHAL.a" afterPath="$PROJECT_DIR$/build/libHAL.a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libUSERSRC.a" afterPath="$PROJECT_DIR$/build/libUSERSRC.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.cproject" afterPath="$PROJECT_DIR$/.cproject" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inc/stm32f1xx_it.h" afterPath="$PROJECT_DIR$/Inc/stm32f1xx_it.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/STM32F103C8Tx.cmake" afterPath="$PROJECT_DIR$/STM32F103C8Tx.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Src/gpio.tmp" afterPath="$PROJECT_DIR$/Src/gpio.tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Src/main.c" afterPath="$PROJECT_DIR$/Src/main.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Src/stm32f1xx_hal_msp.c" afterPath="$PROJECT_DIR$/Src/stm32f1xx_hal_msp.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Src/stm32f1xx_it.c" afterPath="$PROJECT_DIR$/Src/stm32f1xx_it.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Src/system.tmp" afterPath="$PROJECT_DIR$/Src/system.tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserSrc/Inc/lesson3.h" afterPath="$PROJECT_DIR$/UserSrc/Inc/lesson3.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserSrc/Src/lesson3.c" afterPath="$PROJECT_DIR$/UserSrc/Src/lesson3.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blink.ioc" afterPath="$PROJECT_DIR$/blink.ioc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeCache.txt" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/CMSIS.dir/flags.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMSIS.dir/flags.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/flags.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/flags.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/USERSRC.dir/flags.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/USERSRC.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/C.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/C.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/depend.internal" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/depend.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/flags.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/flags.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/link.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/link.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/blink.hex" afterPath="$PROJECT_DIR$/build/blink.hex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/blink.map" afterPath="$PROJECT_DIR$/build/blink.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/flash.sh" afterPath="$PROJECT_DIR$/build/flash.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mx.scratch" afterPath="$PROJECT_DIR$/mx.scratch" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -114,8 +86,8 @@
       <file leaf-file-name="STM32F103C8Tx.cmake" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/STM32F103C8Tx.cmake">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="13" column="113" lean-forward="false" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -124,8 +96,8 @@
       <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Src/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding>
                 <element signature="e#2287#2307#0" expanded="true" />
               </folding>
@@ -136,8 +108,8 @@
       <file leaf-file-name="lesson3.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UserSrc/Src/lesson3.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#40#71#0" expanded="true" />
               </folding>
@@ -148,11 +120,21 @@
       <file leaf-file-name="stm32f1xx_it.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Src/stm32f1xx_it.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="172" column="16" lean-forward="true" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
+            <state relative-caret-position="191">
+              <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
               <folding>
                 <element signature="e#1992#2012#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start_openocd_gdb.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/start_openocd_gdb.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -195,9 +177,10 @@
         <option value="$PROJECT_DIR$/UserSrc/Inc/lesson3.h" />
         <option value="$PROJECT_DIR$/build/flash.sh" />
         <option value="$PROJECT_DIR$/Src/main.c" />
-        <option value="$PROJECT_DIR$/STM32F103C8Tx.cmake" />
         <option value="$PROJECT_DIR$/UserSrc/Src/lesson3.c" />
         <option value="$PROJECT_DIR$/Src/stm32f1xx_it.c" />
+        <option value="$PROJECT_DIR$/STM32F103C8Tx.cmake" />
+        <option value="$PROJECT_DIR$/build/start_openocd_gdb.sh" />
       </list>
     </option>
   </component>
@@ -238,12 +221,7 @@
             <path>
               <item name="blink" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="blink" type="462c0819:PsiDirectoryNode" />
-              <item name="Src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blink" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="blink" type="462c0819:PsiDirectoryNode" />
-              <item name="UserSrc" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,21 +255,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="GDB Remote Debug.debug">
+  <component name="RunManager" selected="Bash.FLASH">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="blink" RUN_TARGET_NAME="blink.elf" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
     <configuration name="CMSIS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="blink" TARGET_NAME="CMSIS" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="blink" RUN_TARGET_NAME="blink.elf">
-      <envs />
-    </configuration>
-    <configuration name="FLASH" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/build" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/build/flash.sh" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
       <envs />
     </configuration>
     <configuration name="HAL" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="blink" TARGET_NAME="HAL" CONFIG_NAME="Default">
@@ -303,14 +271,15 @@
     <configuration name="blink.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="blink" TARGET_NAME="blink.elf" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="blink" RUN_TARGET_NAME="blink.elf">
       <envs />
     </configuration>
-    <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Bash.FLASH" />
-      <item index="1" class="java.lang.String" itemvalue="GDB Remote Debug.debug" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="3" class="java.lang.String" itemvalue="Application.blink.elf" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CMSIS" />
-      <item index="5" class="java.lang.String" itemvalue="Application.HAL" />
-      <item index="6" class="java.lang.String" itemvalue="Application.USERSRC" />
+    <list size="8">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.blink.elf" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CMSIS" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HAL" />
+      <item index="4" class="java.lang.String" itemvalue="Application.USERSRC" />
+      <item index="5" class="java.lang.String" itemvalue="Bash.STAR_OPENOCD_GDB" />
+      <item index="6" class="java.lang.String" itemvalue="Bash.FLASH" />
+      <item index="7" class="java.lang.String" itemvalue="GDB Remote Debug.debug" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -332,7 +301,7 @@
       <workItem from="1515829430288" duration="6285000" />
       <workItem from="1515835772358" duration="1540000" />
       <workItem from="1515870403526" duration="85000" />
-      <workItem from="1515934262278" duration="15864000" />
+      <workItem from="1515934262278" duration="18994000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1515833784283</created>
@@ -341,11 +310,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515833784284</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson3 interrupt">
+      <created>1515959401274</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1515959401274</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35075000" />
+    <option name="totallyTimeSpent" value="38205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="1002" extended-state="6" />
@@ -356,12 +332,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29013762" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50688076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50688076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2649919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39908257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -399,26 +375,29 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="lesson3 interrupt" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson3 interrupt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/UserSrc/Src/lesson3.c</url>
-          <line>11</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/UserSrc/Src/lesson3.c</url>
-          <line>10</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/UserSrc/Src/lesson3.c</url>
           <line>17</line>
-          <option name="timeStamp" value="34" />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UserSrc/Src/lesson3.c</url>
+          <line>12</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UserSrc/Src/lesson3.c</url>
+          <line>11</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -431,21 +410,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Src/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="100" column="17" lean-forward="false" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
-          <folding>
-            <element signature="e#2287#2307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -696,36 +665,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/STM32F103C8Tx.cmake">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="13" column="113" lean-forward="false" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Src/main.c">
+    <entry file="file://$PROJECT_DIR$/build/start_openocd_gdb.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
-          <folding>
-            <element signature="e#2287#2307#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Src/stm32f1xx_it.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="172" column="16" lean-forward="true" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
+        <state relative-caret-position="191">
+          <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
           <folding>
             <element signature="e#1992#2012#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <element signature="e#2287#2307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UserSrc/Src/lesson3.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#40#71#0" expanded="true" />
           </folding>
