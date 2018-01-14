@@ -3,8 +3,8 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="blink" targetName="CMSIS" />
-      <config projectName="blink" targetName="HAL" />
       <config projectName="blink" targetName="USERSRC" />
+      <config projectName="blink" targetName="HAL" />
       <config projectName="blink" targetName="blink.elf" />
     </generated>
   </component>
@@ -14,74 +14,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc8c2fb-3b1e-493b-9bbe-c4cdfee2f23f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UserSrc/Inc/lesson3.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UserSrc/Src/lesson3.c" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.cproject" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.mxproject" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/arm_common_tables.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/arm_const_structs.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/arm_math.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armcc.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armcc_V6.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_gcc.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0plus.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm4.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm7.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cmFunc.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cmInstr.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cmSimd.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc000.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc300.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Inc/main.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Inc/stm32f1xx_hal_conf.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Inc/stm32f1xx_it.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/STM32F103C8Tx_FLASH.ld" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Src/gpio.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Src/license.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Src/main.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Src/stm32f1xx_hal_msp.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Src/stm32f1xx_it.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Src/system.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Src/system_stm32f1xx.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blink.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Src/main.c.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/blink.elf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mx.scratch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startup/startup_stm32f103xb.s" afterPath="" />
+    <list default="true" id="7dc8c2fb-3b1e-493b-9bbe-c4cdfee2f23f" name="Default" comment="first commit">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_.dir/depend.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_.dir/flags.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_SRC.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_SRC.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_SRC.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_SRC.dir/depend.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_SRC.dir/flags.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/USER_SRC.dir/progress.make" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" />
@@ -95,6 +40,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj" />
@@ -107,39 +53,41 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Src/main.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Src/main.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/blink.bin" afterPath="$PROJECT_DIR$/build/blink.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/blink.elf" afterPath="$PROJECT_DIR$/build/blink.elf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libCMSIS.a" afterPath="$PROJECT_DIR$/build/libCMSIS.a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libHAL.a" afterPath="$PROJECT_DIR$/build/libHAL.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libUSERSRC.a" afterPath="$PROJECT_DIR$/build/libUSERSRC.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.cproject" afterPath="$PROJECT_DIR$/.cproject" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inc/stm32f1xx_it.h" afterPath="$PROJECT_DIR$/Inc/stm32f1xx_it.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/STM32F103C8Tx.cmake" afterPath="$PROJECT_DIR$/STM32F103C8Tx.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Src/gpio.tmp" afterPath="$PROJECT_DIR$/Src/gpio.tmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Src/main.c" afterPath="$PROJECT_DIR$/Src/main.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Src/stm32f1xx_hal_msp.c" afterPath="$PROJECT_DIR$/Src/stm32f1xx_hal_msp.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Src/stm32f1xx_it.c" afterPath="$PROJECT_DIR$/Src/stm32f1xx_it.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Src/system.tmp" afterPath="$PROJECT_DIR$/Src/system.tmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserSrc/Inc/lesson3.h" afterPath="$PROJECT_DIR$/UserSrc/Inc/lesson3.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserSrc/Src/lesson3.c" afterPath="$PROJECT_DIR$/UserSrc/Src/lesson3.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blink.ioc" afterPath="$PROJECT_DIR$/blink.ioc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeCache.txt" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/CMSIS.dir/C.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMSIS.dir/C.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/CMSIS.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMSIS.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/CMSIS.dir/flags.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMSIS.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/flags.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/HAL.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/USERSRC.dir/flags.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/USERSRC.dir/flags.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/C.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/C.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/build.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/cmake_clean.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/depend.internal" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/depend.internal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/depend.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/flags.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/flags.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/link.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/progress.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Makefile" afterPath="$PROJECT_DIR$/build/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/blink.cbp" afterPath="$PROJECT_DIR$/build/blink.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/blink.hex" afterPath="$PROJECT_DIR$/build/blink.hex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/blink.map" afterPath="$PROJECT_DIR$/build/blink.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/flash.sh" afterPath="$PROJECT_DIR$/build/flash.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mx.scratch" afterPath="$PROJECT_DIR$/mx.scratch" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -156,18 +104,28 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="255">
               <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="STM32F103C8Tx.cmake" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/STM32F103C8Tx.cmake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Src/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="99" column="14" lean-forward="false" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
+            <state relative-caret-position="391">
+              <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
               <folding>
                 <element signature="e#2287#2307#0" expanded="true" />
               </folding>
@@ -175,11 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson3.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lesson3.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UserSrc/Src/lesson3.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#40#71#0" expanded="true" />
               </folding>
@@ -187,12 +145,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson3.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UserSrc/Inc/lesson3.h">
+      <file leaf-file-name="stm32f1xx_it.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Src/stm32f1xx_it.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="-5">
+              <caret line="172" column="16" lean-forward="true" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
+              <folding>
+                <element signature="e#1992#2012#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,6 +169,9 @@
       <find>system_stm32f1xx.c</find>
       <find>} GPIO_TypeDef</find>
       <find>RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);</find>
+      <find>NVIC</find>
+      <find>EXTI</find>
+      <find>Reset_Handler</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc</dir>
@@ -226,14 +189,15 @@
         <option value="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h" />
         <option value="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_timebase_rtc_alarm_template.c" />
         <option value="$PROJECT_DIR$/Src/system_stm32f1xx.c" />
-        <option value="$PROJECT_DIR$/build/flash.sh" />
-        <option value="$PROJECT_DIR$/STM32F103C8Tx.cmake" />
         <option value="$PROJECT_DIR$/UserSrc/lesson3.h" />
         <option value="$PROJECT_DIR$/UserSrc/lesson3.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/UserSrc/Inc/lesson3.h" />
-        <option value="$PROJECT_DIR$/UserSrc/Src/lesson3.c" />
+        <option value="$PROJECT_DIR$/build/flash.sh" />
         <option value="$PROJECT_DIR$/Src/main.c" />
+        <option value="$PROJECT_DIR$/STM32F103C8Tx.cmake" />
+        <option value="$PROJECT_DIR$/UserSrc/Src/lesson3.c" />
+        <option value="$PROJECT_DIR$/Src/stm32f1xx_it.c" />
       </list>
     </option>
   </component>
@@ -244,10 +208,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1280" />
-    <option name="y" value="124" />
-    <option name="width" value="1600" />
-    <option name="height" value="900" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -272,6 +235,16 @@
               <item name="blink" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="blink" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blink" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="blink" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blink" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="blink" type="462c0819:PsiDirectoryNode" />
+              <item name="UserSrc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -280,7 +253,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build" />
   </component>
   <component name="RecentsManager">
@@ -304,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bash.FLASH">
+  <component name="RunManager" selected="GDB Remote Debug.debug">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="blink" RUN_TARGET_NAME="blink.elf" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
@@ -330,17 +303,21 @@
     <configuration name="blink.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="blink" TARGET_NAME="blink.elf" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="blink" RUN_TARGET_NAME="blink.elf">
       <envs />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Bash.FLASH" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="2" class="java.lang.String" itemvalue="Application.blink.elf" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CMSIS" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HAL" />
-      <item index="5" class="java.lang.String" itemvalue="Application.USERSRC" />
+      <item index="1" class="java.lang.String" itemvalue="GDB Remote Debug.debug" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="3" class="java.lang.String" itemvalue="Application.blink.elf" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CMSIS" />
+      <item index="5" class="java.lang.String" itemvalue="Application.HAL" />
+      <item index="6" class="java.lang.String" itemvalue="Application.USERSRC" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -355,6 +332,7 @@
       <workItem from="1515829430288" duration="6285000" />
       <workItem from="1515835772358" duration="1540000" />
       <workItem from="1515870403526" duration="85000" />
+      <workItem from="1515934262278" duration="15864000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1515833784283</created>
@@ -367,57 +345,44 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18827000" />
+    <option name="totallyTimeSpent" value="35075000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="124" width="1600" height="900" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="1002" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3935065" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39334863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32798165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50779223" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26190478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29013762" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50688076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2649919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3935065" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50779223" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26190478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39378238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3935065" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901555" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.75" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25546977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50779223" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26576576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -438,31 +403,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UserSrc/Src/lesson3.c</url>
+          <line>11</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UserSrc/Src/lesson3.c</url>
+          <line>10</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UserSrc/Src/lesson3.c</url>
+          <line>17</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="35" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/flash.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Src/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="100" column="17" lean-forward="false" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="e#2287#2307#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -486,7 +466,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1683">
           <caret line="99" column="36" lean-forward="false" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#2287#2307#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -555,7 +537,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2287#2307#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -628,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/startup/startup_stm32f103xb.s">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Src/system_stm32f1xx.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -677,54 +654,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/flash.sh">
+    <entry file="file://$PROJECT_DIR$/UserSrc/Inc/lesson3.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="136">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/STM32F103C8Tx.cmake">
+    <entry file="file://$PROJECT_DIR$/build/flash.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startup/startup_stm32f103xb.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/bin/cmake/share/cmake-3.8/Modules/CMakeForceCompiler.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UserSrc/Inc/lesson3.h">
+    <entry file="file://$PROJECT_DIR$/STM32F103C8Tx.cmake">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserSrc/Src/lesson3.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#40#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Src/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="99" column="14" lean-forward="false" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
+        <state relative-caret-position="391">
+          <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
           <folding>
             <element signature="e#2287#2307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/stm32f1xx_it.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="172" column="16" lean-forward="true" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
+          <folding>
+            <element signature="e#1992#2012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserSrc/Src/lesson3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#71#0" expanded="true" />
           </folding>
         </state>
       </provider>

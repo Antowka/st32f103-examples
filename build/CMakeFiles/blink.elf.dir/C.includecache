@@ -299,6 +299,8 @@ stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal.h
 
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_it.c
+lesson3.h
+-
 stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal.h
 stm32f1xx.h

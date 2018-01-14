@@ -856,6 +856,7 @@ CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
  ../Inc/main.h
  ../Inc/stm32f1xx_hal_conf.h
  ../Inc/stm32f1xx_it.h
+ ../UserSrc/Inc/lesson3.h
  /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_it.c
  /opt/cross/arm-none-eabi/include/_ansi.h
  /opt/cross/arm-none-eabi/include/_newlib_version.h

@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-st-flash write blink.bin 0x08000000
+st-flash --reset write blink.bin 0x08000000

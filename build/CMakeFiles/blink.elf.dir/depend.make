@@ -855,6 +855,7 @@ CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj: ../Drivers/STM32F1xx_HAL_Driver
 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj: ../Inc/main.h
 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj: ../Inc/stm32f1xx_hal_conf.h
 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj: ../Inc/stm32f1xx_it.h
+CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj: ../UserSrc/Inc/lesson3.h
 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj: ../Src/stm32f1xx_it.c
 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj: /opt/cross/arm-none-eabi/include/_ansi.h
 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj: /opt/cross/arm-none-eabi/include/_newlib_version.h

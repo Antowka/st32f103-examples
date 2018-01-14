@@ -5,7 +5,15 @@
 #include <stm32f1xx_hal_conf.h>
 #include <stm32f1xx_hal.h>
 
+static int statusWasChanged = 0;
+
 void lesson3(void) {
-    HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13); //Toggle LED
-    HAL_Delay(100); //Delay 1 Seconds
+    if (statusWasChanged) {
+        HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13); //Toggle LED
+        statusWasChanged = 0;
+    }
+}
+
+void IRQ_Handler_PB11(void) {
+    statusWasChanged = 1;
 }
