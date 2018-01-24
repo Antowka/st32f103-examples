@@ -124,6 +124,19 @@ USERSRC/fast:
 .PHONY : USERSRC/fast
 
 #=============================================================================
+# Target rules for targets named SSDOLEDLIB
+
+# Build rule for target.
+SSDOLEDLIB: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SSDOLEDLIB
+.PHONY : SSDOLEDLIB
+
+# fast build rule for target.
+SSDOLEDLIB/fast:
+	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/build
+.PHONY : SSDOLEDLIB/fast
+
+#=============================================================================
 # Target rules for targets named blink.elf
 
 # Build rule for target.
@@ -371,6 +384,36 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s:
 	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
 	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj
+
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i
+
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i
+	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s
+
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
+	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
 
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
 
@@ -633,6 +676,60 @@ Src/system_stm32f1xx.c.s:
 	$(MAKE) -f CMakeFiles/CMSIS.dir/build.make CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.s
 .PHONY : Src/system_stm32f1xx.c.s
 
+UserSrc/Lib/ssd1306/Src/fonts.obj: UserSrc/Lib/ssd1306/Src/fonts.c.obj
+
+.PHONY : UserSrc/Lib/ssd1306/Src/fonts.obj
+
+# target to build an object file
+UserSrc/Lib/ssd1306/Src/fonts.c.obj:
+	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
+.PHONY : UserSrc/Lib/ssd1306/Src/fonts.c.obj
+
+UserSrc/Lib/ssd1306/Src/fonts.i: UserSrc/Lib/ssd1306/Src/fonts.c.i
+
+.PHONY : UserSrc/Lib/ssd1306/Src/fonts.i
+
+# target to preprocess a source file
+UserSrc/Lib/ssd1306/Src/fonts.c.i:
+	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/fonts.c.i
+.PHONY : UserSrc/Lib/ssd1306/Src/fonts.c.i
+
+UserSrc/Lib/ssd1306/Src/fonts.s: UserSrc/Lib/ssd1306/Src/fonts.c.s
+
+.PHONY : UserSrc/Lib/ssd1306/Src/fonts.s
+
+# target to generate assembly for a file
+UserSrc/Lib/ssd1306/Src/fonts.c.s:
+	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/fonts.c.s
+.PHONY : UserSrc/Lib/ssd1306/Src/fonts.c.s
+
+UserSrc/Lib/ssd1306/Src/ssd1306.obj: UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+
+.PHONY : UserSrc/Lib/ssd1306/Src/ssd1306.obj
+
+# target to build an object file
+UserSrc/Lib/ssd1306/Src/ssd1306.c.obj:
+	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+.PHONY : UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+
+UserSrc/Lib/ssd1306/Src/ssd1306.i: UserSrc/Lib/ssd1306/Src/ssd1306.c.i
+
+.PHONY : UserSrc/Lib/ssd1306/Src/ssd1306.i
+
+# target to preprocess a source file
+UserSrc/Lib/ssd1306/Src/ssd1306.c.i:
+	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.i
+.PHONY : UserSrc/Lib/ssd1306/Src/ssd1306.c.i
+
+UserSrc/Lib/ssd1306/Src/ssd1306.s: UserSrc/Lib/ssd1306/Src/ssd1306.c.s
+
+.PHONY : UserSrc/Lib/ssd1306/Src/ssd1306.s
+
+# target to generate assembly for a file
+UserSrc/Lib/ssd1306/Src/ssd1306.c.s:
+	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.s
+.PHONY : UserSrc/Lib/ssd1306/Src/ssd1306.c.s
+
 UserSrc/Src/lesson3.obj: UserSrc/Src/lesson3.c.obj
 
 .PHONY : UserSrc/Src/lesson3.obj
@@ -663,6 +760,36 @@ UserSrc/Src/lesson3.c.s:
 	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.s
 .PHONY : UserSrc/Src/lesson3.c.s
 
+UserSrc/Src/lesson4.obj: UserSrc/Src/lesson4.c.obj
+
+.PHONY : UserSrc/Src/lesson4.obj
+
+# target to build an object file
+UserSrc/Src/lesson4.c.obj:
+	$(MAKE) -f CMakeFiles/USERSRC.dir/build.make CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
+.PHONY : UserSrc/Src/lesson4.c.obj
+
+UserSrc/Src/lesson4.i: UserSrc/Src/lesson4.c.i
+
+.PHONY : UserSrc/Src/lesson4.i
+
+# target to preprocess a source file
+UserSrc/Src/lesson4.c.i:
+	$(MAKE) -f CMakeFiles/USERSRC.dir/build.make CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.i
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.i
+.PHONY : UserSrc/Src/lesson4.c.i
+
+UserSrc/Src/lesson4.s: UserSrc/Src/lesson4.c.s
+
+.PHONY : UserSrc/Src/lesson4.s
+
+# target to generate assembly for a file
+UserSrc/Src/lesson4.c.s:
+	$(MAKE) -f CMakeFiles/USERSRC.dir/build.make CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.s
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.s
+.PHONY : UserSrc/Src/lesson4.c.s
+
 startup/startup_stm32f103xb.obj: startup/startup_stm32f103xb.s.obj
 
 .PHONY : startup/startup_stm32f103xb.obj
@@ -681,6 +808,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... USERSRC"
+	@echo "... SSDOLEDLIB"
 	@echo "... blink.elf"
 	@echo "... CMSIS"
 	@echo "... HAL"
@@ -705,6 +833,9 @@ help:
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s"
@@ -732,9 +863,18 @@ help:
 	@echo "... Src/system_stm32f1xx.obj"
 	@echo "... Src/system_stm32f1xx.i"
 	@echo "... Src/system_stm32f1xx.s"
+	@echo "... UserSrc/Lib/ssd1306/Src/fonts.obj"
+	@echo "... UserSrc/Lib/ssd1306/Src/fonts.i"
+	@echo "... UserSrc/Lib/ssd1306/Src/fonts.s"
+	@echo "... UserSrc/Lib/ssd1306/Src/ssd1306.obj"
+	@echo "... UserSrc/Lib/ssd1306/Src/ssd1306.i"
+	@echo "... UserSrc/Lib/ssd1306/Src/ssd1306.s"
 	@echo "... UserSrc/Src/lesson3.obj"
 	@echo "... UserSrc/Src/lesson3.i"
 	@echo "... UserSrc/Src/lesson3.s"
+	@echo "... UserSrc/Src/lesson4.obj"
+	@echo "... UserSrc/Src/lesson4.i"
+	@echo "... UserSrc/Src/lesson4.s"
 	@echo "... startup/startup_stm32f103xb.obj"
 .PHONY : help
 

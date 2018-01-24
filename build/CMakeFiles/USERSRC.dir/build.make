@@ -81,17 +81,43 @@ CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.obj.provides: CMakeFiles/USERSRC.di
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.obj.provides.build: CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.obj
 
 
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj: CMakeFiles/USERSRC.dir/flags.make
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj: ../UserSrc/Src/lesson4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj"
+	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson4.c
+
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.i"
+	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson4.c > CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.i
+
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.s"
+	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson4.c -o CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.s
+
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj.requires:
+
+.PHONY : CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj.requires
+
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj.provides: CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj.requires
+	$(MAKE) -f CMakeFiles/USERSRC.dir/build.make CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj.provides.build
+.PHONY : CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj.provides
+
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj.provides.build: CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj
+
+
 # Object files for target USERSRC
 USERSRC_OBJECTS = \
-"CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.obj"
+"CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.obj" \
+"CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj"
 
 # External object files for target USERSRC
 USERSRC_EXTERNAL_OBJECTS =
 
 libUSERSRC.a: CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.obj
+libUSERSRC.a: CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj
 libUSERSRC.a: CMakeFiles/USERSRC.dir/build.make
 libUSERSRC.a: CMakeFiles/USERSRC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libUSERSRC.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libUSERSRC.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/USERSRC.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/USERSRC.dir/link.txt --verbose=$(VERBOSE)
 
@@ -101,6 +127,7 @@ CMakeFiles/USERSRC.dir/build: libUSERSRC.a
 .PHONY : CMakeFiles/USERSRC.dir/build
 
 CMakeFiles/USERSRC.dir/requires: CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.obj.requires
+CMakeFiles/USERSRC.dir/requires: CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj.requires
 
 .PHONY : CMakeFiles/USERSRC.dir/requires
 

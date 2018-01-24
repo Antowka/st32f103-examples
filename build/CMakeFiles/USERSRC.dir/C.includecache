@@ -138,6 +138,10 @@ stm32f1xx_hal_gpio_ex.h
 stm32f1xx_hal_def.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
 
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
+stm32f1xx_hal_def.h
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 stm32f1xx_hal_def.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
@@ -230,10 +234,28 @@ stm32f1xx_hal_pcd.h
 stm32f1xx_hal_hcd.h
 ../Inc/stm32f1xx_hal_hcd.h
 
+../UserSrc/Lib/ssd1306/Inc/fonts.h
+stm32f1xx_hal.h
+../UserSrc/Lib/ssd1306/Inc/stm32f1xx_hal.h
+
+../UserSrc/Lib/ssd1306/Inc/ssd1306.h
+stm32f1xx_hal.h
+../UserSrc/Lib/ssd1306/Inc/stm32f1xx_hal.h
+fonts.h
+../UserSrc/Lib/ssd1306/Inc/fonts.h
+
 /home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson3.c
 stm32f1xx_hal_conf.h
 -
 stm32f1xx_hal.h
+-
+
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson4.c
+stm32f1xx_hal_conf.h
+-
+stm32f1xx_hal.h
+-
+ssd1306.h
 -
 
 /opt/cross/arm-none-eabi/include/_ansi.h

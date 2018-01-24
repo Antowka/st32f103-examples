@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.obj"
+  "CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj"
   "libUSERSRC.pdb"
   "libUSERSRC.a"
 )

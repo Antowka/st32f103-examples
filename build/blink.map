@@ -2,6 +2,9 @@ Archive member included to satisfy reference by file (symbol)
 
 libCMSIS.a(startup_stm32f103xb.s.obj)
                               (Reset_Handler)
+libSSDOLEDLIB.a(fonts.c.obj)  CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj (Font_11x18)
+libSSDOLEDLIB.a(ssd1306.c.obj)
+                              CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj (ssd1306_Fill)
 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-atexit.o)
                               /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/crt0.o (atexit)
 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-exit.o)
@@ -22,6 +25,7 @@ libCMSIS.a(startup_stm32f103xb.s.obj)
 Allocating common symbols
 Common symbol       size              file
 
+hi2c1               0x54              CMakeFiles/blink.elf.dir/Src/main.c.obj
 uwTick              0x4               CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
 pFlash              0x20              CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
 
@@ -55,21 +59,8 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .text          0x0000000000000000      0x644 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_info    0x0000000000000000      0xffe CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_abbrev  0x0000000000000000      0x2d8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_loc     0x0000000000000000      0x5f5 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_aranges
-                0x0000000000000000       0x20 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_ranges  0x0000000000000000       0x30 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_line    0x0000000000000000      0x5e3 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_str     0x0000000000000000      0xa29 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .comment       0x0000000000000000       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_frame   0x0000000000000000      0x144 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .ARM.attributes
-                0x0000000000000000       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .text          0x0000000000000000      0x338 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
@@ -117,6 +108,8 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x40 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
  .ARM.attributes
                 0x0000000000000000       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .text          0x0000000000000000      0x1d0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
@@ -173,10 +166,27 @@ Discarded input sections
  .comment       0x0000000000000000       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .ARM.attributes
                 0x0000000000000000       0x35 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .text          0x0000000000000000       0x2c CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+ .bss           0x0000000000000000        0x4 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+ .debug_info    0x0000000000000000      0xa0f CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+ .debug_abbrev  0x0000000000000000      0x20e CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+ .debug_aranges
+                0x0000000000000000       0x20 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+ .debug_line    0x0000000000000000      0x269 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+ .debug_str     0x0000000000000000      0x62c CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+ .comment       0x0000000000000000       0x12 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+ .debug_frame   0x0000000000000000       0x38 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x33 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
  .text          0x0000000000000000       0x14 libCMSIS.a(startup_stm32f103xb.s.obj)
  .data          0x0000000000000000        0x0 libCMSIS.a(startup_stm32f103xb.s.obj)
  .bss           0x0000000000000000        0x0 libCMSIS.a(startup_stm32f103xb.s.obj)
+ .text          0x0000000000000000        0x0 libSSDOLEDLIB.a(fonts.c.obj)
+ .bss           0x0000000000000000        0x0 libSSDOLEDLIB.a(fonts.c.obj)
+ .data          0x0000000000000000        0x0 libSSDOLEDLIB.a(ssd1306.c.obj)
  .text          0x0000000000000000        0xc /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-atexit.o)
  .data          0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-atexit.o)
  .bss           0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-atexit.o)
@@ -308,15 +318,18 @@ LOAD CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_fla
 LOAD CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
 LOAD CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
 LOAD CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
+LOAD CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
 LOAD CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
 LOAD CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
 LOAD CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
 LOAD CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
 LOAD CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
 LOAD CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+LOAD CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
 LOAD libHAL.a
 LOAD libCMSIS.a
 LOAD libUSERSRC.a
+LOAD libSSDOLEDLIB.a
 START GROUP
 LOAD /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/libgcc.a
 LOAD /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a
@@ -335,258 +348,336 @@ LOAD /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
                 0x0000000008000000                g_pfnVectors
                 0x000000000800010c                . = ALIGN (0x4)
 
-.text           0x000000000800010c     0x1110
+.text           0x000000000800010c     0x434c
                 0x000000000800010c                . = ALIGN (0x4)
  *(.text)
  .text          0x000000000800010c       0x88 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
  .text          0x0000000008000194       0x70 CMakeFiles/blink.elf.dir/Src/main.c.obj
                 0x0000000008000194                SystemClock_Config
                 0x0000000008000202                _Error_Handler
- .text          0x0000000008000204       0x90 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .text          0x0000000008000204       0xfc CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
                 0x0000000008000204                HAL_MspInit
- .text          0x0000000008000294       0x30 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
-                0x0000000008000294                NMI_Handler
-                0x0000000008000296                HardFault_Handler
-                0x0000000008000298                MemManage_Handler
-                0x000000000800029a                BusFault_Handler
-                0x000000000800029c                UsageFault_Handler
-                0x000000000800029e                SVC_Handler
-                0x00000000080002a0                DebugMon_Handler
-                0x00000000080002a2                PendSV_Handler
-                0x00000000080002a4                SysTick_Handler
-                0x00000000080002b2                EXTI15_10_IRQHandler
- .text          0x00000000080002c4       0xa4 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
-                0x00000000080002c4                SystemInit
-                0x0000000008000310                SystemCoreClockUpdate
- .text          0x0000000008000368      0x170 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x000000000800036a                HAL_MspDeInit
-                0x000000000800036c                HAL_DeInit
-                0x000000000800038c                HAL_InitTick
-                0x00000000080003b4                HAL_Init
-                0x00000000080003d8                HAL_IncTick
-                0x00000000080003e8                HAL_GetTick
-                0x00000000080003f4                HAL_Delay
-                0x0000000008000414                HAL_SuspendTick
-                0x0000000008000424                HAL_ResumeTick
-                0x0000000008000434                HAL_GetHalVersion
-                0x000000000800043c                HAL_GetREVID
-                0x0000000008000448                HAL_GetDEVID
-                0x0000000008000458                HAL_DBGMCU_EnableDBGSleepMode
-                0x0000000008000468                HAL_DBGMCU_DisableDBGSleepMode
-                0x0000000008000478                HAL_DBGMCU_EnableDBGStopMode
-                0x0000000008000488                HAL_DBGMCU_DisableDBGStopMode
-                0x0000000008000498                HAL_DBGMCU_EnableDBGStandbyMode
-                0x00000000080004a8                HAL_DBGMCU_DisableDBGStandbyMode
-                0x00000000080004b8                HAL_GetUID
- .text          0x00000000080004d8      0x214 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x00000000080004d8                HAL_NVIC_SetPriorityGrouping
-                0x00000000080004fc                HAL_NVIC_SetPriority
-                0x0000000008000564                HAL_NVIC_EnableIRQ
-                0x000000000800057c                HAL_NVIC_DisableIRQ
-                0x0000000008000598                HAL_NVIC_SystemReset
-                0x00000000080005bc                HAL_SYSTICK_Config
-                0x00000000080005e8                HAL_NVIC_GetPriorityGrouping
-                0x00000000080005f8                HAL_NVIC_GetPriority
-                0x0000000008000658                HAL_NVIC_SetPendingIRQ
-                0x0000000008000674                HAL_NVIC_GetPendingIRQ
-                0x0000000008000690                HAL_NVIC_ClearPendingIRQ
-                0x00000000080006ac                HAL_NVIC_GetActive
-                0x00000000080006c8                HAL_SYSTICK_CLKSourceConfig
-                0x00000000080006e0                HAL_SYSTICK_Callback
-                0x00000000080006e2                HAL_SYSTICK_IRQHandler
- .text          0x00000000080006ec      0x300 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x00000000080006ec                HAL_GPIO_Init
-                0x00000000080008ac                HAL_GPIO_DeInit
-                0x000000000800098c                HAL_GPIO_ReadPin
-                0x0000000008000998                HAL_GPIO_WritePin
-                0x00000000080009a2                HAL_GPIO_TogglePin
-                0x00000000080009aa                HAL_GPIO_LockPin
-                0x00000000080009d4                HAL_GPIO_EXTI_Callback
-                0x00000000080009d6                HAL_GPIO_EXTI_IRQHandler
- .text          0x00000000080009ec      0x6a4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x00000000080009ec                HAL_RCC_DeInit
-                0x0000000008000a30                HAL_RCC_OscConfig
-                0x0000000008000d48                HAL_RCC_MCOConfig
-                0x0000000008000d94                HAL_RCC_EnableCSS
-                0x0000000008000da0                HAL_RCC_DisableCSS
-                0x0000000008000dac                HAL_RCC_GetSysClockFreq
-                0x0000000008000e24                HAL_RCC_ClockConfig
-                0x0000000008000f68                HAL_RCC_GetHCLKFreq
-                0x0000000008000f74                HAL_RCC_GetPCLK1Freq
-                0x0000000008000f94                HAL_RCC_GetPCLK2Freq
-                0x0000000008000fb4                HAL_RCC_GetOscConfig
-                0x0000000008001034                HAL_RCC_GetClockConfig
-                0x0000000008001070                HAL_RCC_CSSCallback
-                0x0000000008001072                HAL_RCC_NMI_IRQHandler
- .text          0x0000000008001090       0x2c CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
-                0x0000000008001090                lesson3
-                0x00000000080010b0                IRQ_Handler_PB11
- .text          0x00000000080010bc       0x48 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
-                0x00000000080010bc                __libc_init_array
+                0x0000000008000294                HAL_I2C_MspInit
+                0x00000000080002d8                HAL_I2C_MspDeInit
+ .text          0x0000000008000300       0x1e CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+                0x0000000008000300                NMI_Handler
+                0x0000000008000302                HardFault_Handler
+                0x0000000008000304                MemManage_Handler
+                0x0000000008000306                BusFault_Handler
+                0x0000000008000308                UsageFault_Handler
+                0x000000000800030a                SVC_Handler
+                0x000000000800030c                DebugMon_Handler
+                0x000000000800030e                PendSV_Handler
+                0x0000000008000310                SysTick_Handler
+ *fill*         0x000000000800031e        0x2 
+ .text          0x0000000008000320       0xa4 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+                0x0000000008000320                SystemInit
+                0x000000000800036c                SystemCoreClockUpdate
+ .text          0x00000000080003c4      0x170 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x00000000080003c6                HAL_MspDeInit
+                0x00000000080003c8                HAL_DeInit
+                0x00000000080003e8                HAL_InitTick
+                0x0000000008000410                HAL_Init
+                0x0000000008000434                HAL_IncTick
+                0x0000000008000444                HAL_GetTick
+                0x0000000008000450                HAL_Delay
+                0x0000000008000470                HAL_SuspendTick
+                0x0000000008000480                HAL_ResumeTick
+                0x0000000008000490                HAL_GetHalVersion
+                0x0000000008000498                HAL_GetREVID
+                0x00000000080004a4                HAL_GetDEVID
+                0x00000000080004b4                HAL_DBGMCU_EnableDBGSleepMode
+                0x00000000080004c4                HAL_DBGMCU_DisableDBGSleepMode
+                0x00000000080004d4                HAL_DBGMCU_EnableDBGStopMode
+                0x00000000080004e4                HAL_DBGMCU_DisableDBGStopMode
+                0x00000000080004f4                HAL_DBGMCU_EnableDBGStandbyMode
+                0x0000000008000504                HAL_DBGMCU_DisableDBGStandbyMode
+                0x0000000008000514                HAL_GetUID
+ .text          0x0000000008000534      0x214 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008000534                HAL_NVIC_SetPriorityGrouping
+                0x0000000008000558                HAL_NVIC_SetPriority
+                0x00000000080005c0                HAL_NVIC_EnableIRQ
+                0x00000000080005d8                HAL_NVIC_DisableIRQ
+                0x00000000080005f4                HAL_NVIC_SystemReset
+                0x0000000008000618                HAL_SYSTICK_Config
+                0x0000000008000644                HAL_NVIC_GetPriorityGrouping
+                0x0000000008000654                HAL_NVIC_GetPriority
+                0x00000000080006b4                HAL_NVIC_SetPendingIRQ
+                0x00000000080006d0                HAL_NVIC_GetPendingIRQ
+                0x00000000080006ec                HAL_NVIC_ClearPendingIRQ
+                0x0000000008000708                HAL_NVIC_GetActive
+                0x0000000008000724                HAL_SYSTICK_CLKSourceConfig
+                0x000000000800073c                HAL_SYSTICK_Callback
+                0x000000000800073e                HAL_SYSTICK_IRQHandler
+ .text          0x0000000008000748      0x644 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x0000000008000748                HAL_DMA_Init
+                0x00000000080007b0                HAL_DMA_DeInit
+                0x00000000080007fc                HAL_DMA_Start
+                0x0000000008000858                HAL_DMA_Start_IT
+                0x00000000080008d2                HAL_DMA_Abort
+                0x00000000080008fe                HAL_DMA_Abort_IT
+                0x0000000008000990                HAL_DMA_PollForTransfer
+                0x0000000008000bc4                HAL_DMA_IRQHandler
+                0x0000000008000cec                HAL_DMA_RegisterCallback
+                0x0000000008000d32                HAL_DMA_UnRegisterCallback
+                0x0000000008000d80                HAL_DMA_GetState
+                0x0000000008000d86                HAL_DMA_GetError
+ .text          0x0000000008000d8c      0x300 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0000000008000d8c                HAL_GPIO_Init
+                0x0000000008000f4c                HAL_GPIO_DeInit
+                0x000000000800102c                HAL_GPIO_ReadPin
+                0x0000000008001038                HAL_GPIO_WritePin
+                0x0000000008001042                HAL_GPIO_TogglePin
+                0x000000000800104a                HAL_GPIO_LockPin
+                0x0000000008001074                HAL_GPIO_EXTI_Callback
+                0x0000000008001076                HAL_GPIO_EXTI_IRQHandler
+ .text          0x000000000800108c     0x28cc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x0000000008001404                HAL_I2C_Init
+                0x00000000080014e2                HAL_I2C_DeInit
+                0x0000000008001514                HAL_I2C_Master_Transmit
+                0x00000000080016bc                HAL_I2C_Master_Receive
+                0x00000000080019b6                HAL_I2C_Slave_Transmit
+                0x0000000008001b14                HAL_I2C_Slave_Receive
+                0x0000000008001c8c                HAL_I2C_Master_Transmit_IT
+                0x0000000008001d34                HAL_I2C_Master_Receive_IT
+                0x0000000008001de4                HAL_I2C_Master_Sequential_Transmit_IT
+                0x0000000008001ea4                HAL_I2C_Master_Sequential_Receive_IT
+                0x0000000008001f68                HAL_I2C_Slave_Transmit_IT
+                0x000000000800201c                HAL_I2C_Slave_Receive_IT
+                0x00000000080020cc                HAL_I2C_Slave_Sequential_Transmit_IT
+                0x0000000008002144                HAL_I2C_Slave_Sequential_Receive_IT
+                0x00000000080021bc                HAL_I2C_EnableListen_IT
+                0x00000000080021f2                HAL_I2C_DisableListen_IT
+                0x0000000008002230                HAL_I2C_Master_Transmit_DMA
+                0x0000000008002330                HAL_I2C_Master_Receive_DMA
+                0x0000000008002430                HAL_I2C_Slave_Transmit_DMA
+                0x0000000008002514                HAL_I2C_Slave_Receive_DMA
+                0x00000000080025f8                HAL_I2C_Mem_Write
+                0x0000000008002724                HAL_I2C_Mem_Read
+                0x0000000008002960                HAL_I2C_Mem_Write_IT
+                0x0000000008002a14                HAL_I2C_Mem_Read_IT
+                0x0000000008002ad4                HAL_I2C_Mem_Write_DMA
+                0x0000000008002bec                HAL_I2C_Mem_Read_DMA
+                0x0000000008002d64                HAL_I2C_IsDeviceReady
+                0x0000000008002ec4                HAL_I2C_MasterTxCpltCallback
+                0x0000000008002ec6                HAL_I2C_MasterRxCpltCallback
+                0x0000000008002ec8                HAL_I2C_SlaveTxCpltCallback
+                0x0000000008002eca                HAL_I2C_SlaveRxCpltCallback
+                0x0000000008002ecc                HAL_I2C_AddrCallback
+                0x0000000008002ece                HAL_I2C_ListenCpltCallback
+                0x0000000008002ed0                HAL_I2C_MemTxCpltCallback
+                0x0000000008002ed2                HAL_I2C_MemRxCpltCallback
+                0x0000000008002ed4                HAL_I2C_ErrorCallback
+                0x0000000008002f80                HAL_I2C_AbortCpltCallback
+                0x00000000080030a8                HAL_I2C_Master_Abort_IT
+                0x00000000080030f4                HAL_I2C_EV_IRQHandler
+                0x00000000080037c0                HAL_I2C_ER_IRQHandler
+                0x0000000008003948                HAL_I2C_GetState
+                0x000000000800394e                HAL_I2C_GetMode
+                0x0000000008003954                HAL_I2C_GetError
+ .text          0x0000000008003958      0x6a4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0000000008003958                HAL_RCC_DeInit
+                0x000000000800399c                HAL_RCC_OscConfig
+                0x0000000008003cb4                HAL_RCC_MCOConfig
+                0x0000000008003d00                HAL_RCC_EnableCSS
+                0x0000000008003d0c                HAL_RCC_DisableCSS
+                0x0000000008003d18                HAL_RCC_GetSysClockFreq
+                0x0000000008003d90                HAL_RCC_ClockConfig
+                0x0000000008003ed4                HAL_RCC_GetHCLKFreq
+                0x0000000008003ee0                HAL_RCC_GetPCLK1Freq
+                0x0000000008003f00                HAL_RCC_GetPCLK2Freq
+                0x0000000008003f20                HAL_RCC_GetOscConfig
+                0x0000000008003fa0                HAL_RCC_GetClockConfig
+                0x0000000008003fdc                HAL_RCC_CSSCallback
+                0x0000000008003fde                HAL_RCC_NMI_IRQHandler
+ .text          0x0000000008003ffc       0x74 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
+                0x0000000008003ffc                lesson4
+ .text          0x0000000008004070      0x27c libSSDOLEDLIB.a(ssd1306.c.obj)
+                0x0000000008004098                ssd1306_Fill
+                0x00000000080040b4                ssd1306_UpdateScreen
+                0x0000000008004100                ssd1306_Init
+                0x00000000080041d4                ssd1306_DrawPixel
+                0x0000000008004210                ssd1306_WriteChar
+                0x00000000080042b0                ssd1306_WriteString
+                0x00000000080042da                ssd1306_SetCursor
+ .text          0x00000000080042ec       0x48 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+                0x00000000080042ec                __libc_init_array
  *(.text*)
- .text.startup  0x0000000008001104       0xb4 CMakeFiles/blink.elf.dir/Src/main.c.obj
-                0x0000000008001104                main
+ .text.startup  0x0000000008004334       0xc0 CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x0000000008004334                main
  .text.Reset_Handler
-                0x00000000080011b8       0x48 libCMSIS.a(startup_stm32f103xb.s.obj)
-                0x00000000080011b8                Reset_Handler
+                0x00000000080043f4       0x48 libCMSIS.a(startup_stm32f103xb.s.obj)
+                0x00000000080043f4                Reset_Handler
  .text.Default_Handler
-                0x0000000008001200        0x2 libCMSIS.a(startup_stm32f103xb.s.obj)
-                0x0000000008001200                RTC_Alarm_IRQHandler
-                0x0000000008001200                EXTI2_IRQHandler
-                0x0000000008001200                TIM1_CC_IRQHandler
-                0x0000000008001200                PVD_IRQHandler
-                0x0000000008001200                EXTI3_IRQHandler
-                0x0000000008001200                EXTI0_IRQHandler
-                0x0000000008001200                I2C2_EV_IRQHandler
-                0x0000000008001200                ADC1_2_IRQHandler
-                0x0000000008001200                SPI1_IRQHandler
-                0x0000000008001200                TAMPER_IRQHandler
-                0x0000000008001200                DMA1_Channel4_IRQHandler
-                0x0000000008001200                USART3_IRQHandler
-                0x0000000008001200                RTC_IRQHandler
-                0x0000000008001200                DMA1_Channel7_IRQHandler
-                0x0000000008001200                CAN1_RX1_IRQHandler
-                0x0000000008001200                TIM4_IRQHandler
-                0x0000000008001200                I2C1_EV_IRQHandler
-                0x0000000008001200                DMA1_Channel6_IRQHandler
-                0x0000000008001200                TIM3_IRQHandler
-                0x0000000008001200                RCC_IRQHandler
-                0x0000000008001200                TIM1_TRG_COM_IRQHandler
-                0x0000000008001200                DMA1_Channel1_IRQHandler
-                0x0000000008001200                Default_Handler
-                0x0000000008001200                EXTI9_5_IRQHandler
-                0x0000000008001200                SPI2_IRQHandler
-                0x0000000008001200                DMA1_Channel5_IRQHandler
-                0x0000000008001200                EXTI4_IRQHandler
-                0x0000000008001200                USB_LP_CAN1_RX0_IRQHandler
-                0x0000000008001200                USB_HP_CAN1_TX_IRQHandler
-                0x0000000008001200                DMA1_Channel3_IRQHandler
-                0x0000000008001200                TIM1_UP_IRQHandler
-                0x0000000008001200                WWDG_IRQHandler
-                0x0000000008001200                TIM2_IRQHandler
-                0x0000000008001200                TIM1_BRK_IRQHandler
-                0x0000000008001200                EXTI1_IRQHandler
-                0x0000000008001200                USART2_IRQHandler
-                0x0000000008001200                I2C2_ER_IRQHandler
-                0x0000000008001200                DMA1_Channel2_IRQHandler
-                0x0000000008001200                CAN1_SCE_IRQHandler
-                0x0000000008001200                FLASH_IRQHandler
-                0x0000000008001200                USART1_IRQHandler
-                0x0000000008001200                I2C1_ER_IRQHandler
-                0x0000000008001200                USBWakeUp_IRQHandler
+                0x000000000800443c        0x2 libCMSIS.a(startup_stm32f103xb.s.obj)
+                0x000000000800443c                RTC_Alarm_IRQHandler
+                0x000000000800443c                EXTI2_IRQHandler
+                0x000000000800443c                TIM1_CC_IRQHandler
+                0x000000000800443c                PVD_IRQHandler
+                0x000000000800443c                EXTI3_IRQHandler
+                0x000000000800443c                EXTI0_IRQHandler
+                0x000000000800443c                I2C2_EV_IRQHandler
+                0x000000000800443c                ADC1_2_IRQHandler
+                0x000000000800443c                SPI1_IRQHandler
+                0x000000000800443c                TAMPER_IRQHandler
+                0x000000000800443c                DMA1_Channel4_IRQHandler
+                0x000000000800443c                USART3_IRQHandler
+                0x000000000800443c                RTC_IRQHandler
+                0x000000000800443c                DMA1_Channel7_IRQHandler
+                0x000000000800443c                CAN1_RX1_IRQHandler
+                0x000000000800443c                TIM4_IRQHandler
+                0x000000000800443c                I2C1_EV_IRQHandler
+                0x000000000800443c                DMA1_Channel6_IRQHandler
+                0x000000000800443c                TIM3_IRQHandler
+                0x000000000800443c                RCC_IRQHandler
+                0x000000000800443c                TIM1_TRG_COM_IRQHandler
+                0x000000000800443c                DMA1_Channel1_IRQHandler
+                0x000000000800443c                Default_Handler
+                0x000000000800443c                EXTI15_10_IRQHandler
+                0x000000000800443c                EXTI9_5_IRQHandler
+                0x000000000800443c                SPI2_IRQHandler
+                0x000000000800443c                DMA1_Channel5_IRQHandler
+                0x000000000800443c                EXTI4_IRQHandler
+                0x000000000800443c                USB_LP_CAN1_RX0_IRQHandler
+                0x000000000800443c                USB_HP_CAN1_TX_IRQHandler
+                0x000000000800443c                DMA1_Channel3_IRQHandler
+                0x000000000800443c                TIM1_UP_IRQHandler
+                0x000000000800443c                WWDG_IRQHandler
+                0x000000000800443c                TIM2_IRQHandler
+                0x000000000800443c                TIM1_BRK_IRQHandler
+                0x000000000800443c                EXTI1_IRQHandler
+                0x000000000800443c                USART2_IRQHandler
+                0x000000000800443c                I2C2_ER_IRQHandler
+                0x000000000800443c                DMA1_Channel2_IRQHandler
+                0x000000000800443c                CAN1_SCE_IRQHandler
+                0x000000000800443c                FLASH_IRQHandler
+                0x000000000800443c                USART1_IRQHandler
+                0x000000000800443c                I2C1_ER_IRQHandler
+                0x000000000800443c                USBWakeUp_IRQHandler
  *(.glue_7)
- .glue_7        0x0000000008001202        0x0 linker stubs
+ .glue_7        0x000000000800443e        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008001202        0x0 linker stubs
+ .glue_7t       0x000000000800443e        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x0000000008001202        0x2 
- .eh_frame      0x0000000008001204        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+ *fill*         0x000000000800443e        0x2 
+ .eh_frame      0x0000000008004440        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
  *(.init)
- .init          0x0000000008001204        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crti.o
-                0x0000000008001204                _init
- .init          0x0000000008001208        0x8 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
+ .init          0x0000000008004440        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crti.o
+                0x0000000008004440                _init
+ .init          0x0000000008004444        0x8 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
  *(.fini)
- .fini          0x0000000008001210        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crti.o
-                0x0000000008001210                _fini
- .fini          0x0000000008001214        0x8 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
-                0x000000000800121c                . = ALIGN (0x4)
-                0x000000000800121c                _etext = .
+ .fini          0x000000000800444c        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crti.o
+                0x000000000800444c                _fini
+ .fini          0x0000000008004450        0x8 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
+                0x0000000008004458                . = ALIGN (0x4)
+                0x0000000008004458                _etext = .
 
-.vfp11_veneer   0x000000000800121c        0x0
- .vfp11_veneer  0x000000000800121c        0x0 linker stubs
+.vfp11_veneer   0x0000000008004458        0x0
+ .vfp11_veneer  0x0000000008004458        0x0 linker stubs
 
-.v4_bx          0x000000000800121c        0x0
- .v4_bx         0x000000000800121c        0x0 linker stubs
+.v4_bx          0x0000000008004458        0x0
+ .v4_bx         0x0000000008004458        0x0 linker stubs
 
-.iplt           0x000000000800121c        0x0
- .iplt          0x000000000800121c        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+.iplt           0x0000000008004458        0x0
+ .iplt          0x0000000008004458        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
 
-.rodata         0x000000000800121c       0x28
-                0x000000000800121c                . = ALIGN (0x4)
+.rodata         0x0000000008004458     0x2848
+                0x0000000008004458                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x000000000800121c       0x18 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
-                0x000000000800121c                AHBPrescTable
-                0x000000000800122c                APBPrescTable
- .rodata        0x0000000008001234       0x10 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .rodata        0x0000000008004458       0x18 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+                0x0000000008004458                AHBPrescTable
+                0x0000000008004468                APBPrescTable
+ .rodata        0x0000000008004470       0x10 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .rodata        0x0000000008004480     0x2814 libSSDOLEDLIB.a(fonts.c.obj)
  *(.rodata*)
-                0x0000000008001244                . = ALIGN (0x4)
+ .rodata.str1.1
+                0x0000000008006c94        0xa CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
+                0x0000000008006ca0                . = ALIGN (0x4)
+ *fill*         0x0000000008006c9e        0x2 
 
-.rel.dyn        0x0000000008001244        0x0
- .rel.iplt      0x0000000008001244        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+.rel.dyn        0x0000000008006ca0        0x0
+ .rel.iplt      0x0000000008006ca0        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0000000008001244        0x0
-                0x0000000008001244                __exidx_start = .
+.ARM            0x0000000008006ca0        0x0
+                0x0000000008006ca0                __exidx_start = .
  *(.ARM.exidx*)
-                0x0000000008001244                __exidx_end = .
+                0x0000000008006ca0                __exidx_end = .
 
-.preinit_array  0x0000000008001244        0x0
-                0x0000000008001244                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x0000000008006ca0        0x0
+                0x0000000008006ca0                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x0000000008001244                PROVIDE (__preinit_array_end, .)
+                0x0000000008006ca0                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x0000000008001244        0x4
-                0x0000000008001244                PROVIDE (__init_array_start, .)
+.init_array     0x0000000008006ca0        0x4
+                0x0000000008006ca0                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008001244        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
-                0x0000000008001248                PROVIDE (__init_array_end, .)
+ .init_array    0x0000000008006ca0        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+                0x0000000008006ca4                PROVIDE (__init_array_end, .)
 
-.fini_array     0x0000000008001248        0x4
-                0x0000000008001248                PROVIDE (__fini_array_start, .)
+.fini_array     0x0000000008006ca4        0x4
+                0x0000000008006ca4                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008001248        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
-                0x000000000800124c                PROVIDE (__fini_array_end, .)
-                0x000000000800124c                _sidata = LOADADDR (.data)
+ .fini_array    0x0000000008006ca4        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+                0x0000000008006ca8                PROVIDE (__fini_array_end, .)
+                0x0000000008006ca8                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000        0x4 load address 0x000000000800124c
+.data           0x0000000020000000       0x1c load address 0x0000000008006ca8
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
  .data          0x0000000020000000        0x4 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
                 0x0000000020000000                SystemCoreClock
+ .data          0x0000000020000004       0x18 libSSDOLEDLIB.a(fonts.c.obj)
+                0x0000000020000004                Font_16x26
+                0x000000002000000c                Font_11x18
+                0x0000000020000014                Font_7x10
  *(.data*)
-                0x0000000020000004                . = ALIGN (0x4)
-                0x0000000020000004                _edata = .
+                0x000000002000001c                . = ALIGN (0x4)
+                0x000000002000001c                _edata = .
 
 .tm_clone_table
-                0x0000000020000004        0x0 load address 0x0000000008001250
+                0x000000002000001c        0x0 load address 0x0000000008006cc4
  .tm_clone_table
-                0x0000000020000004        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+                0x000000002000001c        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
  .tm_clone_table
-                0x0000000020000004        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtend.o
+                0x000000002000001c        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtend.o
 
-.igot.plt       0x0000000020000004        0x0 load address 0x0000000008001250
- .igot.plt      0x0000000020000004        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
-                0x0000000020000004                . = ALIGN (0x4)
+.igot.plt       0x000000002000001c        0x0 load address 0x0000000008006cc4
+ .igot.plt      0x000000002000001c        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+                0x000000002000001c                . = ALIGN (0x4)
 
-.bss            0x0000000020000004       0x24 load address 0x0000000008001250
-                0x0000000020000004                _sbss = .
-                0x0000000020000004                __bss_start__ = _sbss
+.bss            0x000000002000001c      0x47c load address 0x0000000008006cc4
+                0x000000002000001c                _sbss = .
+                0x000000002000001c                __bss_start__ = _sbss
  *(.bss)
- .bss           0x0000000020000004       0x1c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
- .bss           0x0000000020000020        0x4 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+ .bss           0x000000002000001c       0x1c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+ .bss           0x0000000020000038      0x406 libSSDOLEDLIB.a(ssd1306.c.obj)
  *(.bss*)
  *(COMMON)
- COMMON         0x0000000020000024        0x4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0000000020000024                uwTick
-                0x0000000020000028                . = ALIGN (0x4)
-                0x0000000020000028                _ebss = .
-                0x0000000020000028                __bss_end__ = _ebss
+ *fill*         0x000000002000043e        0x2 
+ COMMON         0x0000000020000440       0x54 CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x0000000020000440                hi2c1
+ COMMON         0x0000000020000494        0x4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000000020000494                uwTick
+                0x0000000020000498                . = ALIGN (0x4)
+                0x0000000020000498                _ebss = .
+                0x0000000020000498                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020000028      0x600 load address 0x0000000008001250
-                0x0000000020000028                . = ALIGN (0x8)
+                0x0000000020000498      0x600 load address 0x0000000008006cc4
+                0x0000000020000498                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end, .)
                 [!provide]                        PROVIDE (_end, .)
-                0x0000000020000228                . = (. + _Min_Heap_Size)
- *fill*         0x0000000020000028      0x200 
-                0x0000000020000628                . = (. + _Min_Stack_Size)
- *fill*         0x0000000020000228      0x400 
-                0x0000000020000628                . = ALIGN (0x8)
+                0x0000000020000698                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000498      0x200 
+                0x0000000020000a98                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000698      0x400 
+                0x0000000020000a98                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -613,19 +704,27 @@ LOAD /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
  .ARM.attributes
                 0x0000000000000155       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .ARM.attributes
-                0x0000000000000188       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0000000000000188       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .ARM.attributes
-                0x00000000000001bb       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000000000001bb       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .ARM.attributes
-                0x00000000000001ee       0x33 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+                0x00000000000001ee       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .ARM.attributes
-                0x0000000000000221       0x21 libCMSIS.a(startup_stm32f103xb.s.obj)
+                0x0000000000000221       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .ARM.attributes
-                0x0000000000000242       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+                0x0000000000000254       0x33 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
  .ARM.attributes
-                0x0000000000000275       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtend.o
+                0x0000000000000287       0x21 libCMSIS.a(startup_stm32f103xb.s.obj)
  .ARM.attributes
-                0x00000000000002a8       0x23 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
+                0x00000000000002a8       0x35 libSSDOLEDLIB.a(fonts.c.obj)
+ .ARM.attributes
+                0x00000000000002dd       0x33 libSSDOLEDLIB.a(ssd1306.c.obj)
+ .ARM.attributes
+                0x0000000000000310       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000343       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtend.o
+ .ARM.attributes
+                0x0000000000000376       0x23 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
 OUTPUT(blink.elf elf32-littlearm)
 
 .comment        0x0000000000000000       0x11
@@ -637,37 +736,49 @@ OUTPUT(blink.elf elf32-littlearm)
  .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
  .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+ .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
+ .comment       0x0000000000000011       0x12 libSSDOLEDLIB.a(fonts.c.obj)
+ .comment       0x0000000000000011       0x12 libSSDOLEDLIB.a(ssd1306.c.obj)
  .comment       0x0000000000000011       0x12 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
  .comment       0x0000000000000011       0x12 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtend.o
 
-.debug_info     0x0000000000000000     0x78e4
- .debug_info    0x0000000000000000     0x101e CMakeFiles/blink.elf.dir/Src/main.c.obj
- .debug_info    0x000000000000101e      0xc9b CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x0000000000001cb9      0xa33 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
- .debug_info    0x00000000000026ec      0x3e8 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_info    0x0000000000002ad4      0xec7 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x000000000000399b     0x1459 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x0000000000004df4      0xe76 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x0000000000005c6a     0x1162 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x0000000000006dcc      0xa0f CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
- .debug_info    0x00000000000077db      0x109 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+.debug_info     0x0000000000000000     0xf115
+ .debug_info    0x0000000000000000     0x1508 CMakeFiles/blink.elf.dir/Src/main.c.obj
+ .debug_info    0x0000000000001508     0x12b6 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x00000000000027be      0x9d6 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_info    0x0000000000003194      0x3e8 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_info    0x000000000000357c      0xec7 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x0000000000004443     0x1459 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x000000000000589c      0xffe CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_info    0x000000000000689a      0xe76 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x0000000000007710     0x38f5 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_info    0x000000000000b005     0x1162 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x000000000000c167      0xfc4 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
+ .debug_info    0x000000000000d12b      0xa37 libSSDOLEDLIB.a(fonts.c.obj)
+ .debug_info    0x000000000000db62     0x14aa libSSDOLEDLIB.a(ssd1306.c.obj)
+ .debug_info    0x000000000000f00c      0x109 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
 
-.debug_abbrev   0x0000000000000000     0x1865
- .debug_abbrev  0x0000000000000000      0x2fe CMakeFiles/blink.elf.dir/Src/main.c.obj
- .debug_abbrev  0x00000000000002fe      0x22f CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_abbrev  0x000000000000052d      0x24d CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
- .debug_abbrev  0x000000000000077a      0x131 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_abbrev  0x00000000000008ab      0x2fc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_abbrev  0x0000000000000ba7      0x3d3 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_abbrev  0x0000000000000f7a      0x2a2 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_abbrev  0x000000000000121c      0x381 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_abbrev  0x000000000000159d      0x20e CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
- .debug_abbrev  0x00000000000017ab       0xba /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+.debug_abbrev   0x0000000000000000     0x24b5
+ .debug_abbrev  0x0000000000000000      0x31a CMakeFiles/blink.elf.dir/Src/main.c.obj
+ .debug_abbrev  0x000000000000031a      0x268 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_abbrev  0x0000000000000582      0x222 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_abbrev  0x00000000000007a4      0x131 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_abbrev  0x00000000000008d5      0x2fc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_abbrev  0x0000000000000bd1      0x3d3 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_abbrev  0x0000000000000fa4      0x2d8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_abbrev  0x000000000000127c      0x2a2 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_abbrev  0x000000000000151e      0x435 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_abbrev  0x0000000000001953      0x381 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_abbrev  0x0000000000001cd4      0x266 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
+ .debug_abbrev  0x0000000000001f3a      0x1b7 libSSDOLEDLIB.a(fonts.c.obj)
+ .debug_abbrev  0x00000000000020f1      0x30a libSSDOLEDLIB.a(ssd1306.c.obj)
+ .debug_abbrev  0x00000000000023fb       0xba /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
 
-.debug_aranges  0x0000000000000000      0x148
+.debug_aranges  0x0000000000000000      0x1c0
  .debug_aranges
                 0x0000000000000000       0x28 CMakeFiles/blink.elf.dir/Src/main.c.obj
  .debug_aranges
@@ -681,71 +792,101 @@ OUTPUT(blink.elf elf32-littlearm)
  .debug_aranges
                 0x00000000000000a8       0x20 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_aranges
-                0x00000000000000c8       0x20 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x00000000000000c8       0x20 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .debug_aranges
-                0x00000000000000e8       0x20 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000000000000e8       0x20 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_aranges
-                0x0000000000000108       0x20 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
+                0x0000000000000108       0x20 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .debug_aranges
-                0x0000000000000128       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+                0x0000000000000128       0x20 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_aranges
+                0x0000000000000148       0x20 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
+ .debug_aranges
+                0x0000000000000168       0x18 libSSDOLEDLIB.a(fonts.c.obj)
+ .debug_aranges
+                0x0000000000000180       0x20 libSSDOLEDLIB.a(ssd1306.c.obj)
+ .debug_aranges
+                0x00000000000001a0       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
 
-.debug_ranges   0x0000000000000000      0x188
- .debug_ranges  0x0000000000000000       0x58 CMakeFiles/blink.elf.dir/Src/main.c.obj
- .debug_ranges  0x0000000000000058       0x20 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_ranges  0x0000000000000078       0xc8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_ranges  0x0000000000000140       0x18 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_ranges  0x0000000000000158       0x30 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+.debug_ranges   0x0000000000000000      0x478
+ .debug_ranges  0x0000000000000000       0x50 CMakeFiles/blink.elf.dir/Src/main.c.obj
+ .debug_ranges  0x0000000000000050       0x20 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_ranges  0x0000000000000070       0xc8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_ranges  0x0000000000000138       0x30 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_ranges  0x0000000000000168       0x18 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_ranges  0x0000000000000180      0x2c8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_ranges  0x0000000000000448       0x30 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
 
-.debug_line     0x0000000000000000     0x1d72
- .debug_line    0x0000000000000000      0x36b CMakeFiles/blink.elf.dir/Src/main.c.obj
- .debug_line    0x000000000000036b      0x275 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x00000000000005e0      0x2d5 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
- .debug_line    0x00000000000008b5      0x1e2 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_line    0x0000000000000a97      0x310 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x0000000000000da7      0x372 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x0000000000001119      0x3dc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x00000000000014f5      0x555 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x0000000000001a4a      0x269 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
- .debug_line    0x0000000000001cb3       0xbf /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+.debug_line     0x0000000000000000     0x4261
+ .debug_line    0x0000000000000000      0x3ec CMakeFiles/blink.elf.dir/Src/main.c.obj
+ .debug_line    0x00000000000003ec      0x2ea CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x00000000000006d6      0x275 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_line    0x000000000000094b      0x1e2 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_line    0x0000000000000b2d      0x310 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x0000000000000e3d      0x372 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x00000000000011af      0x5e3 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_line    0x0000000000001792      0x3dc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x0000000000001b6e     0x17eb CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_line    0x0000000000003359      0x555 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x00000000000038ae      0x310 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
+ .debug_line    0x0000000000003bbe      0x236 libSSDOLEDLIB.a(fonts.c.obj)
+ .debug_line    0x0000000000003df4      0x3ae libSSDOLEDLIB.a(ssd1306.c.obj)
+ .debug_line    0x00000000000041a2       0xbf /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
 
-.debug_str      0x0000000000000000     0x170e
- .debug_str     0x0000000000000000      0xb04 CMakeFiles/blink.elf.dir/Src/main.c.obj
-                                        0xb82 (size before relaxing)
- .debug_str     0x0000000000000b04       0x98 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
-                                        0x94d (size before relaxing)
- .debug_str     0x0000000000000b9c      0x12e CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
-                                        0x6c7 (size before relaxing)
- .debug_str     0x0000000000000cca       0xc7 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+.debug_str      0x0000000000000000     0x2780
+ .debug_str     0x0000000000000000      0xf5d CMakeFiles/blink.elf.dir/Src/main.c.obj
+                                       0x1022 (size before relaxing)
+ .debug_str     0x0000000000000f5d       0xcf CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+                                        0xe3f (size before relaxing)
+ .debug_str     0x000000000000102c       0xef CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+                                        0x674 (size before relaxing)
+ .debug_str     0x000000000000111b       0xc7 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
                                         0x2b7 (size before relaxing)
- .debug_str     0x0000000000000d91      0x231 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x00000000000011e2      0x231 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                                         0xb61 (size before relaxing)
- .debug_str     0x0000000000000fc2      0x263 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x0000000000001413      0x276 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                                         0xcc5 (size before relaxing)
- .debug_str     0x0000000000001225      0x13e CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x0000000000001689      0x26a CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                                        0xa29 (size before relaxing)
+ .debug_str     0x00000000000018f3      0x142 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                                         0x832 (size before relaxing)
- .debug_str     0x0000000000001363      0x1fb CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x0000000000001a35      0x802 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                                       0x12c8 (size before relaxing)
+ .debug_str     0x0000000000002237      0x1db CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                                         0xa09 (size before relaxing)
- .debug_str     0x000000000000155e       0x50 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
-                                        0x62c (size before relaxing)
- .debug_str     0x00000000000015ae      0x160 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+ .debug_str     0x0000000000002412       0xe1 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
+                                        0xb2a (size before relaxing)
+ .debug_str     0x00000000000024f3       0x66 libSSDOLEDLIB.a(fonts.c.obj)
+                                        0x641 (size before relaxing)
+ .debug_str     0x0000000000002559       0xc7 libSSDOLEDLIB.a(ssd1306.c.obj)
+                                        0xba1 (size before relaxing)
+ .debug_str     0x0000000000002620      0x160 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
                                         0x1ef (size before relaxing)
 
-.debug_frame    0x0000000000000000      0x68c
- .debug_frame   0x0000000000000000       0x58 CMakeFiles/blink.elf.dir/Src/main.c.obj
- .debug_frame   0x0000000000000058       0x2c CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_frame   0x0000000000000084       0xc8 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
- .debug_frame   0x000000000000014c       0x30 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_frame   0x000000000000017c      0x174 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_frame   0x00000000000002f0      0x120 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_frame   0x0000000000000410       0xd4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_frame   0x00000000000004e4      0x144 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_frame   0x0000000000000628       0x38 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj
- .debug_frame   0x0000000000000660       0x2c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+.debug_frame    0x0000000000000000      0xf54
+ .debug_frame   0x0000000000000000       0x60 CMakeFiles/blink.elf.dir/Src/main.c.obj
+ .debug_frame   0x0000000000000060       0x54 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_frame   0x00000000000000b4       0xac CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_frame   0x0000000000000160       0x30 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_frame   0x0000000000000190      0x174 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_frame   0x0000000000000304      0x120 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_frame   0x0000000000000424      0x144 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_frame   0x0000000000000568       0xd4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_frame   0x000000000000063c      0x690 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_frame   0x0000000000000ccc      0x144 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_frame   0x0000000000000e10       0x2c CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
+ .debug_frame   0x0000000000000e3c       0xec libSSDOLEDLIB.a(ssd1306.c.obj)
+ .debug_frame   0x0000000000000f28       0x2c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
 
-.debug_loc      0x0000000000000000      0xd81
- .debug_loc     0x0000000000000000       0xcd CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_loc     0x00000000000000cd       0x69 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_loc     0x0000000000000136      0x43b CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_loc     0x0000000000000571      0x36a CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_loc     0x00000000000008db      0x404 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_loc     0x0000000000000cdf       0xa2 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+.debug_loc      0x0000000000000000     0x41ec
+ .debug_loc     0x0000000000000000       0x4d CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_loc     0x000000000000004d       0xcd CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_loc     0x000000000000011a       0x69 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_loc     0x0000000000000183      0x43b CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_loc     0x00000000000005be      0x5f5 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_loc     0x0000000000000bb3      0x36a CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_loc     0x0000000000000f1d     0x2bdc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_loc     0x0000000000003af9      0x404 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_loc     0x0000000000003efd       0x74 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj
+ .debug_loc     0x0000000000003f71      0x1d9 libSSDOLEDLIB.a(ssd1306.c.obj)
+ .debug_loc     0x000000000000414a       0xa2 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)

@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/anton/Desktop/Projects/STM32/blink/build
 CMakeFiles/USERSRC.dir/all:
 	$(MAKE) -f CMakeFiles/USERSRC.dir/build.make CMakeFiles/USERSRC.dir/depend
 	$(MAKE) -f CMakeFiles/USERSRC.dir/build.make CMakeFiles/USERSRC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=17,18 "Built target USERSRC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=21,22,23 "Built target USERSRC"
 .PHONY : CMakeFiles/USERSRC.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/USERSRC.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/USERSRC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/USERSRC.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles 0
 .PHONY : CMakeFiles/USERSRC.dir/rule
@@ -97,15 +97,53 @@ clean: CMakeFiles/USERSRC.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/SSDOLEDLIB.dir
+
+# All Build rule for target.
+CMakeFiles/SSDOLEDLIB.dir/all:
+	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/depend
+	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=18,19,20 "Built target SSDOLEDLIB"
+.PHONY : CMakeFiles/SSDOLEDLIB.dir/all
+
+# Include target in all.
+all: CMakeFiles/SSDOLEDLIB.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SSDOLEDLIB.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SSDOLEDLIB.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles 0
+.PHONY : CMakeFiles/SSDOLEDLIB.dir/rule
+
+# Convenience name for target.
+SSDOLEDLIB: CMakeFiles/SSDOLEDLIB.dir/rule
+
+.PHONY : SSDOLEDLIB
+
+# clean rule for target.
+CMakeFiles/SSDOLEDLIB.dir/clean:
+	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/clean
+.PHONY : CMakeFiles/SSDOLEDLIB.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/SSDOLEDLIB.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/blink.elf.dir
 
 # All Build rule for target.
 CMakeFiles/blink.elf.dir/all: CMakeFiles/USERSRC.dir/all
+CMakeFiles/blink.elf.dir/all: CMakeFiles/SSDOLEDLIB.dir/all
 CMakeFiles/blink.elf.dir/all: CMakeFiles/CMSIS.dir/all
 CMakeFiles/blink.elf.dir/all: CMakeFiles/HAL.dir/all
 	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/depend
 	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36 "Built target blink.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43 "Built target blink.elf"
 .PHONY : CMakeFiles/blink.elf.dir/all
 
 # Include target in all.
@@ -115,7 +153,7 @@ all: CMakeFiles/blink.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/blink.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles 43
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/blink.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles 0
 .PHONY : CMakeFiles/blink.elf.dir/rule
@@ -179,7 +217,7 @@ clean: CMakeFiles/CMSIS.dir/clean
 CMakeFiles/HAL.dir/all:
 	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/depend
 	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target HAL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target HAL"
 .PHONY : CMakeFiles/HAL.dir/all
 
 # Include target in all.
@@ -189,7 +227,7 @@ all: CMakeFiles/HAL.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HAL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HAL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles 0
 .PHONY : CMakeFiles/HAL.dir/rule

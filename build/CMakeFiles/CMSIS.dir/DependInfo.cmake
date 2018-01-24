@@ -17,6 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/opt/cross/arm-none-eabi/include"
+  "../UserSrc/Lib/ssd1306/Inc"
   "../Inc"
   "../Drivers/STM32F1xx_HAL_Driver/Inc"
   "../Drivers/CMSIS/Include"
@@ -36,6 +37,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/opt/cross/arm-none-eabi/include"
+  "../UserSrc/Lib/ssd1306/Inc"
   "../Inc"
   "../Drivers/STM32F1xx_HAL_Driver/Inc"
   "../Drivers/CMSIS/Include"

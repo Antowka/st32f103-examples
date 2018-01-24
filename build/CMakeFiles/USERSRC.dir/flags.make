@@ -6,5 +6,5 @@ C_FLAGS = -mcpu=cortex-m3 -mthumb -mno-thumb-interwork -mfpu=vfp -msoft-float -m
 
 C_DEFINES = -DSTM32F103xB
 
-C_INCLUDES = -I/opt/cross/arm-none-eabi/include -I/home/anton/Desktop/Projects/STM32/blink/Inc -I/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc -I/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include -I/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/anton/Desktop/Projects/STM32/blink/UserSrc/Inc 
+C_INCLUDES = -I/opt/cross/arm-none-eabi/include -I/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc -I/home/anton/Desktop/Projects/STM32/blink/Inc -I/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc -I/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include -I/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/anton/Desktop/Projects/STM32/blink/UserSrc/Inc 
 
