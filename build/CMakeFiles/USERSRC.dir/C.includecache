@@ -234,6 +234,18 @@ stm32f1xx_hal_pcd.h
 stm32f1xx_hal_hcd.h
 ../Inc/stm32f1xx_hal_hcd.h
 
+../UserSrc/Inc/lesson5.h
+stm32f1xx_hal.h
+../UserSrc/Inc/stm32f1xx_hal.h
+
+../UserSrc/Lib/dh11/Inc/dht11.h
+stm32f1xx_hal.h
+../UserSrc/Lib/dh11/Inc/stm32f1xx_hal.h
+stm32f4xx_hal.h
+../UserSrc/Lib/dh11/Inc/stm32f4xx_hal.h
+stdbool.h
+-
+
 ../UserSrc/Lib/ssd1306/Inc/fonts.h
 stm32f1xx_hal.h
 ../UserSrc/Lib/ssd1306/Inc/stm32f1xx_hal.h
@@ -257,6 +269,14 @@ stm32f1xx_hal.h
 -
 ssd1306.h
 -
+
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson5.c
+ssd1306.h
+-
+dht11.h
+-
+lesson5.h
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson5.h
 
 /opt/cross/arm-none-eabi/include/_ansi.h
 newlib.h

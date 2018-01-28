@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson3.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/USERSRC.dir/UserSrc/Src/lesson3.c.obj"
   "/home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson4.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/USERSRC.dir/UserSrc/Src/lesson4.c.obj"
+  "/home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson5.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -18,6 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/opt/cross/arm-none-eabi/include"
   "../UserSrc/Lib/ssd1306/Inc"
+  "../UserSrc/Lib/dh11/Inc"
   "../Inc"
   "../Drivers/STM32F1xx_HAL_Driver/Inc"
   "../Drivers/CMSIS/Include"

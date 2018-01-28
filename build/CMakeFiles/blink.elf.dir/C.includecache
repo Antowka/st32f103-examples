@@ -240,7 +240,17 @@ stm32f1xx_hal.h
 main.h
 ../Inc/main.h
 
-../UserSrc/Inc/lesson4.h
+../UserSrc/Inc/lesson5.h
+stm32f1xx_hal.h
+../UserSrc/Inc/stm32f1xx_hal.h
+
+../UserSrc/Lib/dh11/Inc/dht11.h
+stm32f1xx_hal.h
+../UserSrc/Lib/dh11/Inc/stm32f1xx_hal.h
+stm32f4xx_hal.h
+../UserSrc/Lib/dh11/Inc/stm32f4xx_hal.h
+stdbool.h
+-
 
 ../UserSrc/Lib/ssd1306/Inc/fonts.h
 stm32f1xx_hal.h
@@ -305,14 +315,22 @@ stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.h
 
 /home/anton/Desktop/Projects/STM32/blink/Src/main.c
-ssd1306.h
+lesson5.h
 -
-lesson4.h
-/home/anton/Desktop/Projects/STM32/blink/Src/lesson4.h
+main.h
+/home/anton/Desktop/Projects/STM32/blink/Src/main.h
+stm32f1xx_hal.h
+/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal.h
 
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_msp.c
 stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal.h
+
+/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_timebase_TIM.c
+stm32f1xx_hal.h
+/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal.h
+stm32f1xx_hal_tim.h
+/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_tim.h
 
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_it.c
 stm32f1xx_hal.h
@@ -321,10 +339,28 @@ stm32f1xx.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx.h
 stm32f1xx_it.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_it.h
+dht11.h
+/home/anton/Desktop/Projects/STM32/blink/Src/dht11.h
 
 /home/anton/Desktop/Projects/STM32/blink/Src/system_stm32f1xx.c
 stm32f1xx.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx.h
+
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Src/dht11.c
+sched.h
+-
+stm32f1xx_hal_gpio.h
+-
+dht11.h
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Src/dht11.h
+
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Src/fonts.c
+fonts.h
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Src/fonts.h
+
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Src/ssd1306.c
+ssd1306.h
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Src/ssd1306.h
 
 /home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson3.c
 stm32f1xx_hal_conf.h
@@ -339,6 +375,14 @@ stm32f1xx_hal.h
 -
 ssd1306.h
 -
+
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson5.c
+ssd1306.h
+-
+dht11.h
+-
+lesson5.h
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson5.h
 
 /opt/cross/arm-none-eabi/include/_ansi.h
 newlib.h
@@ -386,6 +430,12 @@ machine/_endian.h
 
 /opt/cross/arm-none-eabi/include/newlib.h
 _newlib_version.h
+-
+
+/opt/cross/arm-none-eabi/include/sched.h
+sys/types.h
+-
+sys/sched.h
 -
 
 /opt/cross/arm-none-eabi/include/stdint.h

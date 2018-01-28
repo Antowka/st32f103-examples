@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/blink.elf.dir/Src/main.c.obj"
   "CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj"
+  "CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj"
   "CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj"
   "CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj"
   "CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
@@ -18,6 +19,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
   "CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj"
   "CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj"
+  "CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj"
+  "CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj"
+  "CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj"
+  "CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj"
   "blink.elf.pdb"
   "blink.elf"
 )

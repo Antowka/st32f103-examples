@@ -124,19 +124,6 @@ USERSRC/fast:
 .PHONY : USERSRC/fast
 
 #=============================================================================
-# Target rules for targets named SSDOLEDLIB
-
-# Build rule for target.
-SSDOLEDLIB: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SSDOLEDLIB
-.PHONY : SSDOLEDLIB
-
-# fast build rule for target.
-SSDOLEDLIB/fast:
-	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/build
-.PHONY : SSDOLEDLIB/fast
-
-#=============================================================================
 # Target rules for targets named blink.elf
 
 # Build rule for target.
@@ -148,6 +135,19 @@ blink.elf: cmake_check_build_system
 blink.elf/fast:
 	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/build
 .PHONY : blink.elf/fast
+
+#=============================================================================
+# Target rules for targets named LIBS
+
+# Build rule for target.
+LIBS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LIBS
+.PHONY : LIBS
+
+# fast build rule for target.
+LIBS/fast:
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/build
+.PHONY : LIBS/fast
 
 #=============================================================================
 # Target rules for targets named CMSIS
@@ -619,6 +619,33 @@ Src/stm32f1xx_hal_msp.c.s:
 	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.s
 .PHONY : Src/stm32f1xx_hal_msp.c.s
 
+Src/stm32f1xx_hal_timebase_TIM.obj: Src/stm32f1xx_hal_timebase_TIM.c.obj
+
+.PHONY : Src/stm32f1xx_hal_timebase_TIM.obj
+
+# target to build an object file
+Src/stm32f1xx_hal_timebase_TIM.c.obj:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
+.PHONY : Src/stm32f1xx_hal_timebase_TIM.c.obj
+
+Src/stm32f1xx_hal_timebase_TIM.i: Src/stm32f1xx_hal_timebase_TIM.c.i
+
+.PHONY : Src/stm32f1xx_hal_timebase_TIM.i
+
+# target to preprocess a source file
+Src/stm32f1xx_hal_timebase_TIM.c.i:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.i
+.PHONY : Src/stm32f1xx_hal_timebase_TIM.c.i
+
+Src/stm32f1xx_hal_timebase_TIM.s: Src/stm32f1xx_hal_timebase_TIM.c.s
+
+.PHONY : Src/stm32f1xx_hal_timebase_TIM.s
+
+# target to generate assembly for a file
+Src/stm32f1xx_hal_timebase_TIM.c.s:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.s
+.PHONY : Src/stm32f1xx_hal_timebase_TIM.c.s
+
 Src/stm32f1xx_it.obj: Src/stm32f1xx_it.c.obj
 
 .PHONY : Src/stm32f1xx_it.obj
@@ -676,13 +703,44 @@ Src/system_stm32f1xx.c.s:
 	$(MAKE) -f CMakeFiles/CMSIS.dir/build.make CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.s
 .PHONY : Src/system_stm32f1xx.c.s
 
+UserSrc/Lib/dh11/Src/dht11.obj: UserSrc/Lib/dh11/Src/dht11.c.obj
+
+.PHONY : UserSrc/Lib/dh11/Src/dht11.obj
+
+# target to build an object file
+UserSrc/Lib/dh11/Src/dht11.c.obj:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+.PHONY : UserSrc/Lib/dh11/Src/dht11.c.obj
+
+UserSrc/Lib/dh11/Src/dht11.i: UserSrc/Lib/dh11/Src/dht11.c.i
+
+.PHONY : UserSrc/Lib/dh11/Src/dht11.i
+
+# target to preprocess a source file
+UserSrc/Lib/dh11/Src/dht11.c.i:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.i
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/dh11/Src/dht11.c.i
+.PHONY : UserSrc/Lib/dh11/Src/dht11.c.i
+
+UserSrc/Lib/dh11/Src/dht11.s: UserSrc/Lib/dh11/Src/dht11.c.s
+
+.PHONY : UserSrc/Lib/dh11/Src/dht11.s
+
+# target to generate assembly for a file
+UserSrc/Lib/dh11/Src/dht11.c.s:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.s
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/dh11/Src/dht11.c.s
+.PHONY : UserSrc/Lib/dh11/Src/dht11.c.s
+
 UserSrc/Lib/ssd1306/Src/fonts.obj: UserSrc/Lib/ssd1306/Src/fonts.c.obj
 
 .PHONY : UserSrc/Lib/ssd1306/Src/fonts.obj
 
 # target to build an object file
 UserSrc/Lib/ssd1306/Src/fonts.c.obj:
-	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
 .PHONY : UserSrc/Lib/ssd1306/Src/fonts.c.obj
 
 UserSrc/Lib/ssd1306/Src/fonts.i: UserSrc/Lib/ssd1306/Src/fonts.c.i
@@ -691,7 +749,8 @@ UserSrc/Lib/ssd1306/Src/fonts.i: UserSrc/Lib/ssd1306/Src/fonts.c.i
 
 # target to preprocess a source file
 UserSrc/Lib/ssd1306/Src/fonts.c.i:
-	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/fonts.c.i
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.i
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/ssd1306/Src/fonts.c.i
 .PHONY : UserSrc/Lib/ssd1306/Src/fonts.c.i
 
 UserSrc/Lib/ssd1306/Src/fonts.s: UserSrc/Lib/ssd1306/Src/fonts.c.s
@@ -700,7 +759,8 @@ UserSrc/Lib/ssd1306/Src/fonts.s: UserSrc/Lib/ssd1306/Src/fonts.c.s
 
 # target to generate assembly for a file
 UserSrc/Lib/ssd1306/Src/fonts.c.s:
-	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/fonts.c.s
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.s
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/ssd1306/Src/fonts.c.s
 .PHONY : UserSrc/Lib/ssd1306/Src/fonts.c.s
 
 UserSrc/Lib/ssd1306/Src/ssd1306.obj: UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
@@ -709,7 +769,8 @@ UserSrc/Lib/ssd1306/Src/ssd1306.obj: UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
 
 # target to build an object file
 UserSrc/Lib/ssd1306/Src/ssd1306.c.obj:
-	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
 .PHONY : UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
 
 UserSrc/Lib/ssd1306/Src/ssd1306.i: UserSrc/Lib/ssd1306/Src/ssd1306.c.i
@@ -718,7 +779,8 @@ UserSrc/Lib/ssd1306/Src/ssd1306.i: UserSrc/Lib/ssd1306/Src/ssd1306.c.i
 
 # target to preprocess a source file
 UserSrc/Lib/ssd1306/Src/ssd1306.c.i:
-	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.i
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.i
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.i
 .PHONY : UserSrc/Lib/ssd1306/Src/ssd1306.c.i
 
 UserSrc/Lib/ssd1306/Src/ssd1306.s: UserSrc/Lib/ssd1306/Src/ssd1306.c.s
@@ -727,7 +789,8 @@ UserSrc/Lib/ssd1306/Src/ssd1306.s: UserSrc/Lib/ssd1306/Src/ssd1306.c.s
 
 # target to generate assembly for a file
 UserSrc/Lib/ssd1306/Src/ssd1306.c.s:
-	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.s
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.s
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.s
 .PHONY : UserSrc/Lib/ssd1306/Src/ssd1306.c.s
 
 UserSrc/Src/lesson3.obj: UserSrc/Src/lesson3.c.obj
@@ -790,6 +853,36 @@ UserSrc/Src/lesson4.c.s:
 	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.s
 .PHONY : UserSrc/Src/lesson4.c.s
 
+UserSrc/Src/lesson5.obj: UserSrc/Src/lesson5.c.obj
+
+.PHONY : UserSrc/Src/lesson5.obj
+
+# target to build an object file
+UserSrc/Src/lesson5.c.obj:
+	$(MAKE) -f CMakeFiles/USERSRC.dir/build.make CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
+.PHONY : UserSrc/Src/lesson5.c.obj
+
+UserSrc/Src/lesson5.i: UserSrc/Src/lesson5.c.i
+
+.PHONY : UserSrc/Src/lesson5.i
+
+# target to preprocess a source file
+UserSrc/Src/lesson5.c.i:
+	$(MAKE) -f CMakeFiles/USERSRC.dir/build.make CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.i
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.i
+.PHONY : UserSrc/Src/lesson5.c.i
+
+UserSrc/Src/lesson5.s: UserSrc/Src/lesson5.c.s
+
+.PHONY : UserSrc/Src/lesson5.s
+
+# target to generate assembly for a file
+UserSrc/Src/lesson5.c.s:
+	$(MAKE) -f CMakeFiles/USERSRC.dir/build.make CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.s
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.s
+.PHONY : UserSrc/Src/lesson5.c.s
+
 startup/startup_stm32f103xb.obj: startup/startup_stm32f103xb.s.obj
 
 .PHONY : startup/startup_stm32f103xb.obj
@@ -808,8 +901,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... USERSRC"
-	@echo "... SSDOLEDLIB"
 	@echo "... blink.elf"
+	@echo "... LIBS"
 	@echo "... CMSIS"
 	@echo "... HAL"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj"
@@ -857,12 +950,18 @@ help:
 	@echo "... Src/stm32f1xx_hal_msp.obj"
 	@echo "... Src/stm32f1xx_hal_msp.i"
 	@echo "... Src/stm32f1xx_hal_msp.s"
+	@echo "... Src/stm32f1xx_hal_timebase_TIM.obj"
+	@echo "... Src/stm32f1xx_hal_timebase_TIM.i"
+	@echo "... Src/stm32f1xx_hal_timebase_TIM.s"
 	@echo "... Src/stm32f1xx_it.obj"
 	@echo "... Src/stm32f1xx_it.i"
 	@echo "... Src/stm32f1xx_it.s"
 	@echo "... Src/system_stm32f1xx.obj"
 	@echo "... Src/system_stm32f1xx.i"
 	@echo "... Src/system_stm32f1xx.s"
+	@echo "... UserSrc/Lib/dh11/Src/dht11.obj"
+	@echo "... UserSrc/Lib/dh11/Src/dht11.i"
+	@echo "... UserSrc/Lib/dh11/Src/dht11.s"
 	@echo "... UserSrc/Lib/ssd1306/Src/fonts.obj"
 	@echo "... UserSrc/Lib/ssd1306/Src/fonts.i"
 	@echo "... UserSrc/Lib/ssd1306/Src/fonts.s"
@@ -875,6 +974,9 @@ help:
 	@echo "... UserSrc/Src/lesson4.obj"
 	@echo "... UserSrc/Src/lesson4.i"
 	@echo "... UserSrc/Src/lesson4.s"
+	@echo "... UserSrc/Src/lesson5.obj"
+	@echo "... UserSrc/Src/lesson5.i"
+	@echo "... UserSrc/Src/lesson5.s"
 	@echo "... startup/startup_stm32f103xb.obj"
 .PHONY : help
 

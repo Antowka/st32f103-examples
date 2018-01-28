@@ -143,8 +143,7 @@ void ssd1306_DrawPixel(uint8_t x, uint8_t y, SSD1306_COLOR color)
 //	Font 	=> Font waarmee we gaan schrijven
 //	color 	=> Black or White
 //
-char ssd1306_WriteChar(char ch, FontDef Font, SSD1306_COLOR color)
-{
+char ssd1306_WriteChar(char ch, FontDef Font, SSD1306_COLOR color) {
 	uint32_t i, b, j;
 	
 	// Kijken of er nog plaats is op deze lijn

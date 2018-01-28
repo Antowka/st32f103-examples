@@ -6,8 +6,6 @@
 #include <stm32f1xx_hal.h>
 #include <ssd1306.h>
 
-static int statusWasChanged = 0;
-
 void lesson4(void) {
 
     ssd1306_Init();
