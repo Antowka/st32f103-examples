@@ -241,6 +241,8 @@ main.h
 ../Inc/main.h
 
 ../UserSrc/Inc/lesson4.h
+stm32f1xx_hal.h
+../UserSrc/Inc/stm32f1xx_hal.h
 
 ../UserSrc/Lib/ssd1306/Inc/fonts.h
 stm32f1xx_hal.h
@@ -305,16 +307,20 @@ stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.h
 
 /home/anton/Desktop/Projects/STM32/blink/Src/main.c
-ssd1306.h
--
+main.h
+/home/anton/Desktop/Projects/STM32/blink/Src/main.h
+stm32f1xx_hal.h
+/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal.h
 lesson4.h
-/home/anton/Desktop/Projects/STM32/blink/Src/lesson4.h
+-
 
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_msp.c
 stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal.h
 
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_it.c
+lesson4.h
+-
 stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal.h
 stm32f1xx.h
@@ -326,6 +332,24 @@ stm32f1xx_it.h
 stm32f1xx.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx.h
 
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Src/fonts.c
+fonts.h
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Src/fonts.h
+
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Src/ssd1306.c
+ssd1306.h
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Src/ssd1306.h
+
+/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Src/syscalls.c
+stdio.h
+-
+stdarg.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+
 /home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson3.c
 stm32f1xx_hal_conf.h
 -
@@ -334,8 +358,6 @@ stm32f1xx_hal.h
 
 /home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson4.c
 stm32f1xx_hal_conf.h
--
-stm32f1xx_hal.h
 -
 ssd1306.h
 -
@@ -382,10 +404,22 @@ machine/_endian.h
 
 /opt/cross/arm-none-eabi/include/machine/ieeefp.h
 
+/opt/cross/arm-none-eabi/include/machine/time.h
+sys/_timespec.h
+-
+
 /opt/cross/arm-none-eabi/include/machine/types.h
 
 /opt/cross/arm-none-eabi/include/newlib.h
 _newlib_version.h
+-
+
+/opt/cross/arm-none-eabi/include/signal.h
+_ansi.h
+/opt/cross/arm-none-eabi/include/_ansi.h
+sys/cdefs.h
+-
+sys/signal.h
 -
 
 /opt/cross/arm-none-eabi/include/stdint.h
@@ -418,6 +452,12 @@ sys/stdio.h
 sys/features.h
 -
 limits.h
+-
+
+/opt/cross/arm-none-eabi/include/sys/_locale.h
+newlib.h
+-
+sys/config.h
 -
 
 /opt/cross/arm-none-eabi/include/sys/_pthreadtypes.h
@@ -504,6 +544,40 @@ sys/_timeval.h
 sys/timespec.h
 -
 
+/opt/cross/arm-none-eabi/include/sys/signal.h
+_ansi.h
+/opt/cross/arm-none-eabi/include/sys/_ansi.h
+sys/cdefs.h
+-
+sys/features.h
+-
+sys/types.h
+-
+sys/_sigset.h
+-
+sys/_timespec.h
+-
+cygwin/signal.h
+-
+sys/ucontext.h
+-
+signal.h
+-
+
+/opt/cross/arm-none-eabi/include/sys/stat.h
+_ansi.h
+-
+time.h
+-
+sys/cdefs.h
+-
+sys/types.h
+-
+sys/_timespec.h
+-
+cygwin/stat.h
+-
+
 /opt/cross/arm-none-eabi/include/sys/stdio.h
 sys/lock.h
 -
@@ -538,5 +612,29 @@ sys/features.h
 sys/_pthreadtypes.h
 -
 machine/types.h
+-
+
+/opt/cross/arm-none-eabi/include/time.h
+_ansi.h
+/opt/cross/arm-none-eabi/include/_ansi.h
+sys/cdefs.h
+-
+sys/reent.h
+-
+stddef.h
+-
+machine/time.h
+-
+sys/types.h
+-
+sys/timespec.h
+-
+sys/_locale.h
+-
+sys/features.h
+-
+cygwin/time.h
+-
+signal.h
 -
 

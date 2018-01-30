@@ -124,19 +124,6 @@ USERSRC/fast:
 .PHONY : USERSRC/fast
 
 #=============================================================================
-# Target rules for targets named SSDOLEDLIB
-
-# Build rule for target.
-SSDOLEDLIB: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SSDOLEDLIB
-.PHONY : SSDOLEDLIB
-
-# fast build rule for target.
-SSDOLEDLIB/fast:
-	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/build
-.PHONY : SSDOLEDLIB/fast
-
-#=============================================================================
 # Target rules for targets named blink.elf
 
 # Build rule for target.
@@ -148,6 +135,19 @@ blink.elf: cmake_check_build_system
 blink.elf/fast:
 	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/build
 .PHONY : blink.elf/fast
+
+#=============================================================================
+# Target rules for targets named LIBS
+
+# Build rule for target.
+LIBS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LIBS
+.PHONY : LIBS
+
+# fast build rule for target.
+LIBS/fast:
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/build
+.PHONY : LIBS/fast
 
 #=============================================================================
 # Target rules for targets named CMSIS
@@ -682,7 +682,8 @@ UserSrc/Lib/ssd1306/Src/fonts.obj: UserSrc/Lib/ssd1306/Src/fonts.c.obj
 
 # target to build an object file
 UserSrc/Lib/ssd1306/Src/fonts.c.obj:
-	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
 .PHONY : UserSrc/Lib/ssd1306/Src/fonts.c.obj
 
 UserSrc/Lib/ssd1306/Src/fonts.i: UserSrc/Lib/ssd1306/Src/fonts.c.i
@@ -691,7 +692,8 @@ UserSrc/Lib/ssd1306/Src/fonts.i: UserSrc/Lib/ssd1306/Src/fonts.c.i
 
 # target to preprocess a source file
 UserSrc/Lib/ssd1306/Src/fonts.c.i:
-	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/fonts.c.i
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.i
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/ssd1306/Src/fonts.c.i
 .PHONY : UserSrc/Lib/ssd1306/Src/fonts.c.i
 
 UserSrc/Lib/ssd1306/Src/fonts.s: UserSrc/Lib/ssd1306/Src/fonts.c.s
@@ -700,7 +702,8 @@ UserSrc/Lib/ssd1306/Src/fonts.s: UserSrc/Lib/ssd1306/Src/fonts.c.s
 
 # target to generate assembly for a file
 UserSrc/Lib/ssd1306/Src/fonts.c.s:
-	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/fonts.c.s
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.s
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/ssd1306/Src/fonts.c.s
 .PHONY : UserSrc/Lib/ssd1306/Src/fonts.c.s
 
 UserSrc/Lib/ssd1306/Src/ssd1306.obj: UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
@@ -709,7 +712,8 @@ UserSrc/Lib/ssd1306/Src/ssd1306.obj: UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
 
 # target to build an object file
 UserSrc/Lib/ssd1306/Src/ssd1306.c.obj:
-	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
 .PHONY : UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
 
 UserSrc/Lib/ssd1306/Src/ssd1306.i: UserSrc/Lib/ssd1306/Src/ssd1306.c.i
@@ -718,7 +722,8 @@ UserSrc/Lib/ssd1306/Src/ssd1306.i: UserSrc/Lib/ssd1306/Src/ssd1306.c.i
 
 # target to preprocess a source file
 UserSrc/Lib/ssd1306/Src/ssd1306.c.i:
-	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.i
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.i
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.i
 .PHONY : UserSrc/Lib/ssd1306/Src/ssd1306.c.i
 
 UserSrc/Lib/ssd1306/Src/ssd1306.s: UserSrc/Lib/ssd1306/Src/ssd1306.c.s
@@ -727,8 +732,39 @@ UserSrc/Lib/ssd1306/Src/ssd1306.s: UserSrc/Lib/ssd1306/Src/ssd1306.c.s
 
 # target to generate assembly for a file
 UserSrc/Lib/ssd1306/Src/ssd1306.c.s:
-	$(MAKE) -f CMakeFiles/SSDOLEDLIB.dir/build.make CMakeFiles/SSDOLEDLIB.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.s
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.s
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.s
 .PHONY : UserSrc/Lib/ssd1306/Src/ssd1306.c.s
+
+UserSrc/Lib/syscall/Src/syscalls.obj: UserSrc/Lib/syscall/Src/syscalls.c.obj
+
+.PHONY : UserSrc/Lib/syscall/Src/syscalls.obj
+
+# target to build an object file
+UserSrc/Lib/syscall/Src/syscalls.c.obj:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+.PHONY : UserSrc/Lib/syscall/Src/syscalls.c.obj
+
+UserSrc/Lib/syscall/Src/syscalls.i: UserSrc/Lib/syscall/Src/syscalls.c.i
+
+.PHONY : UserSrc/Lib/syscall/Src/syscalls.i
+
+# target to preprocess a source file
+UserSrc/Lib/syscall/Src/syscalls.c.i:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.i
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/syscall/Src/syscalls.c.i
+.PHONY : UserSrc/Lib/syscall/Src/syscalls.c.i
+
+UserSrc/Lib/syscall/Src/syscalls.s: UserSrc/Lib/syscall/Src/syscalls.c.s
+
+.PHONY : UserSrc/Lib/syscall/Src/syscalls.s
+
+# target to generate assembly for a file
+UserSrc/Lib/syscall/Src/syscalls.c.s:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.s
+	$(MAKE) -f CMakeFiles/LIBS.dir/build.make CMakeFiles/LIBS.dir/UserSrc/Lib/syscall/Src/syscalls.c.s
+.PHONY : UserSrc/Lib/syscall/Src/syscalls.c.s
 
 UserSrc/Src/lesson3.obj: UserSrc/Src/lesson3.c.obj
 
@@ -808,8 +844,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... USERSRC"
-	@echo "... SSDOLEDLIB"
 	@echo "... blink.elf"
+	@echo "... LIBS"
 	@echo "... CMSIS"
 	@echo "... HAL"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj"
@@ -869,6 +905,9 @@ help:
 	@echo "... UserSrc/Lib/ssd1306/Src/ssd1306.obj"
 	@echo "... UserSrc/Lib/ssd1306/Src/ssd1306.i"
 	@echo "... UserSrc/Lib/ssd1306/Src/ssd1306.s"
+	@echo "... UserSrc/Lib/syscall/Src/syscalls.obj"
+	@echo "... UserSrc/Lib/syscall/Src/syscalls.i"
+	@echo "... UserSrc/Lib/syscall/Src/syscalls.s"
 	@echo "... UserSrc/Src/lesson3.obj"
 	@echo "... UserSrc/Src/lesson3.i"
 	@echo "... UserSrc/Src/lesson3.s"

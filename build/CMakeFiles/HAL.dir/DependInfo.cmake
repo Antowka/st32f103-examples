@@ -29,6 +29,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/opt/cross/arm-none-eabi/include"
   "../UserSrc/Lib/ssd1306/Inc"
+  "../UserSrc/Lib/syscall/Inc"
   "../Inc"
   "../Drivers/STM32F1xx_HAL_Driver/Inc"
   "../Drivers/CMSIS/Include"

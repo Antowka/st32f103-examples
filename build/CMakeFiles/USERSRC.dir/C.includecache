@@ -253,8 +253,6 @@ stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson4.c
 stm32f1xx_hal_conf.h
 -
-stm32f1xx_hal.h
--
 ssd1306.h
 -
 
