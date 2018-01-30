@@ -24,6 +24,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Src/dht11.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj"
   "/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Src/fonts.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj"
   "/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Src/ssd1306.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj"
+  "/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Src/syscalls.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj"
   "/home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson3.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj"
   "/home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson4.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj"
   "/home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson5.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj"
@@ -39,6 +40,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/opt/cross/arm-none-eabi/include"
   "../UserSrc/Lib/ssd1306/Inc"
+  "../UserSrc/Lib/syscall/Inc"
   "../UserSrc/Lib/dh11/Inc"
   "../Inc"
   "../Drivers/STM32F1xx_HAL_Driver/Inc"

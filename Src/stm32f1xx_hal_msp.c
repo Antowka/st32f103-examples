@@ -133,11 +133,11 @@ void HAL_I2C_MspDeInit(I2C_HandleTypeDef* hi2c)
 
 }
 
-void HAL_TIM_IC_MspInit(TIM_HandleTypeDef* htim_ic)
+void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* htim_base)
 {
 
   GPIO_InitTypeDef GPIO_InitStruct;
-  if(htim_ic->Instance==TIM2)
+  if(htim_base->Instance==TIM2)
   {
   /* USER CODE BEGIN TIM2_MspInit 0 */
 
@@ -163,10 +163,10 @@ void HAL_TIM_IC_MspInit(TIM_HandleTypeDef* htim_ic)
 
 }
 
-void HAL_TIM_IC_MspDeInit(TIM_HandleTypeDef* htim_ic)
+void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* htim_base)
 {
 
-  if(htim_ic->Instance==TIM2)
+  if(htim_base->Instance==TIM2)
   {
   /* USER CODE BEGIN TIM2_MspDeInit 0 */
 

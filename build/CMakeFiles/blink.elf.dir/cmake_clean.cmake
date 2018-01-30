@@ -22,6 +22,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj"
   "CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj"
   "CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj"
+  "CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj"
   "blink.elf.pdb"
   "blink.elf"
 )

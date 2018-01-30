@@ -609,6 +609,30 @@ CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj.provides: CMakeFi
 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj.provides.build: CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
 
 
+CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj: CMakeFiles/blink.elf.dir/flags.make
+CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj: ../UserSrc/Lib/syscall/Src/syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj"
+	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Src/syscalls.c
+
+CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.i"
+	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Src/syscalls.c > CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.i
+
+CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.s"
+	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Src/syscalls.c -o CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.s
+
+CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj.requires:
+
+.PHONY : CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj.requires
+
+CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj.provides: CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj.requires
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj.provides.build
+.PHONY : CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj.provides
+
+CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj.provides.build: CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+
+
 # Object files for target blink.elf
 blink_elf_OBJECTS = \
 "CMakeFiles/blink.elf.dir/Src/main.c.obj" \
@@ -633,7 +657,8 @@ blink_elf_OBJECTS = \
 "CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj" \
 "CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj" \
 "CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj" \
-"CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj"
+"CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj" \
+"CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj"
 
 # External object files for target blink.elf
 blink_elf_EXTERNAL_OBJECTS =
@@ -661,13 +686,14 @@ blink.elf: CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
 blink.elf: CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
 blink.elf: CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
 blink.elf: CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+blink.elf: CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
 blink.elf: CMakeFiles/blink.elf.dir/build.make
 blink.elf: libHAL.a
 blink.elf: libCMSIS.a
 blink.elf: libUSERSRC.a
 blink.elf: libLIBS.a
 blink.elf: CMakeFiles/blink.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable blink.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking C executable blink.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blink.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/anton/Desktop/Projects/STM32/blink/build/blink.hex "
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/anton/Desktop/Projects/STM32/blink/build/blink.bin"
@@ -702,6 +728,7 @@ CMakeFiles/blink.elf.dir/requires: CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.
 CMakeFiles/blink.elf.dir/requires: CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj.requires
 CMakeFiles/blink.elf.dir/requires: CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj.requires
 CMakeFiles/blink.elf.dir/requires: CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj.requires
+CMakeFiles/blink.elf.dir/requires: CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj.requires
 
 .PHONY : CMakeFiles/blink.elf.dir/requires
 

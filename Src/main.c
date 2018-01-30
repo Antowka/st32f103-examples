@@ -98,16 +98,16 @@ int main(void)
   MX_TIM2_Init();
 
   /* USER CODE BEGIN 2 */
-
+    HAL_TIM_Base_Start(&htim2);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
     while (1) {
   /* USER CODE END WHILE */
-    lesson5();
-  /* USER CODE BEGIN 3 */
 
+  /* USER CODE BEGIN 3 */
+      lesson5();
     }
   /* USER CODE END 3 */
 
@@ -185,6 +185,7 @@ static void MX_I2C1_Init(void)
 static void MX_TIM2_Init(void)
 {
 
+  TIM_ClockConfigTypeDef sClockSourceConfig;
   TIM_MasterConfigTypeDef sMasterConfig;
   TIM_IC_InitTypeDef sConfigIC;
 
@@ -194,6 +195,17 @@ static void MX_TIM2_Init(void)
   htim2.Init.Period = 999;
   htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim2) != HAL_OK)
+  {
+    _Error_Handler(__FILE__, __LINE__);
+  }
+
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim2, &sClockSourceConfig) != HAL_OK)
+  {
+    _Error_Handler(__FILE__, __LINE__);
+  }
+
   if (HAL_TIM_IC_Init(&htim2) != HAL_OK)
   {
     _Error_Handler(__FILE__, __LINE__);

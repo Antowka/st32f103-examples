@@ -18,6 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/opt/cross/arm-none-eabi/include"
   "../UserSrc/Lib/ssd1306/Inc"
+  "../UserSrc/Lib/syscall/Inc"
   "../UserSrc/Lib/dh11/Inc"
   "../Inc"
   "../Drivers/STM32F1xx_HAL_Driver/Inc"
@@ -39,6 +40,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/opt/cross/arm-none-eabi/include"
   "../UserSrc/Lib/ssd1306/Inc"
+  "../UserSrc/Lib/syscall/Inc"
   "../UserSrc/Lib/dh11/Inc"
   "../Inc"
   "../Drivers/STM32F1xx_HAL_Driver/Inc"

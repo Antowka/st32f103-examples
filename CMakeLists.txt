@@ -16,20 +16,16 @@ add_library(HAL ${HAL_SOURCES})
 add_library(CMSIS Src/system_stm32f1xx.c startup/startup_stm32f103xb.s)
 add_library(LIBS ${LIBS})
 add_library(USERSRC ${USERSOURCES})
-#add_library(FREERTOS ${FREE_RTOS})
-#add_library(FREERTOS1 ${FREE_RTOS1})
-#add_library(FREERTOS2 ${FREE_RTOS2})
+
 
 include_directories(/opt/cross/arm-none-eabi/include)
 include_directories(UserSrc/Lib/ssd1306/Inc)
+include_directories(UserSrc/Lib/syscall/Inc)
 include_directories(UserSrc/Lib/dh11/Inc)
 include_directories(Inc)
 include_directories(Drivers/STM32F1xx_HAL_Driver/Inc)
 include_directories(Drivers/CMSIS/Include)
 include_directories(Drivers/CMSIS/Device/ST/STM32F1xx/Include)
-#include_directories(Middlewares/Third_Party/FreeRTOS/Source/include)
-#include_directories(Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS)
-#include_directories(Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3)
 include_directories(UserSrc/Inc)
 
 

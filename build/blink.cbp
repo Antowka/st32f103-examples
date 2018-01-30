@@ -47,6 +47,7 @@
 					<Add option="-DSTM32F103xB"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
@@ -74,6 +75,7 @@
 					<Add option="-DSTM32F103xB"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
@@ -101,6 +103,7 @@
 					<Add option="-DSTM32F103xB"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
@@ -128,6 +131,7 @@
 					<Add option="-DSTM32F103xB"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
@@ -155,6 +159,7 @@
 					<Add option="-DSTM32F103xB"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
@@ -182,6 +187,7 @@
 					<Add option="-DSTM32F103xB"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
@@ -209,6 +215,7 @@
 					<Add option="-DSTM32F103xB"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
@@ -236,6 +243,7 @@
 					<Add option="-DSTM32F103xB"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
@@ -263,6 +271,7 @@
 					<Add option="-DSTM32F103xB"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
@@ -290,6 +299,7 @@
 					<Add option="-DSTM32F103xB"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
@@ -385,6 +395,10 @@
 			<Option target="LIBS"/>
 		</Unit>
 		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Src/ssd1306.c">
+			<Option target="blink.elf"/>
+			<Option target="LIBS"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Src/syscalls.c">
 			<Option target="blink.elf"/>
 			<Option target="LIBS"/>
 		</Unit>
