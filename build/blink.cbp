@@ -369,9 +369,6 @@
 		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_msp.c">
 			<Option target="blink.elf"/>
 		</Unit>
-		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_timebase_TIM.c">
-			<Option target="blink.elf"/>
-		</Unit>
 		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_it.c">
 			<Option target="blink.elf"/>
 		</Unit>

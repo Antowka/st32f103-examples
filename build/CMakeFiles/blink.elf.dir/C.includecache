@@ -315,22 +315,16 @@ stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.h
 
 /home/anton/Desktop/Projects/STM32/blink/Src/main.c
-lesson5.h
--
 main.h
 /home/anton/Desktop/Projects/STM32/blink/Src/main.h
 stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal.h
+lesson5.h
+-
 
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_msp.c
 stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal.h
-
-/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_timebase_TIM.c
-stm32f1xx_hal.h
-/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal.h
-stm32f1xx_hal_tim.h
-/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_tim.h
 
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_it.c
 stm32f1xx_hal.h

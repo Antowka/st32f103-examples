@@ -105,33 +105,9 @@ CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj.provides: CMakeFiles/blink.
 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj.provides.build: CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
 
 
-CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj: CMakeFiles/blink.elf.dir/flags.make
-CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj: ../Src/stm32f1xx_hal_timebase_TIM.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj"
-	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_timebase_TIM.c
-
-CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.i"
-	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_timebase_TIM.c > CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.i
-
-CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.s"
-	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_timebase_TIM.c -o CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.s
-
-CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj.requires:
-
-.PHONY : CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj.requires
-
-CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj.provides: CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj.requires
-	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj.provides.build
-.PHONY : CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj.provides
-
-CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj.provides.build: CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
-
-
 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj: ../Src/stm32f1xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_it.c
 
 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.i: cmake_force
@@ -155,7 +131,7 @@ CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj.provides.build: CMakeFiles/blink
 
 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj: ../Src/system_stm32f1xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Src/system_stm32f1xx.c
 
 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.i: cmake_force
@@ -179,7 +155,7 @@ CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj.provides.build: CMakeFiles/b
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -203,7 +179,7 @@ CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj.pr
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -227,7 +203,7 @@ CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -251,7 +227,7 @@ CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.ob
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -275,7 +251,7 @@ CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -299,7 +275,7 @@ CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -323,7 +299,7 @@ CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.o
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -347,7 +323,7 @@ CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i: cmake_force
@@ -371,7 +347,7 @@ CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.ob
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -395,7 +371,7 @@ CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.ob
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -419,7 +395,7 @@ CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.ob
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -443,7 +419,7 @@ CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
@@ -467,7 +443,7 @@ CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.ob
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -491,7 +467,7 @@ CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj: ../UserSrc/Src/lesson3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson3.c
 
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.i: cmake_force
@@ -515,7 +491,7 @@ CMakeFiles/blink.elf.dir/UserSrc/Src/lesson3.c.obj.provides.build: CMakeFiles/bl
 
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj: ../UserSrc/Src/lesson4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson4.c
 
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.i: cmake_force
@@ -539,7 +515,7 @@ CMakeFiles/blink.elf.dir/UserSrc/Src/lesson4.c.obj.provides.build: CMakeFiles/bl
 
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../UserSrc/Src/lesson5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson5.c
 
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.i: cmake_force
@@ -563,7 +539,7 @@ CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj.provides.build: CMakeFiles/bl
 
 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj: ../UserSrc/Lib/dh11/Src/dht11.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Src/dht11.c
 
 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.i: cmake_force
@@ -587,7 +563,7 @@ CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj.provides.build: CMakeF
 
 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj: ../UserSrc/Lib/ssd1306/Src/fonts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Src/fonts.c
 
 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.i: cmake_force
@@ -611,7 +587,7 @@ CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj.provides.build: CMa
 
 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj: CMakeFiles/blink.elf.dir/flags.make
 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj: ../UserSrc/Lib/ssd1306/Src/ssd1306.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj"
 	/opt/cross/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj   -c /home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Src/ssd1306.c
 
 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.i: cmake_force
@@ -637,7 +613,6 @@ CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj.provides.build: C
 blink_elf_OBJECTS = \
 "CMakeFiles/blink.elf.dir/Src/main.c.obj" \
 "CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj" \
-"CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj" \
 "CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj" \
 "CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj" \
 "CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" \
@@ -665,7 +640,6 @@ blink_elf_EXTERNAL_OBJECTS =
 
 blink.elf: CMakeFiles/blink.elf.dir/Src/main.c.obj
 blink.elf: CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
-blink.elf: CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
 blink.elf: CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
 blink.elf: CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
 blink.elf: CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -693,7 +667,7 @@ blink.elf: libCMSIS.a
 blink.elf: libUSERSRC.a
 blink.elf: libLIBS.a
 blink.elf: CMakeFiles/blink.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking C executable blink.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable blink.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blink.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/anton/Desktop/Projects/STM32/blink/build/blink.hex "
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/anton/Desktop/Projects/STM32/blink/build/blink.bin"
@@ -707,7 +681,6 @@ CMakeFiles/blink.elf.dir/build: blink.elf
 
 CMakeFiles/blink.elf.dir/requires: CMakeFiles/blink.elf.dir/Src/main.c.obj.requires
 CMakeFiles/blink.elf.dir/requires: CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj.requires
-CMakeFiles/blink.elf.dir/requires: CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj.requires
 CMakeFiles/blink.elf.dir/requires: CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj.requires
 CMakeFiles/blink.elf.dir/requires: CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj.requires
 CMakeFiles/blink.elf.dir/requires: CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj.requires

@@ -7,7 +7,7 @@
 #include "lesson5.h"
 
 dht11 dht;
-extern TIM_HandleTypeDef htim3;
+extern TIM_HandleTypeDef htim2;
 
 static void error(void) {
     ssd1306_SetCursor(10, 23);
@@ -44,7 +44,7 @@ void lesson5() {
     dht11_config dht_config;
     dht_config.gpio_pin = GPIO_PIN_6;
     dht_config.gpio_port = GPIOA;
-    dht_config.timer = &htim3;
+    dht_config.timer = &htim2;
     dht_config.timer_channel = TIM_CHANNEL_1;
 
     if (dht11_init(&dht_config, &dht) != DHT11_OK) error();

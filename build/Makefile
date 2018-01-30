@@ -619,33 +619,6 @@ Src/stm32f1xx_hal_msp.c.s:
 	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.s
 .PHONY : Src/stm32f1xx_hal_msp.c.s
 
-Src/stm32f1xx_hal_timebase_TIM.obj: Src/stm32f1xx_hal_timebase_TIM.c.obj
-
-.PHONY : Src/stm32f1xx_hal_timebase_TIM.obj
-
-# target to build an object file
-Src/stm32f1xx_hal_timebase_TIM.c.obj:
-	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
-.PHONY : Src/stm32f1xx_hal_timebase_TIM.c.obj
-
-Src/stm32f1xx_hal_timebase_TIM.i: Src/stm32f1xx_hal_timebase_TIM.c.i
-
-.PHONY : Src/stm32f1xx_hal_timebase_TIM.i
-
-# target to preprocess a source file
-Src/stm32f1xx_hal_timebase_TIM.c.i:
-	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.i
-.PHONY : Src/stm32f1xx_hal_timebase_TIM.c.i
-
-Src/stm32f1xx_hal_timebase_TIM.s: Src/stm32f1xx_hal_timebase_TIM.c.s
-
-.PHONY : Src/stm32f1xx_hal_timebase_TIM.s
-
-# target to generate assembly for a file
-Src/stm32f1xx_hal_timebase_TIM.c.s:
-	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.s
-.PHONY : Src/stm32f1xx_hal_timebase_TIM.c.s
-
 Src/stm32f1xx_it.obj: Src/stm32f1xx_it.c.obj
 
 .PHONY : Src/stm32f1xx_it.obj
@@ -950,9 +923,6 @@ help:
 	@echo "... Src/stm32f1xx_hal_msp.obj"
 	@echo "... Src/stm32f1xx_hal_msp.i"
 	@echo "... Src/stm32f1xx_hal_msp.s"
-	@echo "... Src/stm32f1xx_hal_timebase_TIM.obj"
-	@echo "... Src/stm32f1xx_hal_timebase_TIM.i"
-	@echo "... Src/stm32f1xx_hal_timebase_TIM.s"
 	@echo "... Src/stm32f1xx_it.obj"
 	@echo "... Src/stm32f1xx_it.i"
 	@echo "... Src/stm32f1xx_it.s"
