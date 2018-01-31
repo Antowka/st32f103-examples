@@ -810,6 +810,7 @@ CMakeFiles/blink.elf.dir/Src/main.c.obj
  ../Inc/main.h
  ../Inc/stm32f1xx_hal_conf.h
  ../UserSrc/Inc/lesson5.h
+ ../UserSrc/Lib/dh11/Inc/dht11.h
  /home/anton/Desktop/Projects/STM32/blink/Src/main.c
  /opt/cross/arm-none-eabi/include/_ansi.h
  /opt/cross/arm-none-eabi/include/_newlib_version.h

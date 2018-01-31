@@ -243,6 +243,8 @@ main.h
 ../UserSrc/Inc/lesson5.h
 stm32f1xx_hal.h
 ../UserSrc/Inc/stm32f1xx_hal.h
+dht11.h
+../UserSrc/Inc/dht11.h
 
 ../UserSrc/Lib/dh11/Inc/dht11.h
 stm32f1xx_hal.h
@@ -344,6 +346,8 @@ stm32f1xx.h
 sched.h
 -
 stm32f1xx_hal_gpio.h
+-
+dht11.h
 -
 dht11.h
 /home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Src/dht11.h

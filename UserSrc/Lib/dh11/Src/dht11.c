@@ -1,5 +1,6 @@
 #include <sched.h>
 #include <stm32f1xx_hal_gpio.h>
+#include <dht11.h>
 #include "dht11.h"
 
 /**
@@ -39,7 +40,7 @@ static void set_pin_in(dht11* handle) {
 }
 
 DHT11_RESULT dht11_read_data(dht11* handle) {
-    if (handle->state != DHT11_READY) return DHT11_ERROR;
+    //if (handle->state != DHT11_READY) return DHT11_ERROR;
 
     handle->state = DHT11_BUSY;
 
@@ -52,9 +53,10 @@ DHT11_RESULT dht11_read_data(dht11* handle) {
 
     // generate the start sequence
     set_pin_out(handle);
-    HAL_Delay(500);
+    HAL_GPIO_WritePin(handle->config.gpio_port, handle->config.gpio_pin, GPIO_PIN_SET);
+    HAL_Delay(10);
     HAL_GPIO_WritePin(handle->config.gpio_port, handle->config.gpio_pin, GPIO_PIN_RESET);
-    HAL_Delay(20);
+    HAL_Delay(18);
     HAL_GPIO_WritePin(handle->config.gpio_port, handle->config.gpio_pin, GPIO_PIN_SET);
     set_pin_in(handle);
 
@@ -114,13 +116,12 @@ static void write_bit(dht11* handle, bool bit) {
  * @param  dht_data pointer to the two bytes to be converted
  * @return          result of the conversion
  */
-static float get_float(uint8_t* dht_data) {
-    uint16_t v = 0;
-    v |= (dht_data[0] & 0x7F) << 8;
-    v |= dht_data[1];
+static paramsContainer get_float(uint8_t* dht_data) {
 
-    float value = 0.1f * v;
-    if (dht_data[0] & 0x80) value *= -1.0f;
+    paramsContainer value;
+    value.number = dht_data[0];
+    value.fraction = dht_data[1];
+
     return value;
 }
 
@@ -150,9 +151,9 @@ static void finish_rx(dht11* handle) {
     } while (0)
 
 void dht11_interrupt_handler(dht11* handle) {
-    uint16_t val = HAL_TIM_ReadCapturedValue(handle->config.timer, handle->config.timer_channel);
+    uint32_t val = HAL_TIM_ReadCapturedValue(handle->config.timer, handle->config.timer_channel);
 
-    uint16_t dt = val - handle->last_val;
+    uint32_t dt = val - handle->last_val;
 
     if (handle->bit_pos == -1) { // end of the start bit
         if (BETWEEN(120, 200)) { // [20 to 40]us + 80us + 80us - CPU time

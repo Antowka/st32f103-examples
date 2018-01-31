@@ -7,11 +7,13 @@
 #include "lesson5.h"
 
 dht11 dht;
-extern TIM_HandleTypeDef htim2;
+extern TIM_HandleTypeDef htim3;
 
-static void error(void) {
+static void error(DHT11_RESULT res, int bit_pos) {
     ssd1306_SetCursor(10, 23);
-    ssd1306_WriteString("Error", Font_11x18, White);
+    char msg[64];
+    snprintf(msg, 64, "e=%d, p=%d", res, bit_pos);
+    ssd1306_WriteString(msg, Font_11x18, White);
     ssd1306_UpdateScreen();
 }
 
@@ -23,22 +25,31 @@ void lesson5() {
     ssd1306_UpdateScreen();
     HAL_Delay(1000);
 
-    dht11_config dht_config;
-    dht_config.gpio_pin = GPIO_PIN_0;
-    dht_config.gpio_port = GPIOA;
-    dht_config.timer = &htim2;
-    dht_config.timer_channel = TIM_CHANNEL_1;
+    DHT11_RESULT r;
 
-    if (dht11_init(&dht_config, &dht) != DHT11_OK) error();
+    dht11_config dht_config;
+    dht_config.gpio_pin = PIN;
+    dht_config.gpio_port = PORT;
+    dht_config.timer = TIMER;
+    dht_config.timer_channel = TIMER_CHANNEL;
+
+    if ((r = dht11_init(&dht_config, &dht)) != DHT11_OK) error(r, -10);
 
     while (1) {
 
-        if (dht11_read_data(&dht) != DHT11_OK) error();
-        char str[5] = "";
-        sprintf(str, "%.2f", dht.temp);
+        if ((r = dht11_read_data(&dht)) != DHT11_OK) error(r, dht.bit_pos);
+
+        char tmp[15];
+        sprintf(tmp, "t = %d.%dC", dht.temp.number, dht.temp.fraction);
         ssd1306_SetCursor(10, 23);
-        ssd1306_WriteString(str, Font_11x18, White);
+        ssd1306_WriteString(tmp, Font_7x10, White);
+
+        char hum[15];
+        sprintf(hum, "h = %d.%d%c", dht.hum.number, dht.hum.fraction, '%');
+        ssd1306_SetCursor(10, 43);
+        ssd1306_WriteString(hum, Font_7x10, White);
+
         ssd1306_UpdateScreen();
-        HAL_Delay(1000);
+        HAL_Delay(3000);
     }
 }

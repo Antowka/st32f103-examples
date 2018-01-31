@@ -80,6 +80,11 @@ typedef struct {
 #endif
 } dht11_config;
 
+typedef struct {
+    uint8_t number;
+    uint8_t fraction;
+} paramsContainer;
+
 /**
  * This structure is the sensor handle
  */
@@ -98,17 +103,17 @@ typedef struct {
      * Timestamp of the last input capture. Used for calculating duration
      * between input captures and therefore the pulse length.
      */
-    uint16_t last_val;
+    uint32_t last_val;
 
     /**
      * Temperature reading
      */
-    float temp;
+    paramsContainer temp;
 
     /**
      * Humidity reading
      */
-    float hum;
+    paramsContainer hum;
 
     /**
      * Current state of the sensor

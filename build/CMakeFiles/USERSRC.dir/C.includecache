@@ -237,6 +237,8 @@ stm32f1xx_hal_hcd.h
 ../UserSrc/Inc/lesson5.h
 stm32f1xx_hal.h
 ../UserSrc/Inc/stm32f1xx_hal.h
+dht11.h
+../UserSrc/Inc/dht11.h
 
 ../UserSrc/Lib/dh11/Inc/dht11.h
 stm32f1xx_hal.h
