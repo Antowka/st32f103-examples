@@ -7,9 +7,9 @@
 #include "lesson5.h"
 
 dht11 dht;
-extern TIM_HandleTypeDef htim3;
 
-static void error(DHT11_RESULT res, int bit_pos) {
+
+static void error(DHT11_RESULT res, int8_t bit_pos) {
     ssd1306_SetCursor(10, 23);
     char msg[64];
     snprintf(msg, 64, "e=%d, p=%d", res, bit_pos);
@@ -39,17 +39,17 @@ void lesson5() {
 
         if ((r = dht11_read_data(&dht)) != DHT11_OK) error(r, dht.bit_pos);
 
-        char tmp[15];
+        u_char tmp[15];
         sprintf(tmp, "t = %d.%dC", dht.temp.number, dht.temp.fraction);
         ssd1306_SetCursor(10, 23);
         ssd1306_WriteString(tmp, Font_7x10, White);
 
-        char hum[15];
+        u_char hum[15];
         sprintf(hum, "h = %d.%d%c", dht.hum.number, dht.hum.fraction, '%');
         ssd1306_SetCursor(10, 43);
         ssd1306_WriteString(hum, Font_7x10, White);
 
         ssd1306_UpdateScreen();
-        HAL_Delay(3000);
+        HAL_Delay(1000);
     }
 }

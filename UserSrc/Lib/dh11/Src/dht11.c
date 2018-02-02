@@ -40,7 +40,7 @@ static void set_pin_in(dht11* handle) {
 }
 
 DHT11_RESULT dht11_read_data(dht11* handle) {
-    //if (handle->state != DHT11_READY) return DHT11_ERROR;
+    if (handle->state != DHT11_READY) return DHT11_ERROR;
 
     handle->state = DHT11_BUSY;
 
@@ -116,7 +116,7 @@ static void write_bit(dht11* handle, bool bit) {
  * @param  dht_data pointer to the two bytes to be converted
  * @return          result of the conversion
  */
-static paramsContainer get_float(uint8_t* dht_data) {
+static paramsContainer get_float(const uint8_t* dht_data) {
 
     paramsContainer value;
     value.number = dht_data[0];
@@ -131,7 +131,9 @@ static paramsContainer get_float(uint8_t* dht_data) {
  */
 static void finish_rx(dht11* handle) {
     uint8_t sum = 0;
-    for (int i = 0; i < 4; i++) sum += handle->rx_buffer[i];
+    for (int i = 0; i < 4; i++) {
+        sum += handle->rx_buffer[i];
+    }
 
     if (sum == handle->rx_buffer[4]) { // checksums match
         handle->hum  = get_float(&handle->rx_buffer[0]);
@@ -142,7 +144,7 @@ static void finish_rx(dht11* handle) {
     handle->state = DHT11_FINISHED;
 }
 
-#define BETWEEN(a, b) (dt >= a && dt <= b)
+#define BETWEEN(a, b) (dt >= (a) && dt <= (b))
 
 #define TIMING_ERROR()                               \
     do {                                             \
