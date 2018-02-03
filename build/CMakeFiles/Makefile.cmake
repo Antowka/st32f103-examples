@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../RTOS.cmake"
   "../STM32F103C8Tx.cmake"
   "CMakeFiles/3.8.2/CMakeASMCompiler.cmake"
   "CMakeFiles/3.8.2/CMakeCCompiler.cmake"
@@ -50,4 +51,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LIBS.dir/DependInfo.cmake"
   "CMakeFiles/CMSIS.dir/DependInfo.cmake"
   "CMakeFiles/HAL.dir/DependInfo.cmake"
+  "CMakeFiles/FREERTOS.dir/DependInfo.cmake"
   )

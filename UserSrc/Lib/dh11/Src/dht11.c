@@ -1,6 +1,7 @@
 #include <sched.h>
 #include <stm32f1xx_hal_gpio.h>
 #include <dht11.h>
+#include <cmsis_os.h>
 #include "dht11.h"
 
 /**
@@ -54,9 +55,9 @@ DHT11_RESULT dht11_read_data(dht11* handle) {
     // generate the start sequence
     set_pin_out(handle);
     HAL_GPIO_WritePin(handle->config.gpio_port, handle->config.gpio_pin, GPIO_PIN_SET);
-    HAL_Delay(10);
+    osDelay(10);
     HAL_GPIO_WritePin(handle->config.gpio_port, handle->config.gpio_pin, GPIO_PIN_RESET);
-    HAL_Delay(18);
+    osDelay(18);
     HAL_GPIO_WritePin(handle->config.gpio_port, handle->config.gpio_pin, GPIO_PIN_SET);
     set_pin_in(handle);
 

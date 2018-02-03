@@ -50,6 +50,6 @@ void lesson5() {
         ssd1306_WriteString(hum, Font_7x10, White);
 
         ssd1306_UpdateScreen();
-        HAL_Delay(1000);
+        HAL_Delay(300);
     }
 }

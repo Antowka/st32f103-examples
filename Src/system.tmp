@@ -14,9 +14,9 @@
 #t/* DebugMonitor_IRQn interrupt configuration */
 #tNVIC_SetPriority(DebugMonitor_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),0, 0));
 #t/* PendSV_IRQn interrupt configuration */
-#tNVIC_SetPriority(PendSV_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),0, 0));
+#tNVIC_SetPriority(PendSV_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),15, 0));
 #t/* SysTick_IRQn interrupt configuration */
-#tNVIC_SetPriority(SysTick_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),0, 0));
+#tNVIC_SetPriority(SysTick_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),15, 0));
 #n
 #t#t/**NOJTAG: JTAG-DP Disabled and SW-DP Enabled #n#t#t*/
 #t__HAL_AFIO_REMAP_SWJ_NOJTAG();

@@ -27,6 +27,9 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../Middlewares/Third_Party/FreeRTOS/Source/include"
+  "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
+  "../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"
   "/opt/cross/arm-none-eabi/include"
   "../UserSrc/Lib/ssd1306/Inc"
   "../UserSrc/Lib/syscall/Inc"

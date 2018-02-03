@@ -45,6 +45,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
@@ -73,6 +76,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
@@ -101,6 +107,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
@@ -129,6 +138,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
@@ -157,6 +169,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
@@ -185,6 +200,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
@@ -213,6 +231,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
@@ -241,6 +262,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
@@ -269,6 +293,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
@@ -297,6 +324,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
@@ -312,6 +342,68 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 HAL/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FREERTOS">
+				<Option output="/home/anton/Desktop/Projects/STM32/blink/build/libFREERTOS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anton/Desktop/Projects/STM32/blink/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Inc"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include-fixed"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 FREERTOS"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FREERTOS/fast">
+				<Option output="/home/anton/Desktop/Projects/STM32/blink/build/libFREERTOS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anton/Desktop/Projects/STM32/blink/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Inc"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include-fixed"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 FREERTOS/fast"/>
 					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
@@ -370,13 +462,49 @@
 			<Option target="blink.elf"/>
 			<Option target="HAL"/>
 		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="FREERTOS"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="FREERTOS"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="FREERTOS"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="FREERTOS"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="FREERTOS"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c">
+			<Option target="FREERTOS"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="FREERTOS"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="FREERTOS"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="FREERTOS"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="FREERTOS"/>
+		</Unit>
 		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/STM32F103C8Tx_FLASH.ld">
+			<Option target="blink.elf"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/freertos.c">
 			<Option target="blink.elf"/>
 		</Unit>
 		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/main.c">
 			<Option target="blink.elf"/>
 		</Unit>
 		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_msp.c">
+			<Option target="blink.elf"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_timebase_TIM.c">
 			<Option target="blink.elf"/>
 		</Unit>
 		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_it.c">
@@ -421,6 +549,9 @@
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/STM32F103C8Tx.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/RTOS.cmake">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

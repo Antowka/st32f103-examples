@@ -2,6 +2,13 @@ Archive member included to satisfy reference by file (symbol)
 
 libCMSIS.a(startup_stm32f103xb.s.obj)
                               (Reset_Handler)
+libFREERTOS.a(cmsis_os.c.obj)
+                              CMakeFiles/blink.elf.dir/Src/main.c.obj (osKernelStart)
+libFREERTOS.a(port.c.obj)     libFREERTOS.a(cmsis_os.c.obj) (vPortEnterCritical)
+libFREERTOS.a(heap_4.c.obj)   libFREERTOS.a(cmsis_os.c.obj) (pvPortMalloc)
+libFREERTOS.a(queue.c.obj)    libFREERTOS.a(cmsis_os.c.obj) (xQueueGenericCreate)
+libFREERTOS.a(tasks.c.obj)    libFREERTOS.a(port.c.obj) (pxCurrentTCB)
+libFREERTOS.a(list.c.obj)     libFREERTOS.a(queue.c.obj) (vListInitialise)
 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-atexit.o)
                               /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/crt0.o (atexit)
 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-exit.o)
@@ -12,6 +19,8 @@ libCMSIS.a(startup_stm32f103xb.s.obj)
                               /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-exit.o) (_global_impure_ptr)
 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
                               /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/crt0.o (__libc_init_array)
+/opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
+                              libFREERTOS.a(queue.c.obj) (memcpy)
 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memset.o)
                               /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/crt0.o (memset)
 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
@@ -38,8 +47,6 @@ libCMSIS.a(startup_stm32f103xb.s.obj)
                               /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o) (__ssputs_r)
 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
                               /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o) (_free_r)
-/opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
-                              /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o) (memcpy)
 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
                               /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o) (memmove)
 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
@@ -71,6 +78,18 @@ Discarded input sections
  .debug_str     0x0000000000000000       0x87 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/crt0.o
  .ARM.attributes
                 0x0000000000000000       0x21 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/crt0.o
+ .text          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Src/freertos.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Src/freertos.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Src/freertos.c.obj
+ .debug_info    0x0000000000000000       0x8c CMakeFiles/blink.elf.dir/Src/freertos.c.obj
+ .debug_abbrev  0x0000000000000000       0x44 CMakeFiles/blink.elf.dir/Src/freertos.c.obj
+ .debug_aranges
+                0x0000000000000000       0x18 CMakeFiles/blink.elf.dir/Src/freertos.c.obj
+ .debug_line    0x0000000000000000       0xcd CMakeFiles/blink.elf.dir/Src/freertos.c.obj
+ .debug_str     0x0000000000000000      0x1ae CMakeFiles/blink.elf.dir/Src/freertos.c.obj
+ .comment       0x0000000000000000       0x12 CMakeFiles/blink.elf.dir/Src/freertos.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x33 CMakeFiles/blink.elf.dir/Src/freertos.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Src/main.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Src/main.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Src/main.c.obj
@@ -81,6 +100,15 @@ Discarded input sections
                 0x0000000000000000       0x3c CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
  .text.HAL_TIM_IC_MspDeInit
                 0x0000000000000000       0x40 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
+ .bss.uwIncrementState
+                0x0000000000000000        0x4 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
+ .text.HAL_SuspendTick
+                0x0000000000000000       0x20 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
+ .text.HAL_ResumeTick
+                0x0000000000000000       0x20 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
@@ -98,6 +126,8 @@ Discarded input sections
                 0x0000000000000000        0xc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .text.HAL_MspDeInit
                 0x0000000000000000        0xc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .text.HAL_InitTick
+                0x0000000000000000       0x38 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .text.HAL_SuspendTick
                 0x0000000000000000       0x1c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .text.HAL_ResumeTick
@@ -157,6 +187,10 @@ Discarded input sections
                 0x0000000000000000       0x1c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.HAL_NVIC_GetActive
                 0x0000000000000000       0x1e CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .text.HAL_SYSTICK_IRQHandler
+                0x0000000000000000        0xc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .text.HAL_SYSTICK_Callback
+                0x0000000000000000        0xc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
@@ -521,8 +555,6 @@ Discarded input sections
                 0x0000000000000000       0x28 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_GetOscConfig
                 0x0000000000000000      0x104 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .text.HAL_RCC_GetClockConfig
-                0x0000000000000000       0x60 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_NMI_IRQHandler
                 0x0000000000000000       0x28 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_CSSCallback
@@ -551,20 +583,14 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .text.HAL_TIM_Base_Init
-                0x0000000000000000       0x56 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.HAL_TIM_Base_DeInit
                 0x0000000000000000       0x60 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .text.HAL_TIM_Base_MspInit
-                0x0000000000000000       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.HAL_TIM_Base_MspDeInit
                 0x0000000000000000       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.HAL_TIM_Base_Start
                 0x0000000000000000       0x34 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.HAL_TIM_Base_Stop
                 0x0000000000000000       0x54 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .text.HAL_TIM_Base_Start_IT
-                0x0000000000000000       0x34 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.HAL_TIM_Base_Stop_IT
                 0x0000000000000000       0x54 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.HAL_TIM_Base_Start_DMA
@@ -687,6 +713,8 @@ Discarded input sections
                 0x0000000000000000       0x6a CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.HAL_TIM_SlaveConfigSynchronization_IT
                 0x0000000000000000       0x6a CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .text.HAL_TIM_PeriodElapsedCallback
+                0x0000000000000000       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.HAL_TIM_ErrorCallback
                 0x0000000000000000       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.HAL_TIM_Base_GetState
@@ -865,6 +893,265 @@ Discarded input sections
  .text          0x0000000000000000       0x14 libCMSIS.a(startup_stm32f103xb.s.obj)
  .data          0x0000000000000000        0x0 libCMSIS.a(startup_stm32f103xb.s.obj)
  .bss           0x0000000000000000        0x0 libCMSIS.a(startup_stm32f103xb.s.obj)
+ .text          0x0000000000000000        0x0 libFREERTOS.a(cmsis_os.c.obj)
+ .data          0x0000000000000000        0x0 libFREERTOS.a(cmsis_os.c.obj)
+ .bss           0x0000000000000000        0x0 libFREERTOS.a(cmsis_os.c.obj)
+ .text.makeCmsisPriority
+                0x0000000000000000       0x2a libFREERTOS.a(cmsis_os.c.obj)
+ .text.inHandlerMode
+                0x0000000000000000       0x22 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osKernelRunning
+                0x0000000000000000       0x18 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osKernelSysTick
+                0x0000000000000000       0x20 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osThreadGetId
+                0x0000000000000000        0xe libFREERTOS.a(cmsis_os.c.obj)
+ .text.osThreadTerminate
+                0x0000000000000000       0x18 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osThreadYield
+                0x0000000000000000       0x24 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osThreadSetPriority
+                0x0000000000000000       0x2a libFREERTOS.a(cmsis_os.c.obj)
+ .text.osThreadGetPriority
+                0x0000000000000000       0x3c libFREERTOS.a(cmsis_os.c.obj)
+ .text.osTimerCreate
+                0x0000000000000000       0x1a libFREERTOS.a(cmsis_os.c.obj)
+ .text.osTimerStart
+                0x0000000000000000       0x1e libFREERTOS.a(cmsis_os.c.obj)
+ .text.osTimerStop
+                0x0000000000000000       0x1c libFREERTOS.a(cmsis_os.c.obj)
+ .text.osTimerDelete
+                0x0000000000000000       0x1c libFREERTOS.a(cmsis_os.c.obj)
+ .text.osSignalSet
+                0x0000000000000000       0x80 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osSignalWait
+                0x0000000000000000       0x98 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMutexCreate
+                0x0000000000000000       0x18 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMutexWait
+                0x0000000000000000       0xa0 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMutexRelease
+                0x0000000000000000       0x6c libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMutexDelete
+                0x0000000000000000       0x26 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osSemaphoreCreate
+                0x0000000000000000       0x3c libFREERTOS.a(cmsis_os.c.obj)
+ .text.osSemaphoreWait
+                0x0000000000000000       0xa0 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osSemaphoreRelease
+                0x0000000000000000       0x6c libFREERTOS.a(cmsis_os.c.obj)
+ .text.osSemaphoreDelete
+                0x0000000000000000       0x26 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osPoolCreate
+                0x0000000000000000       0xba libFREERTOS.a(cmsis_os.c.obj)
+ .text.osPoolAlloc
+                0x0000000000000000       0xc4 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osPoolCAlloc
+                0x0000000000000000       0x2a libFREERTOS.a(cmsis_os.c.obj)
+ .text.osPoolFree
+                0x0000000000000000       0x80 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMessageCreate
+                0x0000000000000000       0x24 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMessagePut
+                0x0000000000000000       0x80 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMessageGet
+                0x0000000000000000       0xe8 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMailCreate
+                0x0000000000000000       0xb0 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMailAlloc
+                0x0000000000000000       0x2a libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMailCAlloc
+                0x0000000000000000       0x46 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMailPut
+                0x0000000000000000       0x7c libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMailGet
+                0x0000000000000000       0xe8 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMailFree
+                0x0000000000000000       0x2a libFREERTOS.a(cmsis_os.c.obj)
+ .text.osThreadSuspend
+                0x0000000000000000       0x18 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osThreadResume
+                0x0000000000000000       0x44 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osThreadSuspendAll
+                0x0000000000000000        0xe libFREERTOS.a(cmsis_os.c.obj)
+ .text.osThreadResumeAll
+                0x0000000000000000       0x18 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osDelayUntil
+                0x0000000000000000       0x16 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osAbortDelay
+                0x0000000000000000       0x14 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osThreadList
+                0x0000000000000000       0x14 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMessagePeek
+                0x0000000000000000       0x96 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMessageWaiting
+                0x0000000000000000       0x2c libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMessageAvailableSpace
+                0x0000000000000000       0x18 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osMessageDelete
+                0x0000000000000000       0x26 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osRecursiveMutexCreate
+                0x0000000000000000       0x14 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osRecursiveMutexRelease
+                0x0000000000000000       0x14 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osRecursiveMutexWait
+                0x0000000000000000       0x16 libFREERTOS.a(cmsis_os.c.obj)
+ .text.osSemaphoreGetCount
+                0x0000000000000000       0x18 libFREERTOS.a(cmsis_os.c.obj)
+ .text          0x0000000000000000        0x0 libFREERTOS.a(port.c.obj)
+ .data          0x0000000000000000        0x0 libFREERTOS.a(port.c.obj)
+ .bss           0x0000000000000000        0x0 libFREERTOS.a(port.c.obj)
+ .rodata.pcInterruptPriorityRegisters
+                0x0000000000000000        0x4 libFREERTOS.a(port.c.obj)
+ .text.vPortEndScheduler
+                0x0000000000000000       0x34 libFREERTOS.a(port.c.obj)
+ .text.vPortValidateInterruptPriority
+                0x0000000000000000       0x78 libFREERTOS.a(port.c.obj)
+ .text          0x0000000000000000        0x0 libFREERTOS.a(heap_4.c.obj)
+ .data          0x0000000000000000        0x0 libFREERTOS.a(heap_4.c.obj)
+ .bss           0x0000000000000000        0x0 libFREERTOS.a(heap_4.c.obj)
+ .rodata.xHeapStructSize
+                0x0000000000000000        0x4 libFREERTOS.a(heap_4.c.obj)
+ .text.xPortGetFreeHeapSize
+                0x0000000000000000       0x14 libFREERTOS.a(heap_4.c.obj)
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x0000000000000000       0x14 libFREERTOS.a(heap_4.c.obj)
+ .text.vPortInitialiseBlocks
+                0x0000000000000000        0xc libFREERTOS.a(heap_4.c.obj)
+ .text          0x0000000000000000        0x0 libFREERTOS.a(queue.c.obj)
+ .data          0x0000000000000000        0x0 libFREERTOS.a(queue.c.obj)
+ .bss           0x0000000000000000        0x0 libFREERTOS.a(queue.c.obj)
+ .bss.xQueueRegistry
+                0x0000000000000000       0x40 libFREERTOS.a(queue.c.obj)
+ .text.xQueueGenericReset
+                0x0000000000000000       0xd0 libFREERTOS.a(queue.c.obj)
+ .text.xQueueGenericCreate
+                0x0000000000000000       0x72 libFREERTOS.a(queue.c.obj)
+ .text.prvInitialiseNewQueue
+                0x0000000000000000       0x3e libFREERTOS.a(queue.c.obj)
+ .text.prvInitialiseMutex
+                0x0000000000000000       0x34 libFREERTOS.a(queue.c.obj)
+ .text.xQueueCreateMutex
+                0x0000000000000000       0x30 libFREERTOS.a(queue.c.obj)
+ .text.xQueueGenericSend
+                0x0000000000000000      0x1f4 libFREERTOS.a(queue.c.obj)
+ .text.xQueueGenericSendFromISR
+                0x0000000000000000      0x128 libFREERTOS.a(queue.c.obj)
+ .text.xQueueGiveFromISR
+                0x0000000000000000      0x112 libFREERTOS.a(queue.c.obj)
+ .text.xQueueGenericReceive
+                0x0000000000000000      0x224 libFREERTOS.a(queue.c.obj)
+ .text.xQueueReceiveFromISR
+                0x0000000000000000       0xfa libFREERTOS.a(queue.c.obj)
+ .text.xQueuePeekFromISR
+                0x0000000000000000       0xca libFREERTOS.a(queue.c.obj)
+ .text.uxQueueMessagesWaiting
+                0x0000000000000000       0x3a libFREERTOS.a(queue.c.obj)
+ .text.uxQueueSpacesAvailable
+                0x0000000000000000       0x44 libFREERTOS.a(queue.c.obj)
+ .text.uxQueueMessagesWaitingFromISR
+                0x0000000000000000       0x34 libFREERTOS.a(queue.c.obj)
+ .text.vQueueDelete
+                0x0000000000000000       0x3a libFREERTOS.a(queue.c.obj)
+ .text.prvCopyDataToQueue
+                0x0000000000000000       0xd4 libFREERTOS.a(queue.c.obj)
+ .text.prvCopyDataFromQueue
+                0x0000000000000000       0x4c libFREERTOS.a(queue.c.obj)
+ .text.prvUnlockQueue
+                0x0000000000000000       0xa4 libFREERTOS.a(queue.c.obj)
+ .text.prvIsQueueEmpty
+                0x0000000000000000       0x2c libFREERTOS.a(queue.c.obj)
+ .text.xQueueIsQueueEmptyFromISR
+                0x0000000000000000       0x40 libFREERTOS.a(queue.c.obj)
+ .text.prvIsQueueFull
+                0x0000000000000000       0x30 libFREERTOS.a(queue.c.obj)
+ .text.xQueueIsQueueFullFromISR
+                0x0000000000000000       0x44 libFREERTOS.a(queue.c.obj)
+ .text.vQueueAddToRegistry
+                0x0000000000000000       0x50 libFREERTOS.a(queue.c.obj)
+ .text.pcQueueGetName
+                0x0000000000000000       0x4c libFREERTOS.a(queue.c.obj)
+ .text.vQueueUnregisterQueue
+                0x0000000000000000       0x50 libFREERTOS.a(queue.c.obj)
+ .debug_info    0x0000000000000000     0x19a2 libFREERTOS.a(queue.c.obj)
+ .debug_abbrev  0x0000000000000000      0x30a libFREERTOS.a(queue.c.obj)
+ .debug_aranges
+                0x0000000000000000       0xe0 libFREERTOS.a(queue.c.obj)
+ .debug_ranges  0x0000000000000000       0xd0 libFREERTOS.a(queue.c.obj)
+ .debug_line    0x0000000000000000      0x97d libFREERTOS.a(queue.c.obj)
+ .debug_str     0x0000000000000000      0xb92 libFREERTOS.a(queue.c.obj)
+ .comment       0x0000000000000000       0x12 libFREERTOS.a(queue.c.obj)
+ .debug_frame   0x0000000000000000      0x3b0 libFREERTOS.a(queue.c.obj)
+ .ARM.attributes
+                0x0000000000000000       0x33 libFREERTOS.a(queue.c.obj)
+ .text          0x0000000000000000        0x0 libFREERTOS.a(tasks.c.obj)
+ .data          0x0000000000000000        0x0 libFREERTOS.a(tasks.c.obj)
+ .bss           0x0000000000000000        0x0 libFREERTOS.a(tasks.c.obj)
+ .text.vTaskDelete
+                0x0000000000000000      0x11c libFREERTOS.a(tasks.c.obj)
+ .text.uxTaskPriorityGet
+                0x0000000000000000       0x34 libFREERTOS.a(tasks.c.obj)
+ .text.uxTaskPriorityGetFromISR
+                0x0000000000000000       0x58 libFREERTOS.a(tasks.c.obj)
+ .text.vTaskPrioritySet
+                0x0000000000000000      0x15c libFREERTOS.a(tasks.c.obj)
+ .text.vTaskSuspend
+                0x0000000000000000      0x110 libFREERTOS.a(tasks.c.obj)
+ .text.prvTaskIsTaskSuspended
+                0x0000000000000000       0x74 libFREERTOS.a(tasks.c.obj)
+ .text.vTaskResume
+                0x0000000000000000       0xb8 libFREERTOS.a(tasks.c.obj)
+ .text.xTaskResumeFromISR
+                0x0000000000000000       0xe0 libFREERTOS.a(tasks.c.obj)
+ .text.vTaskEndScheduler
+                0x0000000000000000       0x30 libFREERTOS.a(tasks.c.obj)
+ .text.xTaskGetTickCount
+                0x0000000000000000       0x1c libFREERTOS.a(tasks.c.obj)
+ .text.xTaskGetTickCountFromISR
+                0x0000000000000000       0x24 libFREERTOS.a(tasks.c.obj)
+ .text.uxTaskGetNumberOfTasks
+                0x0000000000000000       0x14 libFREERTOS.a(tasks.c.obj)
+ .text.pcTaskGetName
+                0x0000000000000000       0x44 libFREERTOS.a(tasks.c.obj)
+ .text.vTaskPlaceOnEventList
+                0x0000000000000000       0x48 libFREERTOS.a(tasks.c.obj)
+ .text.vTaskPlaceOnUnorderedEventList
+                0x0000000000000000       0x74 libFREERTOS.a(tasks.c.obj)
+ .text.xTaskRemoveFromEventList
+                0x0000000000000000       0xc4 libFREERTOS.a(tasks.c.obj)
+ .text.xTaskRemoveFromUnorderedEventList
+                0x0000000000000000       0xcc libFREERTOS.a(tasks.c.obj)
+ .text.vTaskSetTimeOutState
+                0x0000000000000000       0x44 libFREERTOS.a(tasks.c.obj)
+ .text.xTaskCheckForTimeOut
+                0x0000000000000000       0xbc libFREERTOS.a(tasks.c.obj)
+ .text.vTaskMissedYield
+                0x0000000000000000       0x18 libFREERTOS.a(tasks.c.obj)
+ .text.xTaskGetCurrentTaskHandle
+                0x0000000000000000       0x1c libFREERTOS.a(tasks.c.obj)
+ .text.vTaskPriorityInherit
+                0x0000000000000000       0xec libFREERTOS.a(tasks.c.obj)
+ .text.xTaskPriorityDisinherit
+                0x0000000000000000      0x108 libFREERTOS.a(tasks.c.obj)
+ .text.uxTaskResetEventItemValue
+                0x0000000000000000       0x30 libFREERTOS.a(tasks.c.obj)
+ .text.pvTaskIncrementMutexHeldCount
+                0x0000000000000000       0x28 libFREERTOS.a(tasks.c.obj)
+ .text.ulTaskNotifyTake
+                0x0000000000000000       0x90 libFREERTOS.a(tasks.c.obj)
+ .text.xTaskNotifyWait
+                0x0000000000000000       0xb4 libFREERTOS.a(tasks.c.obj)
+ .text.xTaskGenericNotify
+                0x0000000000000000      0x140 libFREERTOS.a(tasks.c.obj)
+ .text.xTaskGenericNotifyFromISR
+                0x0000000000000000      0x18c libFREERTOS.a(tasks.c.obj)
+ .text.vTaskNotifyGiveFromISR
+                0x0000000000000000      0x120 libFREERTOS.a(tasks.c.obj)
+ .text.xTaskNotifyStateClear
+                0x0000000000000000       0x4c libFREERTOS.a(tasks.c.obj)
+ .text          0x0000000000000000        0x0 libFREERTOS.a(list.c.obj)
+ .data          0x0000000000000000        0x0 libFREERTOS.a(list.c.obj)
+ .bss           0x0000000000000000        0x0 libFREERTOS.a(list.c.obj)
  .text          0x0000000000000000        0xc /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-atexit.o)
  .data          0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-atexit.o)
  .bss           0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-atexit.o)
@@ -912,6 +1199,8 @@ Discarded input sections
  .rodata        0x0000000000000000        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-impure.o)
  .data          0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
  .bss           0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
  .text          0x0000000000000000       0x94 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memset.o)
  .data          0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memset.o)
  .bss           0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memset.o)
@@ -973,8 +1262,6 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
  .data          0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
  .bss           0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
- .data          0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
- .bss           0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
  .data          0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
  .bss           0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
  .data          0x0000000000000000        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
@@ -1002,8 +1289,10 @@ Linker script and memory map
 LOAD /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crti.o
 LOAD /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
 LOAD /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/crt0.o
+LOAD CMakeFiles/blink.elf.dir/Src/freertos.c.obj
 LOAD CMakeFiles/blink.elf.dir/Src/main.c.obj
 LOAD CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+LOAD CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
 LOAD CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
 LOAD CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
 LOAD CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -1030,6 +1319,7 @@ LOAD libHAL.a
 LOAD libCMSIS.a
 LOAD libUSERSRC.a
 LOAD libLIBS.a
+LOAD libFREERTOS.a
 START GROUP
 LOAD /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/libgcc.a
 LOAD /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a
@@ -1048,434 +1338,552 @@ LOAD /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
                 0x0000000008000000                g_pfnVectors
                 0x000000000800010c                . = ALIGN (0x4)
 
-.text           0x000000000800010c     0x4de4
-                0x000000000800010c                . = ALIGN (0x4)
+.text           0x0000000008000110     0x621c
+                0x0000000008000110                . = ALIGN (0x4)
  *(.text)
- .text          0x000000000800010c       0x88 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
- .text          0x0000000008000194       0x48 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
-                0x0000000008000194                __libc_init_array
- .text          0x00000000080001dc      0x10c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
-                0x00000000080001dc                _snprintf_r
-                0x000000000800025c                snprintf
- .text          0x00000000080002e8       0x80 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
-                0x00000000080002e8                _sprintf_r
-                0x0000000008000324                sprintf
- .text          0x0000000008000368      0x6d4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
-                0x0000000008000368                _svfprintf_r
- .text          0x0000000008000a3c      0x518 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
-                0x0000000008000a3c                _malloc_r
- .text          0x0000000008000f54       0x8c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
-                0x0000000008000f54                memchr
- .text          0x0000000008000fe0        0x8 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
-                0x0000000008000fe0                __malloc_lock
-                0x0000000008000fe4                __malloc_unlock
- .text          0x0000000008000fe8       0x24 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
-                0x0000000008000fe8                _sbrk_r
- .text          0x000000000800100c       0x5c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
-                0x000000000800100c                strlen
- .text          0x0000000008001068      0x880 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
-                0x0000000008001068                __ssputs_r
-                0x000000000800112c                __ssprint_r
-                0x0000000008001220                _svfiprintf_r
- .text          0x00000000080018e8      0x288 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
-                0x00000000080018e8                _malloc_trim_r
-                0x0000000008001988                _free_r
- .text          0x0000000008001b70       0xec /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
-                0x0000000008001b70                memcpy
- .text          0x0000000008001c5c       0xc4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
-                0x0000000008001c5c                memmove
- .text          0x0000000008001d20      0x374 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
-                0x0000000008001d20                _realloc_r
+ .text          0x0000000008000110       0x88 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+ .text          0x0000000008000198       0x48 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+                0x0000000008000198                __libc_init_array
+ .text          0x00000000080001e0       0xec /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
+                0x00000000080001e0                memcpy
+ .text          0x00000000080002cc      0x10c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
+                0x00000000080002cc                _snprintf_r
+                0x000000000800034c                snprintf
+ .text          0x00000000080003d8       0x80 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
+                0x00000000080003d8                _sprintf_r
+                0x0000000008000414                sprintf
+ .text          0x0000000008000458      0x6d4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
+                0x0000000008000458                _svfprintf_r
+ .text          0x0000000008000b2c      0x518 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
+                0x0000000008000b2c                _malloc_r
+ .text          0x0000000008001044       0x8c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
+                0x0000000008001044                memchr
+ .text          0x00000000080010d0        0x8 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
+                0x00000000080010d0                __malloc_lock
+                0x00000000080010d4                __malloc_unlock
+ .text          0x00000000080010d8       0x24 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
+                0x00000000080010d8                _sbrk_r
+ .text          0x00000000080010fc       0x5c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
+                0x00000000080010fc                strlen
+ .text          0x0000000008001158      0x880 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
+                0x0000000008001158                __ssputs_r
+                0x000000000800121c                __ssprint_r
+                0x0000000008001310                _svfiprintf_r
+ .text          0x00000000080019d8      0x288 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
+                0x00000000080019d8                _malloc_trim_r
+                0x0000000008001a78                _free_r
+ .text          0x0000000008001c60       0xc4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
+                0x0000000008001c60                memmove
+ .text          0x0000000008001d24      0x374 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
+                0x0000000008001d24                _realloc_r
  *(.text*)
- .text.main     0x0000000008002094       0x1e CMakeFiles/blink.elf.dir/Src/main.c.obj
-                0x0000000008002094                main
- *fill*         0x00000000080020b2        0x2 
+ .text.main     0x0000000008002098       0x70 CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x0000000008002098                main
  .text.SystemClock_Config
-                0x00000000080020b4       0xa4 CMakeFiles/blink.elf.dir/Src/main.c.obj
-                0x00000000080020b4                SystemClock_Config
+                0x0000000008002108       0xa4 CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x0000000008002108                SystemClock_Config
  .text.MX_I2C1_Init
-                0x0000000008002158       0x64 CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x00000000080021ac       0x64 CMakeFiles/blink.elf.dir/Src/main.c.obj
  .text.MX_TIM3_Init
-                0x00000000080021bc       0xa0 CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x0000000008002210       0xa4 CMakeFiles/blink.elf.dir/Src/main.c.obj
  .text.MX_GPIO_Init
-                0x000000000800225c       0x9c CMakeFiles/blink.elf.dir/Src/main.c.obj
- .text._Error_Handler
-                0x00000000080022f8        0xc CMakeFiles/blink.elf.dir/Src/main.c.obj
-                0x00000000080022f8                _Error_Handler
- .text.HAL_MspInit
-                0x0000000008002304       0xa0 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
-                0x0000000008002304                HAL_MspInit
- .text.HAL_I2C_MspInit
-                0x00000000080023a4       0x58 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
-                0x00000000080023a4                HAL_I2C_MspInit
- .text.HAL_TIM_IC_MspInit
-                0x00000000080023fc       0x68 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
-                0x00000000080023fc                HAL_TIM_IC_MspInit
- .text.NMI_Handler
-                0x0000000008002464        0xc CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
-                0x0000000008002464                NMI_Handler
- .text.HardFault_Handler
-                0x0000000008002470        0x6 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
-                0x0000000008002470                HardFault_Handler
- .text.MemManage_Handler
-                0x0000000008002476        0x6 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
-                0x0000000008002476                MemManage_Handler
- .text.BusFault_Handler
-                0x000000000800247c        0x6 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
-                0x000000000800247c                BusFault_Handler
- .text.UsageFault_Handler
-                0x0000000008002482        0x6 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
-                0x0000000008002482                UsageFault_Handler
- .text.SVC_Handler
-                0x0000000008002488        0xc CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
-                0x0000000008002488                SVC_Handler
- .text.DebugMon_Handler
-                0x0000000008002494        0xc CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
-                0x0000000008002494                DebugMon_Handler
- .text.PendSV_Handler
-                0x00000000080024a0        0xc CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
-                0x00000000080024a0                PendSV_Handler
- .text.SysTick_Handler
-                0x00000000080024ac       0x10 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
-                0x00000000080024ac                SysTick_Handler
- .text.TIM3_IRQHandler
-                0x00000000080024bc       0x1c CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
-                0x00000000080024bc                TIM3_IRQHandler
- .text.SystemInit
-                0x00000000080024d8       0x68 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
-                0x00000000080024d8                SystemInit
- .text.HAL_Init
-                0x0000000008002540       0x2c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0000000008002540                HAL_Init
- .text.HAL_InitTick
-                0x000000000800256c       0x38 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x000000000800256c                HAL_InitTick
- .text.HAL_IncTick
-                0x00000000080025a4       0x1c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x00000000080025a4                HAL_IncTick
- .text.HAL_GetTick
-                0x00000000080025c0       0x14 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x00000000080025c0                HAL_GetTick
- .text.HAL_Delay
-                0x00000000080025d4       0x3a CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x00000000080025d4                HAL_Delay
- *fill*         0x000000000800260e        0x2 
- .text.NVIC_SetPriorityGrouping
-                0x0000000008002610       0x48 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .text.NVIC_GetPriorityGrouping
-                0x0000000008002658       0x1c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .text.NVIC_EnableIRQ
-                0x0000000008002674       0x30 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .text.NVIC_SetPriority
-                0x00000000080026a4       0x54 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .text.NVIC_EncodePriority
-                0x00000000080026f8       0x64 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .text.SysTick_Config
-                0x000000000800275c       0x44 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .text.HAL_NVIC_SetPriorityGrouping
-                0x00000000080027a0       0x16 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x00000000080027a0                HAL_NVIC_SetPriorityGrouping
- .text.HAL_NVIC_SetPriority
-                0x00000000080027b6       0x38 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x00000000080027b6                HAL_NVIC_SetPriority
- .text.HAL_NVIC_EnableIRQ
-                0x00000000080027ee       0x1c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x00000000080027ee                HAL_NVIC_EnableIRQ
- .text.HAL_SYSTICK_Config
-                0x000000000800280a       0x18 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x000000000800280a                HAL_SYSTICK_Config
- *fill*         0x0000000008002822        0x2 
- .text.HAL_SYSTICK_CLKSourceConfig
-                0x0000000008002824       0x38 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0000000008002824                HAL_SYSTICK_CLKSourceConfig
- .text.HAL_SYSTICK_IRQHandler
-                0x000000000800285c        0xc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x000000000800285c                HAL_SYSTICK_IRQHandler
- .text.HAL_SYSTICK_Callback
-                0x0000000008002868        0xc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0000000008002868                HAL_SYSTICK_Callback
- .text.HAL_GPIO_Init
-                0x0000000008002874      0x2bc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x0000000008002874                HAL_GPIO_Init
- .text.HAL_GPIO_WritePin
-                0x0000000008002b30       0x30 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x0000000008002b30                HAL_GPIO_WritePin
- .text.HAL_I2C_Init
-                0x0000000008002b60      0x1c0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-                0x0000000008002b60                HAL_I2C_Init
- .text.HAL_I2C_Mem_Write
-                0x0000000008002d20      0x214 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-                0x0000000008002d20                HAL_I2C_Mem_Write
- .text.I2C_RequestMemoryWrite
-                0x0000000008002f34      0x128 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .text.I2C_WaitOnFlagUntilTimeout
-                0x000000000800305c       0xa2 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .text.I2C_WaitOnMasterAddressFlagUntilTimeout
-                0x00000000080030fe       0xdc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .text.I2C_WaitOnTXEFlagUntilTimeout
-                0x00000000080031da       0x7a CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .text.I2C_WaitOnBTFFlagUntilTimeout
-                0x0000000008003254       0x7a CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .text.I2C_IsAcknowledgeFailed
-                0x00000000080032ce       0x4e CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .text.HAL_RCC_OscConfig
-                0x000000000800331c      0x4c8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x000000000800331c                HAL_RCC_OscConfig
- .text.HAL_RCC_ClockConfig
-                0x00000000080037e4      0x1e8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x00000000080037e4                HAL_RCC_ClockConfig
- .text.HAL_RCC_GetSysClockFreq
-                0x00000000080039cc       0xc4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x00000000080039cc                HAL_RCC_GetSysClockFreq
- .text.HAL_RCC_GetHCLKFreq
-                0x0000000008003a90       0x14 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x0000000008003a90                HAL_RCC_GetHCLKFreq
- .text.HAL_RCC_GetPCLK1Freq
-                0x0000000008003aa4       0x28 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x0000000008003aa4                HAL_RCC_GetPCLK1Freq
- .text.RCC_Delay
-                0x0000000008003acc       0x3c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .text.HAL_TIM_IC_Init
-                0x0000000008003b08       0x56 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0000000008003b08                HAL_TIM_IC_Init
- *fill*         0x0000000008003b5e        0x2 
- .text.HAL_TIM_IC_Start_IT
-                0x0000000008003b60       0xc0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0000000008003b60                HAL_TIM_IC_Start_IT
- .text.HAL_TIM_IC_Stop_IT
-                0x0000000008003c20       0xe0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0000000008003c20                HAL_TIM_IC_Stop_IT
- .text.HAL_TIM_IRQHandler
-                0x0000000008003d00      0x210 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0000000008003d00                HAL_TIM_IRQHandler
- .text.HAL_TIM_IC_ConfigChannel
-                0x0000000008003f10      0x138 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0000000008003f10                HAL_TIM_IC_ConfigChannel
- .text.HAL_TIM_ReadCapturedValue
-                0x0000000008004048       0xa4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0000000008004048                HAL_TIM_ReadCapturedValue
+                0x00000000080022b4       0x9c CMakeFiles/blink.elf.dir/Src/main.c.obj
+ .text.SecondTaskDefaultTask
+                0x0000000008002350       0x34 CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x0000000008002350                SecondTaskDefaultTask
+ .text.StartDefaultTask
+                0x0000000008002384       0x14 CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x0000000008002384                StartDefaultTask
  .text.HAL_TIM_PeriodElapsedCallback
-                0x00000000080040ec       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x00000000080040ec                HAL_TIM_PeriodElapsedCallback
+                0x0000000008002398       0x24 CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x0000000008002398                HAL_TIM_PeriodElapsedCallback
+ .text._Error_Handler
+                0x00000000080023bc        0xc CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x00000000080023bc                _Error_Handler
+ .text.HAL_MspInit
+                0x00000000080023c8       0xa0 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+                0x00000000080023c8                HAL_MspInit
+ .text.HAL_I2C_MspInit
+                0x0000000008002468       0x58 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+                0x0000000008002468                HAL_I2C_MspInit
+ .text.HAL_TIM_IC_MspInit
+                0x00000000080024c0       0x68 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+                0x00000000080024c0                HAL_TIM_IC_MspInit
+ .text.HAL_InitTick
+                0x0000000008002528       0xb0 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
+                0x0000000008002528                HAL_InitTick
+ .text.NMI_Handler
+                0x00000000080025d8        0xc CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+                0x00000000080025d8                NMI_Handler
+ .text.HardFault_Handler
+                0x00000000080025e4        0x6 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+                0x00000000080025e4                HardFault_Handler
+ .text.MemManage_Handler
+                0x00000000080025ea        0x6 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+                0x00000000080025ea                MemManage_Handler
+ .text.BusFault_Handler
+                0x00000000080025f0        0x6 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+                0x00000000080025f0                BusFault_Handler
+ .text.UsageFault_Handler
+                0x00000000080025f6        0x6 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+                0x00000000080025f6                UsageFault_Handler
+ .text.DebugMon_Handler
+                0x00000000080025fc        0xc CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+                0x00000000080025fc                DebugMon_Handler
+ .text.SysTick_Handler
+                0x0000000008002608        0xc CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+                0x0000000008002608                SysTick_Handler
+ .text.TIM3_IRQHandler
+                0x0000000008002614       0x1c CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+                0x0000000008002614                TIM3_IRQHandler
+ .text.TIM4_IRQHandler
+                0x0000000008002630       0x14 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+                0x0000000008002630                TIM4_IRQHandler
+ .text.SystemInit
+                0x0000000008002644       0x68 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+                0x0000000008002644                SystemInit
+ .text.HAL_Init
+                0x00000000080026ac       0x2c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x00000000080026ac                HAL_Init
+ .text.HAL_IncTick
+                0x00000000080026d8       0x1c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x00000000080026d8                HAL_IncTick
+ .text.HAL_GetTick
+                0x00000000080026f4       0x14 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x00000000080026f4                HAL_GetTick
+ .text.HAL_Delay
+                0x0000000008002708       0x3a CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000000008002708                HAL_Delay
+ *fill*         0x0000000008002742        0x2 
+ .text.NVIC_SetPriorityGrouping
+                0x0000000008002744       0x48 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .text.NVIC_GetPriorityGrouping
+                0x000000000800278c       0x1c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .text.NVIC_EnableIRQ
+                0x00000000080027a8       0x30 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .text.NVIC_SetPriority
+                0x00000000080027d8       0x54 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .text.NVIC_EncodePriority
+                0x000000000800282c       0x64 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .text.SysTick_Config
+                0x0000000008002890       0x44 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .text.HAL_NVIC_SetPriorityGrouping
+                0x00000000080028d4       0x16 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x00000000080028d4                HAL_NVIC_SetPriorityGrouping
+ .text.HAL_NVIC_SetPriority
+                0x00000000080028ea       0x38 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x00000000080028ea                HAL_NVIC_SetPriority
+ .text.HAL_NVIC_EnableIRQ
+                0x0000000008002922       0x1c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008002922                HAL_NVIC_EnableIRQ
+ .text.HAL_SYSTICK_Config
+                0x000000000800293e       0x18 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x000000000800293e                HAL_SYSTICK_Config
+ *fill*         0x0000000008002956        0x2 
+ .text.HAL_SYSTICK_CLKSourceConfig
+                0x0000000008002958       0x38 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008002958                HAL_SYSTICK_CLKSourceConfig
+ .text.HAL_GPIO_Init
+                0x0000000008002990      0x2bc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0000000008002990                HAL_GPIO_Init
+ .text.HAL_GPIO_WritePin
+                0x0000000008002c4c       0x30 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0000000008002c4c                HAL_GPIO_WritePin
+ .text.HAL_I2C_Init
+                0x0000000008002c7c      0x1c0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x0000000008002c7c                HAL_I2C_Init
+ .text.HAL_I2C_Mem_Write
+                0x0000000008002e3c      0x214 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x0000000008002e3c                HAL_I2C_Mem_Write
+ .text.I2C_RequestMemoryWrite
+                0x0000000008003050      0x128 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .text.I2C_WaitOnFlagUntilTimeout
+                0x0000000008003178       0xa2 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .text.I2C_WaitOnMasterAddressFlagUntilTimeout
+                0x000000000800321a       0xdc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .text.I2C_WaitOnTXEFlagUntilTimeout
+                0x00000000080032f6       0x7a CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .text.I2C_WaitOnBTFFlagUntilTimeout
+                0x0000000008003370       0x7a CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .text.I2C_IsAcknowledgeFailed
+                0x00000000080033ea       0x4e CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .text.HAL_RCC_OscConfig
+                0x0000000008003438      0x4c8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0000000008003438                HAL_RCC_OscConfig
+ .text.HAL_RCC_ClockConfig
+                0x0000000008003900      0x1e8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0000000008003900                HAL_RCC_ClockConfig
+ .text.HAL_RCC_GetSysClockFreq
+                0x0000000008003ae8       0xc4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0000000008003ae8                HAL_RCC_GetSysClockFreq
+ .text.HAL_RCC_GetHCLKFreq
+                0x0000000008003bac       0x14 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0000000008003bac                HAL_RCC_GetHCLKFreq
+ .text.HAL_RCC_GetPCLK1Freq
+                0x0000000008003bc0       0x28 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0000000008003bc0                HAL_RCC_GetPCLK1Freq
+ .text.HAL_RCC_GetClockConfig
+                0x0000000008003be8       0x60 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0000000008003be8                HAL_RCC_GetClockConfig
+ .text.RCC_Delay
+                0x0000000008003c48       0x3c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .text.HAL_TIM_Base_Init
+                0x0000000008003c84       0x56 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008003c84                HAL_TIM_Base_Init
+ .text.HAL_TIM_Base_MspInit
+                0x0000000008003cda       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008003cda                HAL_TIM_Base_MspInit
+ .text.HAL_TIM_Base_Start_IT
+                0x0000000008003cec       0x34 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008003cec                HAL_TIM_Base_Start_IT
+ .text.HAL_TIM_IC_Init
+                0x0000000008003d20       0x56 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008003d20                HAL_TIM_IC_Init
+ *fill*         0x0000000008003d76        0x2 
+ .text.HAL_TIM_IC_Start_IT
+                0x0000000008003d78       0xc0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008003d78                HAL_TIM_IC_Start_IT
+ .text.HAL_TIM_IC_Stop_IT
+                0x0000000008003e38       0xe0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008003e38                HAL_TIM_IC_Stop_IT
+ .text.HAL_TIM_IRQHandler
+                0x0000000008003f18      0x210 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008003f18                HAL_TIM_IRQHandler
+ .text.HAL_TIM_IC_ConfigChannel
+                0x0000000008004128      0x138 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008004128                HAL_TIM_IC_ConfigChannel
+ .text.HAL_TIM_ReadCapturedValue
+                0x0000000008004260       0xa4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008004260                HAL_TIM_ReadCapturedValue
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x00000000080040fe       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x00000000080040fe                HAL_TIM_OC_DelayElapsedCallback
+                0x0000000008004304       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008004304                HAL_TIM_OC_DelayElapsedCallback
  .text.HAL_TIM_IC_CaptureCallback
-                0x0000000008004110       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0000000008004110                HAL_TIM_IC_CaptureCallback
+                0x0000000008004316       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008004316                HAL_TIM_IC_CaptureCallback
  .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x0000000008004122       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0000000008004122                HAL_TIM_PWM_PulseFinishedCallback
+                0x0000000008004328       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008004328                HAL_TIM_PWM_PulseFinishedCallback
  .text.HAL_TIM_TriggerCallback
-                0x0000000008004134       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0000000008004134                HAL_TIM_TriggerCallback
- *fill*         0x0000000008004146        0x2 
+                0x000000000800433a       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x000000000800433a                HAL_TIM_TriggerCallback
  .text.TIM_Base_SetConfig
-                0x0000000008004148       0xcc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0000000008004148                TIM_Base_SetConfig
+                0x000000000800434c       0xcc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x000000000800434c                TIM_Base_SetConfig
  .text.TIM_TI1_SetConfig
-                0x0000000008004214       0xbc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0000000008004214                TIM_TI1_SetConfig
+                0x0000000008004418       0xbc CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008004418                TIM_TI1_SetConfig
  .text.TIM_TI2_SetConfig
-                0x00000000080042d0       0x80 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x00000000080044d4       0x80 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.TIM_TI3_SetConfig
-                0x0000000008004350       0x7e CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008004554       0x7e CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.TIM_TI4_SetConfig
-                0x00000000080043ce       0x80 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x00000000080045d2       0x80 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.TIM_CCxChannelCmd
-                0x000000000800444e       0x44 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x000000000800444e                TIM_CCxChannelCmd
+                0x0000000008004652       0x44 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000008004652                TIM_CCxChannelCmd
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x0000000008004492       0x88 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-                0x0000000008004492                HAL_TIMEx_MasterConfigSynchronization
+                0x0000000008004696       0x88 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x0000000008004696                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_CommutationCallback
-                0x000000000800451a       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-                0x000000000800451a                HAL_TIMEx_CommutationCallback
+                0x000000000800471e       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x000000000800471e                HAL_TIMEx_CommutationCallback
  .text.HAL_TIMEx_BreakCallback
-                0x000000000800452c       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-                0x000000000800452c                HAL_TIMEx_BreakCallback
- *fill*         0x000000000800453e        0x2 
- .text.error    0x0000000008004540       0x50 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
- .text.lesson5  0x0000000008004590      0x100 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
-                0x0000000008004590                lesson5
+                0x0000000008004730       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x0000000008004730                HAL_TIMEx_BreakCallback
+ *fill*         0x0000000008004742        0x2 
+ .text.error    0x0000000008004744       0x50 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
+ .text.lesson5  0x0000000008004794      0x100 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
+                0x0000000008004794                lesson5
  .text.set_pin_out
-                0x0000000008004690       0x32 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+                0x0000000008004894       0x32 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
  .text.set_pin_in
-                0x00000000080046c2       0x32 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+                0x00000000080048c6       0x32 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
  .text.dht11_read_data
-                0x00000000080046f4      0x13c CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
-                0x00000000080046f4                dht11_read_data
+                0x00000000080048f8      0x13c CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+                0x00000000080048f8                dht11_read_data
  .text.dht11_init
-                0x0000000008004830       0x26 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
-                0x0000000008004830                dht11_init
+                0x0000000008004a34       0x26 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+                0x0000000008004a34                dht11_init
  .text.write_bit
-                0x0000000008004856       0x8e CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+                0x0000000008004a5a       0x8e CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
  .text.get_float
-                0x00000000080048e4       0x30 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+                0x0000000008004ae8       0x30 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
  .text.finish_rx
-                0x0000000008004914       0x6e CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+                0x0000000008004b18       0x6e CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
  .text.dht11_interrupt_handler
-                0x0000000008004982       0xe6 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
-                0x0000000008004982                dht11_interrupt_handler
+                0x0000000008004b86       0xe6 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+                0x0000000008004b86                dht11_interrupt_handler
  .text.ssd1306_WriteCommand
-                0x0000000008004a68       0x30 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+                0x0000000008004c6c       0x30 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
  .text.ssd1306_Init
-                0x0000000008004a98       0xd8 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
-                0x0000000008004a98                ssd1306_Init
+                0x0000000008004c9c       0xd8 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+                0x0000000008004c9c                ssd1306_Init
  .text.ssd1306_Fill
-                0x0000000008004b70       0x44 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
-                0x0000000008004b70                ssd1306_Fill
+                0x0000000008004d74       0x44 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+                0x0000000008004d74                ssd1306_Fill
  .text.ssd1306_UpdateScreen
-                0x0000000008004bb4       0x60 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
-                0x0000000008004bb4                ssd1306_UpdateScreen
+                0x0000000008004db8       0x60 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+                0x0000000008004db8                ssd1306_UpdateScreen
  .text.ssd1306_DrawPixel
-                0x0000000008004c14       0xc0 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
-                0x0000000008004c14                ssd1306_DrawPixel
+                0x0000000008004e18       0xc0 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+                0x0000000008004e18                ssd1306_DrawPixel
  .text.ssd1306_WriteChar
-                0x0000000008004cd4      0x100 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
-                0x0000000008004cd4                ssd1306_WriteChar
+                0x0000000008004ed8      0x100 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+                0x0000000008004ed8                ssd1306_WriteChar
  .text.ssd1306_WriteString
-                0x0000000008004dd4       0x4c CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
-                0x0000000008004dd4                ssd1306_WriteString
+                0x0000000008004fd8       0x4c CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+                0x0000000008004fd8                ssd1306_WriteString
  .text.ssd1306_SetCursor
-                0x0000000008004e20       0x30 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
-                0x0000000008004e20                ssd1306_SetCursor
- .text._sbrk    0x0000000008004e50       0x3c CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
-                0x0000000008004e50                _sbrk
+                0x0000000008005024       0x30 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+                0x0000000008005024                ssd1306_SetCursor
+ .text._sbrk    0x0000000008005054       0x3c CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+                0x0000000008005054                _sbrk
  .text.Reset_Handler
-                0x0000000008004e8c       0x48 libCMSIS.a(startup_stm32f103xb.s.obj)
-                0x0000000008004e8c                Reset_Handler
+                0x0000000008005090       0x48 libCMSIS.a(startup_stm32f103xb.s.obj)
+                0x0000000008005090                Reset_Handler
  .text.Default_Handler
-                0x0000000008004ed4        0x2 libCMSIS.a(startup_stm32f103xb.s.obj)
-                0x0000000008004ed4                RTC_Alarm_IRQHandler
-                0x0000000008004ed4                EXTI2_IRQHandler
-                0x0000000008004ed4                TIM1_CC_IRQHandler
-                0x0000000008004ed4                PVD_IRQHandler
-                0x0000000008004ed4                EXTI3_IRQHandler
-                0x0000000008004ed4                EXTI0_IRQHandler
-                0x0000000008004ed4                I2C2_EV_IRQHandler
-                0x0000000008004ed4                ADC1_2_IRQHandler
-                0x0000000008004ed4                SPI1_IRQHandler
-                0x0000000008004ed4                TAMPER_IRQHandler
-                0x0000000008004ed4                DMA1_Channel4_IRQHandler
-                0x0000000008004ed4                USART3_IRQHandler
-                0x0000000008004ed4                RTC_IRQHandler
-                0x0000000008004ed4                DMA1_Channel7_IRQHandler
-                0x0000000008004ed4                CAN1_RX1_IRQHandler
-                0x0000000008004ed4                TIM4_IRQHandler
-                0x0000000008004ed4                I2C1_EV_IRQHandler
-                0x0000000008004ed4                DMA1_Channel6_IRQHandler
-                0x0000000008004ed4                RCC_IRQHandler
-                0x0000000008004ed4                TIM1_TRG_COM_IRQHandler
-                0x0000000008004ed4                DMA1_Channel1_IRQHandler
-                0x0000000008004ed4                Default_Handler
-                0x0000000008004ed4                EXTI15_10_IRQHandler
-                0x0000000008004ed4                EXTI9_5_IRQHandler
-                0x0000000008004ed4                SPI2_IRQHandler
-                0x0000000008004ed4                DMA1_Channel5_IRQHandler
-                0x0000000008004ed4                EXTI4_IRQHandler
-                0x0000000008004ed4                USB_LP_CAN1_RX0_IRQHandler
-                0x0000000008004ed4                USB_HP_CAN1_TX_IRQHandler
-                0x0000000008004ed4                DMA1_Channel3_IRQHandler
-                0x0000000008004ed4                TIM1_UP_IRQHandler
-                0x0000000008004ed4                WWDG_IRQHandler
-                0x0000000008004ed4                TIM2_IRQHandler
-                0x0000000008004ed4                TIM1_BRK_IRQHandler
-                0x0000000008004ed4                EXTI1_IRQHandler
-                0x0000000008004ed4                USART2_IRQHandler
-                0x0000000008004ed4                I2C2_ER_IRQHandler
-                0x0000000008004ed4                DMA1_Channel2_IRQHandler
-                0x0000000008004ed4                CAN1_SCE_IRQHandler
-                0x0000000008004ed4                FLASH_IRQHandler
-                0x0000000008004ed4                USART1_IRQHandler
-                0x0000000008004ed4                I2C1_ER_IRQHandler
-                0x0000000008004ed4                USBWakeUp_IRQHandler
+                0x00000000080050d8        0x2 libCMSIS.a(startup_stm32f103xb.s.obj)
+                0x00000000080050d8                RTC_Alarm_IRQHandler
+                0x00000000080050d8                EXTI2_IRQHandler
+                0x00000000080050d8                TIM1_CC_IRQHandler
+                0x00000000080050d8                PVD_IRQHandler
+                0x00000000080050d8                EXTI3_IRQHandler
+                0x00000000080050d8                EXTI0_IRQHandler
+                0x00000000080050d8                I2C2_EV_IRQHandler
+                0x00000000080050d8                ADC1_2_IRQHandler
+                0x00000000080050d8                SPI1_IRQHandler
+                0x00000000080050d8                TAMPER_IRQHandler
+                0x00000000080050d8                DMA1_Channel4_IRQHandler
+                0x00000000080050d8                USART3_IRQHandler
+                0x00000000080050d8                RTC_IRQHandler
+                0x00000000080050d8                DMA1_Channel7_IRQHandler
+                0x00000000080050d8                CAN1_RX1_IRQHandler
+                0x00000000080050d8                I2C1_EV_IRQHandler
+                0x00000000080050d8                DMA1_Channel6_IRQHandler
+                0x00000000080050d8                RCC_IRQHandler
+                0x00000000080050d8                TIM1_TRG_COM_IRQHandler
+                0x00000000080050d8                DMA1_Channel1_IRQHandler
+                0x00000000080050d8                Default_Handler
+                0x00000000080050d8                EXTI15_10_IRQHandler
+                0x00000000080050d8                EXTI9_5_IRQHandler
+                0x00000000080050d8                SPI2_IRQHandler
+                0x00000000080050d8                DMA1_Channel5_IRQHandler
+                0x00000000080050d8                EXTI4_IRQHandler
+                0x00000000080050d8                USB_LP_CAN1_RX0_IRQHandler
+                0x00000000080050d8                USB_HP_CAN1_TX_IRQHandler
+                0x00000000080050d8                DMA1_Channel3_IRQHandler
+                0x00000000080050d8                TIM1_UP_IRQHandler
+                0x00000000080050d8                WWDG_IRQHandler
+                0x00000000080050d8                TIM2_IRQHandler
+                0x00000000080050d8                TIM1_BRK_IRQHandler
+                0x00000000080050d8                EXTI1_IRQHandler
+                0x00000000080050d8                USART2_IRQHandler
+                0x00000000080050d8                I2C2_ER_IRQHandler
+                0x00000000080050d8                DMA1_Channel2_IRQHandler
+                0x00000000080050d8                CAN1_SCE_IRQHandler
+                0x00000000080050d8                FLASH_IRQHandler
+                0x00000000080050d8                USART1_IRQHandler
+                0x00000000080050d8                I2C1_ER_IRQHandler
+                0x00000000080050d8                USBWakeUp_IRQHandler
+ .text.makeFreeRtosPriority
+                0x00000000080050da       0x2e libFREERTOS.a(cmsis_os.c.obj)
+ .text.osKernelStart
+                0x0000000008005108        0xe libFREERTOS.a(cmsis_os.c.obj)
+                0x0000000008005108                osKernelStart
+ .text.osThreadCreate
+                0x0000000008005116       0x4e libFREERTOS.a(cmsis_os.c.obj)
+                0x0000000008005116                osThreadCreate
+ .text.osDelay  0x0000000008005164       0x28 libFREERTOS.a(cmsis_os.c.obj)
+                0x0000000008005164                osDelay
+ .text.osSystickHandler
+                0x000000000800518c       0x16 libFREERTOS.a(cmsis_os.c.obj)
+                0x000000000800518c                osSystickHandler
+ *fill*         0x00000000080051a2        0x2 
+ .text.pxPortInitialiseStack
+                0x00000000080051a4       0x58 libFREERTOS.a(port.c.obj)
+                0x00000000080051a4                pxPortInitialiseStack
+ .text.prvTaskExitError
+                0x00000000080051fc       0x3c libFREERTOS.a(port.c.obj)
+ *fill*         0x0000000008005238        0x8 
+ .text.SVC_Handler
+                0x0000000008005240       0x28 libFREERTOS.a(port.c.obj)
+                0x0000000008005240                SVC_Handler
+ .text.prvPortStartFirstTask
+                0x0000000008005268       0x20 libFREERTOS.a(port.c.obj)
+ .text.xPortStartScheduler
+                0x0000000008005288       0xbc libFREERTOS.a(port.c.obj)
+                0x0000000008005288                xPortStartScheduler
+ .text.vPortEnterCritical
+                0x0000000008005344       0x5c libFREERTOS.a(port.c.obj)
+                0x0000000008005344                vPortEnterCritical
+ .text.vPortExitCritical
+                0x00000000080053a0       0x4c libFREERTOS.a(port.c.obj)
+                0x00000000080053a0                vPortExitCritical
+ *fill*         0x00000000080053ec        0x4 
+ .text.PendSV_Handler
+                0x00000000080053f0       0x48 libFREERTOS.a(port.c.obj)
+                0x00000000080053f0                PendSV_Handler
+ .text.xPortSysTickHandler
+                0x0000000008005438       0x40 libFREERTOS.a(port.c.obj)
+                0x0000000008005438                xPortSysTickHandler
+ .text.vPortSetupTimerInterrupt
+                0x0000000008005478       0x34 libFREERTOS.a(port.c.obj)
+                0x0000000008005478                vPortSetupTimerInterrupt
+ .text.pvPortMalloc
+                0x00000000080054ac      0x184 libFREERTOS.a(heap_4.c.obj)
+                0x00000000080054ac                pvPortMalloc
+ .text.vPortFree
+                0x0000000008005630       0xb0 libFREERTOS.a(heap_4.c.obj)
+                0x0000000008005630                vPortFree
+ .text.prvHeapInit
+                0x00000000080056e0       0xc4 libFREERTOS.a(heap_4.c.obj)
+ .text.prvInsertBlockIntoFreeList
+                0x00000000080057a4       0xb0 libFREERTOS.a(heap_4.c.obj)
+ .text.xTaskCreate
+                0x0000000008005854       0x82 libFREERTOS.a(tasks.c.obj)
+                0x0000000008005854                xTaskCreate
+ .text.prvInitialiseNewTask
+                0x00000000080058d6       0xfc libFREERTOS.a(tasks.c.obj)
+ *fill*         0x00000000080059d2        0x2 
+ .text.prvAddNewTaskToReadyList
+                0x00000000080059d4       0xd4 libFREERTOS.a(tasks.c.obj)
+ .text.vTaskDelay
+                0x0000000008005aa8       0x68 libFREERTOS.a(tasks.c.obj)
+                0x0000000008005aa8                vTaskDelay
+ .text.vTaskStartScheduler
+                0x0000000008005b10       0x8c libFREERTOS.a(tasks.c.obj)
+                0x0000000008005b10                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x0000000008005b9c       0x1c libFREERTOS.a(tasks.c.obj)
+                0x0000000008005b9c                vTaskSuspendAll
+ .text.xTaskResumeAll
+                0x0000000008005bb8      0x138 libFREERTOS.a(tasks.c.obj)
+                0x0000000008005bb8                xTaskResumeAll
+ .text.xTaskIncrementTick
+                0x0000000008005cf0      0x178 libFREERTOS.a(tasks.c.obj)
+                0x0000000008005cf0                xTaskIncrementTick
+ .text.vTaskSwitchContext
+                0x0000000008005e68       0xb4 libFREERTOS.a(tasks.c.obj)
+                0x0000000008005e68                vTaskSwitchContext
+ .text.prvIdleTask
+                0x0000000008005f1c       0x30 libFREERTOS.a(tasks.c.obj)
+ .text.prvInitialiseTaskLists
+                0x0000000008005f4c       0x80 libFREERTOS.a(tasks.c.obj)
+ .text.prvCheckTasksWaitingTermination
+                0x0000000008005fcc       0x78 libFREERTOS.a(tasks.c.obj)
+ .text.prvDeleteTCB
+                0x0000000008006044       0x20 libFREERTOS.a(tasks.c.obj)
+ .text.prvResetNextTaskUnblockTime
+                0x0000000008006064       0x48 libFREERTOS.a(tasks.c.obj)
+ .text.xTaskGetSchedulerState
+                0x00000000080060ac       0x3c libFREERTOS.a(tasks.c.obj)
+                0x00000000080060ac                xTaskGetSchedulerState
+ .text.prvAddCurrentTaskToDelayedList
+                0x00000000080060e8       0xcc libFREERTOS.a(tasks.c.obj)
+ .text.vListInitialise
+                0x00000000080061b4       0x3e libFREERTOS.a(list.c.obj)
+                0x00000000080061b4                vListInitialise
+ .text.vListInitialiseItem
+                0x00000000080061f2       0x18 libFREERTOS.a(list.c.obj)
+                0x00000000080061f2                vListInitialiseItem
+ .text.vListInsertEnd
+                0x000000000800620a       0x46 libFREERTOS.a(list.c.obj)
+                0x000000000800620a                vListInsertEnd
+ .text.vListInsert
+                0x0000000008006250       0x70 libFREERTOS.a(list.c.obj)
+                0x0000000008006250                vListInsert
+ .text.uxListRemove
+                0x00000000080062c0       0x52 libFREERTOS.a(list.c.obj)
+                0x00000000080062c0                uxListRemove
  *(.glue_7)
- .glue_7        0x0000000008004ed6        0x0 linker stubs
+ .glue_7        0x0000000008006312        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008004ed6        0x0 linker stubs
+ .glue_7t       0x0000000008006312        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x0000000008004ed6        0x2 
- .eh_frame      0x0000000008004ed8        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+ *fill*         0x0000000008006312        0x2 
+ .eh_frame      0x0000000008006314        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
  *(.init)
- .init          0x0000000008004ed8        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crti.o
-                0x0000000008004ed8                _init
- .init          0x0000000008004edc        0x8 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
+ .init          0x0000000008006314        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crti.o
+                0x0000000008006314                _init
+ .init          0x0000000008006318        0x8 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
  *(.fini)
- .fini          0x0000000008004ee4        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crti.o
-                0x0000000008004ee4                _fini
- .fini          0x0000000008004ee8        0x8 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
-                0x0000000008004ef0                . = ALIGN (0x4)
-                0x0000000008004ef0                _etext = .
+ .fini          0x0000000008006320        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crti.o
+                0x0000000008006320                _fini
+ .fini          0x0000000008006324        0x8 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
+                0x000000000800632c                . = ALIGN (0x4)
+                0x000000000800632c                _etext = .
 
-.vfp11_veneer   0x0000000008004ef0        0x0
- .vfp11_veneer  0x0000000008004ef0        0x0 linker stubs
+.vfp11_veneer   0x000000000800632c        0x0
+ .vfp11_veneer  0x000000000800632c        0x0 linker stubs
 
-.v4_bx          0x0000000008004ef0        0x0
- .v4_bx         0x0000000008004ef0        0x0 linker stubs
+.v4_bx          0x000000000800632c        0x0
+ .v4_bx         0x000000000800632c        0x0 linker stubs
 
-.iplt           0x0000000008004ef0        0x0
- .iplt          0x0000000008004ef0        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+.iplt           0x000000000800632c        0x0
+ .iplt          0x000000000800632c        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
 
-.rodata         0x0000000008004ef0     0x15bc
-                0x0000000008004ef0                . = ALIGN (0x4)
+.rodata         0x000000000800632c     0x1604
+                0x000000000800632c                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000008004ef0       0x34 CMakeFiles/blink.elf.dir/Src/main.c.obj
- .rodata        0x0000000008004f24       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- *fill*         0x0000000008004f36        0x2 
- .rodata        0x0000000008004f38       0x24 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
- .rodata        0x0000000008004f5c       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
- .rodata        0x0000000008004f7c       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
+ .rodata        0x000000000800632c       0x74 CMakeFiles/blink.elf.dir/Src/main.c.obj
+ .rodata        0x00000000080063a0       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ *fill*         0x00000000080063b2        0x2 
+ .rodata        0x00000000080063b4       0x24 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
+ .rodata        0x00000000080063d8        0x5 libFREERTOS.a(tasks.c.obj)
+ *fill*         0x00000000080063dd        0x3 
+ .rodata        0x00000000080063e0       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
+ .rodata        0x0000000008006400       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x0000000008004f9c       0x10 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
-                0x0000000008004f9c                AHBPrescTable
+                0x0000000008006420       0x10 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+                0x0000000008006420                AHBPrescTable
  .rodata.APBPrescTable
-                0x0000000008004fac        0x8 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
-                0x0000000008004fac                APBPrescTable
+                0x0000000008006430        0x8 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+                0x0000000008006430                APBPrescTable
  .rodata.Font7x10
-                0x0000000008004fb4      0x76c CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
+                0x0000000008006438      0x76c CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
  .rodata.Font11x18
-                0x0000000008005720      0xd5c CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
+                0x0000000008006ba4      0xd5c CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
  .rodata.str1.4
-                0x000000000800647c       0x30 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
+                0x0000000008007900       0x30 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
                                          0x2f (size before relaxing)
  .rodata.str1.4
-                0x00000000080064ac       0x2f /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
-                0x00000000080064dc                . = ALIGN (0x4)
+                0x0000000008007930       0x2f /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
+                0x0000000008007960                . = ALIGN (0x4)
 
-.rel.dyn        0x00000000080064ac        0x0
- .rel.iplt      0x00000000080064ac        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+.rel.dyn        0x0000000008007930        0x0
+ .rel.iplt      0x0000000008007930        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x00000000080064ac        0x0
-                0x00000000080064ac                __exidx_start = .
+.ARM            0x0000000008007930        0x0
+                0x0000000008007930                __exidx_start = .
  *(.ARM.exidx*)
-                0x00000000080064ac                __exidx_end = .
+                0x0000000008007930                __exidx_end = .
 
-.preinit_array  0x00000000080064ac        0x0
-                0x00000000080064ac                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x0000000008007930        0x0
+                0x0000000008007930                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x00000000080064ac                PROVIDE (__preinit_array_end, .)
+                0x0000000008007930                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x00000000080064ac        0x4
-                0x00000000080064ac                PROVIDE (__init_array_start, .)
+.init_array     0x0000000008007930        0x4
+                0x0000000008007930                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array*)
- .init_array    0x00000000080064ac        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
-                0x00000000080064b0                PROVIDE (__init_array_end, .)
+ .init_array    0x0000000008007930        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+                0x0000000008007934                PROVIDE (__init_array_end, .)
 
-.fini_array     0x00000000080064b0        0x4
-                0x00000000080064b0                PROVIDE (__fini_array_start, .)
+.fini_array     0x0000000008007934        0x4
+                0x0000000008007934                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00000000080064b0        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
-                0x00000000080064b4                PROVIDE (__fini_array_end, .)
-                0x00000000080064b4                _sidata = LOADADDR (.data)
+ .fini_array    0x0000000008007934        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+                0x0000000008007938                PROVIDE (__fini_array_end, .)
+                0x0000000008007938                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x854 load address 0x00000000080064b4
+.data           0x0000000020000000      0x858 load address 0x0000000008007938
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -1495,62 +1903,129 @@ LOAD /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
  .data.Font_11x18
                 0x000000002000084c        0x8 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
                 0x000000002000084c                Font_11x18
-                0x0000000020000854                . = ALIGN (0x4)
-                0x0000000020000854                _edata = .
+ .data.uxCriticalNesting
+                0x0000000020000854        0x4 libFREERTOS.a(port.c.obj)
+                0x0000000020000858                . = ALIGN (0x4)
+                0x0000000020000858                _edata = .
 
 .tm_clone_table
-                0x0000000020000854        0x0 load address 0x0000000008006d08
+                0x0000000020000858        0x0 load address 0x0000000008008190
  .tm_clone_table
-                0x0000000020000854        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+                0x0000000020000858        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
  .tm_clone_table
-                0x0000000020000854        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtend.o
+                0x0000000020000858        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtend.o
 
-.igot.plt       0x0000000020000854        0x0 load address 0x0000000008006d08
- .igot.plt      0x0000000020000854        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
-                0x0000000020000854                . = ALIGN (0x4)
+.igot.plt       0x0000000020000858        0x0 load address 0x0000000008008190
+ .igot.plt      0x0000000020000858        0x0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+                0x0000000020000858                . = ALIGN (0x4)
 
-.bss            0x0000000020000854      0x51c load address 0x0000000008006d08
-                0x0000000020000854                _sbss = .
-                0x0000000020000854                __bss_start__ = _sbss
+.bss            0x0000000020000858     0x12b0 load address 0x0000000008008190
+                0x0000000020000858                _sbss = .
+                0x0000000020000858                __bss_start__ = _sbss
  *(.bss)
- .bss           0x0000000020000854       0x1c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
- .bss           0x0000000020000870       0x34 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
-                0x0000000020000870                __malloc_top_pad
-                0x0000000020000874                __malloc_current_mallinfo
-                0x000000002000089c                __malloc_max_sbrked_mem
-                0x00000000200008a0                __malloc_max_total_mem
+ .bss           0x0000000020000858       0x1c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtbegin.o
+ .bss           0x0000000020000874       0x34 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
+                0x0000000020000874                __malloc_top_pad
+                0x0000000020000878                __malloc_current_mallinfo
+                0x00000000200008a0                __malloc_max_sbrked_mem
+                0x00000000200008a4                __malloc_max_total_mem
  *(.bss*)
- .bss.hi2c1     0x00000000200008a4       0x54 CMakeFiles/blink.elf.dir/Src/main.c.obj
-                0x00000000200008a4                hi2c1
- .bss.htim3     0x00000000200008f8       0x40 CMakeFiles/blink.elf.dir/Src/main.c.obj
-                0x00000000200008f8                htim3
- .bss.uwTick    0x0000000020000938        0x4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0000000020000938                uwTick
- .bss.dht       0x000000002000093c       0x24 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
-                0x000000002000093c                dht
+ .bss.hi2c1     0x00000000200008a8       0x54 CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x00000000200008a8                hi2c1
+ .bss.htim3     0x00000000200008fc       0x40 CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x00000000200008fc                htim3
+ .bss.defaultTaskHandle
+                0x000000002000093c        0x4 CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x000000002000093c                defaultTaskHandle
+ .bss.secondTaskHandle
+                0x0000000020000940        0x4 CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x0000000020000940                secondTaskHandle
+ .bss.htim4     0x0000000020000944       0x40 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
+                0x0000000020000944                htim4
+ .bss.uwTick    0x0000000020000984        0x4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000000020000984                uwTick
+ .bss.dht       0x0000000020000988       0x24 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
+                0x0000000020000988                dht
  .bss.SSD1306_Buffer
-                0x0000000020000960      0x400 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
- .bss.SSD1306   0x0000000020000d60        0x6 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
- *fill*         0x0000000020000d66        0x2 
+                0x00000000200009ac      0x400 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+ .bss.SSD1306   0x0000000020000dac        0x6 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+ *fill*         0x0000000020000db2        0x2 
  .bss.heap.5237
-                0x0000000020000d68        0x4 CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+                0x0000000020000db4        0x4 CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+ .bss.ucMaxSysCallPriority
+                0x0000000020000db8        0x1 libFREERTOS.a(port.c.obj)
+ *fill*         0x0000000020000db9        0x3 
+ .bss.ulMaxPRIGROUPValue
+                0x0000000020000dbc        0x4 libFREERTOS.a(port.c.obj)
+ .bss.ucHeap    0x0000000020000dc0      0xc00 libFREERTOS.a(heap_4.c.obj)
+ .bss.xStart    0x00000000200019c0        0x8 libFREERTOS.a(heap_4.c.obj)
+ .bss.pxEnd     0x00000000200019c8        0x4 libFREERTOS.a(heap_4.c.obj)
+ .bss.xFreeBytesRemaining
+                0x00000000200019cc        0x4 libFREERTOS.a(heap_4.c.obj)
+ .bss.xMinimumEverFreeBytesRemaining
+                0x00000000200019d0        0x4 libFREERTOS.a(heap_4.c.obj)
+ .bss.xBlockAllocatedBit
+                0x00000000200019d4        0x4 libFREERTOS.a(heap_4.c.obj)
+ .bss.pxCurrentTCB
+                0x00000000200019d8        0x4 libFREERTOS.a(tasks.c.obj)
+                0x00000000200019d8                pxCurrentTCB
+ .bss.pxReadyTasksLists
+                0x00000000200019dc       0x8c libFREERTOS.a(tasks.c.obj)
+ .bss.xDelayedTaskList1
+                0x0000000020001a68       0x14 libFREERTOS.a(tasks.c.obj)
+ .bss.xDelayedTaskList2
+                0x0000000020001a7c       0x14 libFREERTOS.a(tasks.c.obj)
+ .bss.pxDelayedTaskList
+                0x0000000020001a90        0x4 libFREERTOS.a(tasks.c.obj)
+ .bss.pxOverflowDelayedTaskList
+                0x0000000020001a94        0x4 libFREERTOS.a(tasks.c.obj)
+ .bss.xPendingReadyList
+                0x0000000020001a98       0x14 libFREERTOS.a(tasks.c.obj)
+ .bss.xTasksWaitingTermination
+                0x0000000020001aac       0x14 libFREERTOS.a(tasks.c.obj)
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x0000000020001ac0        0x4 libFREERTOS.a(tasks.c.obj)
+ .bss.xSuspendedTaskList
+                0x0000000020001ac4       0x14 libFREERTOS.a(tasks.c.obj)
+ .bss.uxCurrentNumberOfTasks
+                0x0000000020001ad8        0x4 libFREERTOS.a(tasks.c.obj)
+ .bss.xTickCount
+                0x0000000020001adc        0x4 libFREERTOS.a(tasks.c.obj)
+ .bss.uxTopReadyPriority
+                0x0000000020001ae0        0x4 libFREERTOS.a(tasks.c.obj)
+ .bss.xSchedulerRunning
+                0x0000000020001ae4        0x4 libFREERTOS.a(tasks.c.obj)
+ .bss.uxPendedTicks
+                0x0000000020001ae8        0x4 libFREERTOS.a(tasks.c.obj)
+ .bss.xYieldPending
+                0x0000000020001aec        0x4 libFREERTOS.a(tasks.c.obj)
+ .bss.xNumOfOverflows
+                0x0000000020001af0        0x4 libFREERTOS.a(tasks.c.obj)
+ .bss.uxTaskNumber
+                0x0000000020001af4        0x4 libFREERTOS.a(tasks.c.obj)
+ .bss.xNextTaskUnblockTime
+                0x0000000020001af8        0x4 libFREERTOS.a(tasks.c.obj)
+ .bss.xIdleTaskHandle
+                0x0000000020001afc        0x4 libFREERTOS.a(tasks.c.obj)
+ .bss.uxSchedulerSuspended
+                0x0000000020001b00        0x4 libFREERTOS.a(tasks.c.obj)
  *(COMMON)
- COMMON         0x0000000020000d6c        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
-                0x0000000020000d6c                errno
-                0x0000000020000d70                . = ALIGN (0x4)
-                0x0000000020000d70                _ebss = .
-                0x0000000020000d70                __bss_end__ = _ebss
+ COMMON         0x0000000020001b04        0x4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
+                0x0000000020001b04                errno
+                0x0000000020001b08                . = ALIGN (0x4)
+                0x0000000020001b08                _ebss = .
+                0x0000000020001b08                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020000d70      0x600 load address 0x0000000008006d08
-                0x0000000020000d70                . = ALIGN (0x8)
+                0x0000000020001b08      0x600 load address 0x0000000008008190
+                0x0000000020001b08                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end, .)
-                0x0000000020000d70                PROVIDE (_end, .)
-                0x0000000020000f70                . = (. + _Min_Heap_Size)
- *fill*         0x0000000020000d70      0x200 
-                0x0000000020001370                . = (. + _Min_Stack_Size)
- *fill*         0x0000000020000f70      0x400 
-                0x0000000020001370                . = ALIGN (0x8)
+                0x0000000020001b08                PROVIDE (_end, .)
+                0x0000000020001d08                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020001b08      0x200 
+                0x0000000020002108                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020001d08      0x400 
+                0x0000000020002108                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -1569,71 +2044,83 @@ LOAD /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
  .ARM.attributes
                 0x0000000000000089       0x33 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
  .ARM.attributes
-                0x00000000000000bc       0x33 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+                0x00000000000000bc       0x33 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
  .ARM.attributes
-                0x00000000000000ef       0x33 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+                0x00000000000000ef       0x33 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
  .ARM.attributes
-                0x0000000000000122       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000000000000122       0x33 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
  .ARM.attributes
-                0x0000000000000155       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000000000155       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .ARM.attributes
-                0x0000000000000188       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0000000000000188       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .ARM.attributes
-                0x00000000000001bb       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x00000000000001bb       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .ARM.attributes
-                0x00000000000001ee       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000000000001ee       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .ARM.attributes
-                0x0000000000000221       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000000000000221       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .ARM.attributes
-                0x0000000000000254       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x0000000000000254       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .ARM.attributes
-                0x0000000000000287       0x33 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
+                0x0000000000000287       0x33 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .ARM.attributes
-                0x00000000000002ba       0x33 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+                0x00000000000002ba       0x33 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
  .ARM.attributes
-                0x00000000000002ed       0x33 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
+                0x00000000000002ed       0x33 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
  .ARM.attributes
-                0x0000000000000320       0x33 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+                0x0000000000000320       0x33 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
  .ARM.attributes
-                0x0000000000000353       0x33 CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+                0x0000000000000353       0x33 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
  .ARM.attributes
-                0x0000000000000386       0x21 libCMSIS.a(startup_stm32f103xb.s.obj)
+                0x0000000000000386       0x33 CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
  .ARM.attributes
-                0x00000000000003a7       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-impure.o)
+                0x00000000000003b9       0x21 libCMSIS.a(startup_stm32f103xb.s.obj)
  .ARM.attributes
-                0x00000000000003da       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+                0x00000000000003da       0x33 libFREERTOS.a(cmsis_os.c.obj)
  .ARM.attributes
-                0x000000000000040d       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
+                0x000000000000040d       0x33 libFREERTOS.a(port.c.obj)
  .ARM.attributes
-                0x0000000000000440       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
+                0x0000000000000440       0x33 libFREERTOS.a(heap_4.c.obj)
  .ARM.attributes
-                0x0000000000000473       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
+                0x0000000000000473       0x33 libFREERTOS.a(tasks.c.obj)
  .ARM.attributes
-                0x00000000000004a6       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
+                0x00000000000004a6       0x33 libFREERTOS.a(list.c.obj)
  .ARM.attributes
-                0x00000000000004d9       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
+                0x00000000000004d9       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x000000000000050c       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
+                0x000000000000050c       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
  .ARM.attributes
-                0x000000000000053f       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
+                0x000000000000053f       0x21 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x0000000000000572       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
+                0x0000000000000560       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
  .ARM.attributes
-                0x00000000000005a5       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
+                0x0000000000000593       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
  .ARM.attributes
-                0x00000000000005d8       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
+                0x00000000000005c6       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
  .ARM.attributes
-                0x000000000000060b       0x21 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
+                0x00000000000005f9       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
  .ARM.attributes
-                0x000000000000062c       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
+                0x000000000000062c       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
  .ARM.attributes
-                0x000000000000065f       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
+                0x000000000000065f       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
  .ARM.attributes
-                0x0000000000000692       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
+                0x0000000000000692       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x00000000000006c5       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtend.o
+                0x00000000000006c5       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
  .ARM.attributes
-                0x00000000000006f8       0x23 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
+                0x00000000000006f8       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
+ .ARM.attributes
+                0x000000000000072b       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
+ .ARM.attributes
+                0x000000000000075e       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x0000000000000791       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x00000000000007c4       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000000000007f7       0x33 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtend.o
+ .ARM.attributes
+                0x000000000000082a       0x23 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtn.o
 OUTPUT(blink.elf elf32-littlearm)
 
 .comment        0x0000000000000000       0x11
@@ -1641,6 +2128,7 @@ OUTPUT(blink.elf elf32-littlearm)
                                          0x12 (size before relaxing)
  .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/Src/main.c.obj
  .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
  .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
  .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
  .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -1655,6 +2143,11 @@ OUTPUT(blink.elf elf32-littlearm)
  .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
  .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
  .comment       0x0000000000000011       0x12 CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+ .comment       0x0000000000000011       0x12 libFREERTOS.a(cmsis_os.c.obj)
+ .comment       0x0000000000000011       0x12 libFREERTOS.a(port.c.obj)
+ .comment       0x0000000000000011       0x12 libFREERTOS.a(heap_4.c.obj)
+ .comment       0x0000000000000011       0x12 libFREERTOS.a(tasks.c.obj)
+ .comment       0x0000000000000011       0x12 libFREERTOS.a(list.c.obj)
  .comment       0x0000000000000011       0x12 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-impure.o)
  .comment       0x0000000000000011       0x12 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
  .comment       0x0000000000000011       0x12 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
@@ -1672,292 +2165,345 @@ OUTPUT(blink.elf elf32-littlearm)
  .comment       0x0000000000000011       0x12 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
  .comment       0x0000000000000011       0x12 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/thumb/cortex-m3/crtend.o
 
-.debug_info     0x0000000000000000    0x1ea5e
- .debug_info    0x0000000000000000     0x1607 CMakeFiles/blink.elf.dir/Src/main.c.obj
- .debug_info    0x0000000000001607     0x1451 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x0000000000002a58     0x105c CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
- .debug_info    0x0000000000003ab4      0x3e5 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_info    0x0000000000003e99      0xe2e CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x0000000000004cc7     0x12fb CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x0000000000005fc2      0xe60 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x0000000000006e22     0x2972 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .debug_info    0x0000000000009794      0xfc6 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x000000000000a75a     0x29c9 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_info    0x000000000000d123     0x1778 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_info    0x000000000000e89b     0x13b7 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
- .debug_info    0x000000000000fc52     0x1278 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
- .debug_info    0x0000000000010eca      0xa37 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
- .debug_info    0x0000000000011901     0x1076 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
- .debug_info    0x0000000000012977      0xc7b CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
- .debug_info    0x00000000000135f2      0x8a9 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-impure.o)
- .debug_info    0x0000000000013e9b      0x109 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
- .debug_info    0x0000000000013fa4      0xc83 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
- .debug_info    0x0000000000014c27      0xbd7 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
- .debug_info    0x00000000000157fe     0x1534 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
- .debug_info    0x0000000000016d32      0xde1 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
- .debug_info    0x0000000000017b13      0x939 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
- .debug_info    0x000000000001844c      0x8dc /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
- .debug_info    0x0000000000018d28      0x95e /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
- .debug_info    0x0000000000019686      0x8ba /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
- .debug_info    0x0000000000019f40     0x1801 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
- .debug_info    0x000000000001b741      0xcc2 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
- .debug_info    0x000000000001c403       0x26 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
- .debug_info    0x000000000001c429      0xe31 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
- .debug_info    0x000000000001d25a      0xdd7 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
- .debug_info    0x000000000001e031      0xa2d /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
+.debug_info     0x0000000000000000    0x25385
+ .debug_info    0x0000000000000000     0x17a8 CMakeFiles/blink.elf.dir/Src/main.c.obj
+ .debug_info    0x00000000000017a8     0x1451 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x0000000000002bf9     0x10bc CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
+ .debug_info    0x0000000000003cb5     0x1056 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_info    0x0000000000004d0b      0x3e5 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_info    0x00000000000050f0      0xe2e CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x0000000000005f1e     0x12fb CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x0000000000007219      0xe60 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x0000000000008079     0x2972 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_info    0x000000000000a9eb      0xfc6 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x000000000000b9b1     0x29c9 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_info    0x000000000000e37a     0x1778 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_info    0x000000000000faf2     0x13b7 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
+ .debug_info    0x0000000000010ea9     0x1278 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+ .debug_info    0x0000000000012121      0xa37 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
+ .debug_info    0x0000000000012b58     0x1076 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+ .debug_info    0x0000000000013bce      0xc7b CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+ .debug_info    0x0000000000014849     0x1aec libFREERTOS.a(cmsis_os.c.obj)
+ .debug_info    0x0000000000016335      0x499 libFREERTOS.a(port.c.obj)
+ .debug_info    0x00000000000167ce      0xbe4 libFREERTOS.a(heap_4.c.obj)
+ .debug_info    0x00000000000173b2     0x20ad libFREERTOS.a(tasks.c.obj)
+ .debug_info    0x000000000001945f      0xaba libFREERTOS.a(list.c.obj)
+ .debug_info    0x0000000000019f19      0x8a9 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-impure.o)
+ .debug_info    0x000000000001a7c2      0x109 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+ .debug_info    0x000000000001a8cb       0x26 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
+ .debug_info    0x000000000001a8f1      0xc83 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
+ .debug_info    0x000000000001b574      0xbd7 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
+ .debug_info    0x000000000001c14b     0x1534 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
+ .debug_info    0x000000000001d67f      0xde1 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
+ .debug_info    0x000000000001e460      0x939 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
+ .debug_info    0x000000000001ed99      0x8dc /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
+ .debug_info    0x000000000001f675      0x95e /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
+ .debug_info    0x000000000001ffd3      0x8ba /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
+ .debug_info    0x000000000002088d     0x1801 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
+ .debug_info    0x000000000002208e      0xcc2 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
+ .debug_info    0x0000000000022d50      0xe31 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
+ .debug_info    0x0000000000023b81      0xdd7 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
+ .debug_info    0x0000000000024958      0xa2d /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
 
-.debug_abbrev   0x0000000000000000     0x48ed
- .debug_abbrev  0x0000000000000000      0x2a5 CMakeFiles/blink.elf.dir/Src/main.c.obj
- .debug_abbrev  0x00000000000002a5      0x232 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_abbrev  0x00000000000004d7      0x226 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
- .debug_abbrev  0x00000000000006fd      0x131 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_abbrev  0x000000000000082e      0x2c9 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_abbrev  0x0000000000000af7      0x393 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_abbrev  0x0000000000000e8a      0x286 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_abbrev  0x0000000000001110      0x2df CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .debug_abbrev  0x00000000000013ef      0x30d CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_abbrev  0x00000000000016fc      0x2e7 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_abbrev  0x00000000000019e3      0x2c4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_abbrev  0x0000000000001ca7      0x272 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
- .debug_abbrev  0x0000000000001f19      0x2dc CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
- .debug_abbrev  0x00000000000021f5      0x1b7 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
- .debug_abbrev  0x00000000000023ac      0x284 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
- .debug_abbrev  0x0000000000002630      0x20d CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
- .debug_abbrev  0x000000000000283d      0x192 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-impure.o)
- .debug_abbrev  0x00000000000029cf       0xba /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
- .debug_abbrev  0x0000000000002a89      0x26c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
- .debug_abbrev  0x0000000000002cf5      0x258 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
- .debug_abbrev  0x0000000000002f4d      0x2d0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
- .debug_abbrev  0x000000000000321d      0x2cd /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
- .debug_abbrev  0x00000000000034ea      0x1db /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
- .debug_abbrev  0x00000000000036c5      0x1d3 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
- .debug_abbrev  0x0000000000003898      0x215 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
- .debug_abbrev  0x0000000000003aad      0x1a7 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
- .debug_abbrev  0x0000000000003c54      0x31e /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
- .debug_abbrev  0x0000000000003f72      0x291 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
- .debug_abbrev  0x0000000000004203       0x14 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
- .debug_abbrev  0x0000000000004217      0x1e3 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
- .debug_abbrev  0x00000000000043fa      0x262 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
- .debug_abbrev  0x000000000000465c      0x291 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
+.debug_abbrev   0x0000000000000000     0x5972
+ .debug_abbrev  0x0000000000000000      0x2eb CMakeFiles/blink.elf.dir/Src/main.c.obj
+ .debug_abbrev  0x00000000000002eb      0x232 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_abbrev  0x000000000000051d      0x243 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
+ .debug_abbrev  0x0000000000000760      0x226 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_abbrev  0x0000000000000986      0x131 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_abbrev  0x0000000000000ab7      0x2c9 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_abbrev  0x0000000000000d80      0x393 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_abbrev  0x0000000000001113      0x286 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_abbrev  0x0000000000001399      0x2df CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_abbrev  0x0000000000001678      0x30d CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_abbrev  0x0000000000001985      0x2e7 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_abbrev  0x0000000000001c6c      0x2c4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x0000000000001f30      0x272 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
+ .debug_abbrev  0x00000000000021a2      0x2dc CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+ .debug_abbrev  0x000000000000247e      0x1b7 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
+ .debug_abbrev  0x0000000000002635      0x284 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+ .debug_abbrev  0x00000000000028b9      0x20d CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+ .debug_abbrev  0x0000000000002ac6      0x3a5 libFREERTOS.a(cmsis_os.c.obj)
+ .debug_abbrev  0x0000000000002e6b      0x202 libFREERTOS.a(port.c.obj)
+ .debug_abbrev  0x000000000000306d      0x2d1 libFREERTOS.a(heap_4.c.obj)
+ .debug_abbrev  0x000000000000333e      0x389 libFREERTOS.a(tasks.c.obj)
+ .debug_abbrev  0x00000000000036c7      0x1fb libFREERTOS.a(list.c.obj)
+ .debug_abbrev  0x00000000000038c2      0x192 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000003a54       0xba /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+ .debug_abbrev  0x0000000000003b0e       0x14 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000003b22      0x26c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
+ .debug_abbrev  0x0000000000003d8e      0x258 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
+ .debug_abbrev  0x0000000000003fe6      0x2d0 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
+ .debug_abbrev  0x00000000000042b6      0x2cd /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
+ .debug_abbrev  0x0000000000004583      0x1db /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
+ .debug_abbrev  0x000000000000475e      0x1d3 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
+ .debug_abbrev  0x0000000000004931      0x215 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
+ .debug_abbrev  0x0000000000004b46      0x1a7 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
+ .debug_abbrev  0x0000000000004ced      0x31e /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
+ .debug_abbrev  0x000000000000500b      0x291 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
+ .debug_abbrev  0x000000000000529c      0x1e3 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
+ .debug_abbrev  0x000000000000547f      0x262 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
+ .debug_abbrev  0x00000000000056e1      0x291 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
 
-.debug_aranges  0x0000000000000000      0xe10
+.debug_aranges  0x0000000000000000     0x12c0
  .debug_aranges
-                0x0000000000000000       0x48 CMakeFiles/blink.elf.dir/Src/main.c.obj
+                0x0000000000000000       0x60 CMakeFiles/blink.elf.dir/Src/main.c.obj
  .debug_aranges
-                0x0000000000000048       0x40 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+                0x0000000000000060       0x40 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
  .debug_aranges
-                0x0000000000000088       0x68 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+                0x00000000000000a0       0x30 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
  .debug_aranges
-                0x00000000000000f0       0x28 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+                0x00000000000000d0       0x60 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
  .debug_aranges
-                0x0000000000000118       0xb8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000000000000130       0x28 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
  .debug_aranges
-                0x00000000000001d0      0x100 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000000000158       0xb8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_aranges
-                0x00000000000002d0       0x58 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0000000000000210      0x100 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_aranges
-                0x0000000000000328      0x268 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x0000000000000310       0x58 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_aranges
-                0x0000000000000590       0x90 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0000000000000368      0x268 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .debug_aranges
-                0x0000000000000620      0x368 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x00000000000005d0       0x90 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_aranges
-                0x0000000000000988      0x138 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x0000000000000660      0x368 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .debug_aranges
-                0x0000000000000ac0       0x28 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
+                0x00000000000009c8      0x138 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .debug_aranges
-                0x0000000000000ae8       0x60 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+                0x0000000000000b00       0x28 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
  .debug_aranges
-                0x0000000000000b48       0x18 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
+                0x0000000000000b28       0x60 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
  .debug_aranges
-                0x0000000000000b60       0x58 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+                0x0000000000000b88       0x18 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
  .debug_aranges
-                0x0000000000000bb8       0x60 CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+                0x0000000000000ba0       0x58 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
  .debug_aranges
-                0x0000000000000c18       0x18 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-impure.o)
+                0x0000000000000bf8       0x60 CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
  .debug_aranges
-                0x0000000000000c30       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+                0x0000000000000c58      0x1d8 libFREERTOS.a(cmsis_os.c.obj)
  .debug_aranges
-                0x0000000000000c50       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
+                0x0000000000000e30       0x78 libFREERTOS.a(port.c.obj)
  .debug_aranges
-                0x0000000000000c70       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
+                0x0000000000000ea8       0x50 libFREERTOS.a(heap_4.c.obj)
  .debug_aranges
-                0x0000000000000c90       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
+                0x0000000000000ef8      0x190 libFREERTOS.a(tasks.c.obj)
  .debug_aranges
-                0x0000000000000cb0       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
+                0x0000000000001088       0x40 libFREERTOS.a(list.c.obj)
  .debug_aranges
-                0x0000000000000cd0       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
+                0x00000000000010c8       0x18 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-impure.o)
  .debug_aranges
-                0x0000000000000cf0       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
+                0x00000000000010e0       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
  .debug_aranges
-                0x0000000000000d10       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
+                0x0000000000001100       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
  .debug_aranges
-                0x0000000000000d30       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
+                0x0000000000001120       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
  .debug_aranges
-                0x0000000000000d50       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
+                0x0000000000001140       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
  .debug_aranges
-                0x0000000000000d70       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
+                0x0000000000001160       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
  .debug_aranges
-                0x0000000000000d90       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
+                0x0000000000001180       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
  .debug_aranges
-                0x0000000000000db0       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
+                0x00000000000011a0       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
  .debug_aranges
-                0x0000000000000dd0       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
+                0x00000000000011c0       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
  .debug_aranges
-                0x0000000000000df0       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
+                0x00000000000011e0       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
+ .debug_aranges
+                0x0000000000001200       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
+ .debug_aranges
+                0x0000000000001220       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
+ .debug_aranges
+                0x0000000000001240       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
+ .debug_aranges
+                0x0000000000001260       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
+ .debug_aranges
+                0x0000000000001280       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
+ .debug_aranges
+                0x00000000000012a0       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
 
-.debug_ranges   0x0000000000000000      0xd28
- .debug_ranges  0x0000000000000000       0x38 CMakeFiles/blink.elf.dir/Src/main.c.obj
- .debug_ranges  0x0000000000000038       0x30 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_ranges  0x0000000000000068       0x58 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
- .debug_ranges  0x00000000000000c0       0x18 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_ranges  0x00000000000000d8       0xa8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_ranges  0x0000000000000180       0xf0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_ranges  0x0000000000000270       0x48 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_ranges  0x00000000000002b8      0x258 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .debug_ranges  0x0000000000000510       0x80 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_ranges  0x0000000000000590      0x358 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_ranges  0x00000000000008e8      0x128 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_ranges  0x0000000000000a10       0x18 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
- .debug_ranges  0x0000000000000a28       0x50 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
- .debug_ranges  0x0000000000000a78       0x48 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
- .debug_ranges  0x0000000000000ac0       0x50 CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
- .debug_ranges  0x0000000000000b10       0x28 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
- .debug_ranges  0x0000000000000b38       0x40 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
- .debug_ranges  0x0000000000000b78       0x10 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
- .debug_ranges  0x0000000000000b88       0x70 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
- .debug_ranges  0x0000000000000bf8      0x130 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
+.debug_ranges   0x0000000000000000     0x1178
+ .debug_ranges  0x0000000000000000       0x50 CMakeFiles/blink.elf.dir/Src/main.c.obj
+ .debug_ranges  0x0000000000000050       0x30 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_ranges  0x0000000000000080       0x20 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
+ .debug_ranges  0x00000000000000a0       0x50 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_ranges  0x00000000000000f0       0x18 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_ranges  0x0000000000000108       0xa8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_ranges  0x00000000000001b0       0xf0 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_ranges  0x00000000000002a0       0x48 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_ranges  0x00000000000002e8      0x258 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_ranges  0x0000000000000540       0x80 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_ranges  0x00000000000005c0      0x358 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_ranges  0x0000000000000918      0x128 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_ranges  0x0000000000000a40       0x18 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
+ .debug_ranges  0x0000000000000a58       0x50 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+ .debug_ranges  0x0000000000000aa8       0x48 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+ .debug_ranges  0x0000000000000af0       0x50 CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+ .debug_ranges  0x0000000000000b40      0x1c8 libFREERTOS.a(cmsis_os.c.obj)
+ .debug_ranges  0x0000000000000d08       0x68 libFREERTOS.a(port.c.obj)
+ .debug_ranges  0x0000000000000d70       0x40 libFREERTOS.a(heap_4.c.obj)
+ .debug_ranges  0x0000000000000db0      0x180 libFREERTOS.a(tasks.c.obj)
+ .debug_ranges  0x0000000000000f30       0x30 libFREERTOS.a(list.c.obj)
+ .debug_ranges  0x0000000000000f60       0x28 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
+ .debug_ranges  0x0000000000000f88       0x40 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
+ .debug_ranges  0x0000000000000fc8       0x10 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
+ .debug_ranges  0x0000000000000fd8       0x70 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
+ .debug_ranges  0x0000000000001048      0x130 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
 
-.debug_line     0x0000000000000000     0x7f95
- .debug_line    0x0000000000000000      0x3e0 CMakeFiles/blink.elf.dir/Src/main.c.obj
- .debug_line    0x00000000000003e0      0x326 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x0000000000000706      0x383 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
- .debug_line    0x0000000000000a89      0x1f4 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_line    0x0000000000000c7d      0x3ed CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x000000000000106a      0x4c8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x0000000000001532      0x48b CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x00000000000019bd     0x1368 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .debug_line    0x0000000000002d25      0x555 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x000000000000327a     0x1233 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_line    0x00000000000044ad      0x83e CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_line    0x0000000000004ceb      0x3cd CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
- .debug_line    0x00000000000050b8      0x41a CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
- .debug_line    0x00000000000054d2      0x236 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
- .debug_line    0x0000000000005708      0x423 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
- .debug_line    0x0000000000005b2b      0x21a CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
- .debug_line    0x0000000000005d45       0xec /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-impure.o)
- .debug_line    0x0000000000005e31       0xbf /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
- .debug_line    0x0000000000005ef0      0x21f /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
- .debug_line    0x000000000000610f      0x1a6 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
- .debug_line    0x00000000000062b5      0x521 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
- .debug_line    0x00000000000067d6      0x395 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
- .debug_line    0x0000000000006b6b      0x189 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
- .debug_line    0x0000000000006cf4       0xfc /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
- .debug_line    0x0000000000006df0      0x15b /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
- .debug_line    0x0000000000006f4b      0x153 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
- .debug_line    0x000000000000709e      0x5c8 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
- .debug_line    0x0000000000007666      0x28a /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
- .debug_line    0x00000000000078f0       0xbd /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
- .debug_line    0x00000000000079ad      0x1f1 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
- .debug_line    0x0000000000007b9e      0x279 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
- .debug_line    0x0000000000007e17      0x17e /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
+.debug_line     0x0000000000000000     0xa390
+ .debug_line    0x0000000000000000      0x507 CMakeFiles/blink.elf.dir/Src/main.c.obj
+ .debug_line    0x0000000000000507      0x326 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x000000000000082d      0x2eb CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
+ .debug_line    0x0000000000000b18      0x372 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_line    0x0000000000000e8a      0x1f4 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_line    0x000000000000107e      0x3ed CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x000000000000146b      0x4c8 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x0000000000001933      0x48b CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x0000000000001dbe     0x1368 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_line    0x0000000000003126      0x555 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x000000000000367b     0x1233 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_line    0x00000000000048ae      0x83e CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_line    0x00000000000050ec      0x3cd CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
+ .debug_line    0x00000000000054b9      0x41a CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+ .debug_line    0x00000000000058d3      0x236 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
+ .debug_line    0x0000000000005b09      0x423 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+ .debug_line    0x0000000000005f2c      0x21a CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+ .debug_line    0x0000000000006146      0x928 libFREERTOS.a(cmsis_os.c.obj)
+ .debug_line    0x0000000000006a6e      0x369 libFREERTOS.a(port.c.obj)
+ .debug_line    0x0000000000006dd7      0x386 libFREERTOS.a(heap_4.c.obj)
+ .debug_line    0x000000000000715d      0xcd4 libFREERTOS.a(tasks.c.obj)
+ .debug_line    0x0000000000007e31      0x30f libFREERTOS.a(list.c.obj)
+ .debug_line    0x0000000000008140       0xec /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-impure.o)
+ .debug_line    0x000000000000822c       0xbf /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+ .debug_line    0x00000000000082eb       0xbd /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
+ .debug_line    0x00000000000083a8      0x21f /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
+ .debug_line    0x00000000000085c7      0x1a6 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
+ .debug_line    0x000000000000876d      0x521 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
+ .debug_line    0x0000000000008c8e      0x395 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
+ .debug_line    0x0000000000009023      0x189 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
+ .debug_line    0x00000000000091ac       0xfc /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
+ .debug_line    0x00000000000092a8      0x15b /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
+ .debug_line    0x0000000000009403      0x153 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
+ .debug_line    0x0000000000009556      0x5c8 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
+ .debug_line    0x0000000000009b1e      0x28a /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
+ .debug_line    0x0000000000009da8      0x1f1 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
+ .debug_line    0x0000000000009f99      0x279 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
+ .debug_line    0x000000000000a212      0x17e /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
 
-.debug_str      0x0000000000000000     0x4a31
- .debug_str     0x0000000000000000     0x108c CMakeFiles/blink.elf.dir/Src/main.c.obj
-                                       0x11c8 (size before relaxing)
- .debug_str     0x000000000000108c       0xd2 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+.debug_str      0x0000000000000000     0x637d
+ .debug_str     0x0000000000000000     0x121e CMakeFiles/blink.elf.dir/Src/main.c.obj
+                                       0x1372 (size before relaxing)
+ .debug_str     0x000000000000121e       0xd2 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
                                        0x1017 (size before relaxing)
- .debug_str     0x000000000000115e      0x1ab CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
-                                        0xb4a (size before relaxing)
- .debug_str     0x0000000000001309       0xc7 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_str     0x00000000000012f0       0xdc CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
+                                        0xdc7 (size before relaxing)
+ .debug_str     0x00000000000013cc      0x19a CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+                                        0xb45 (size before relaxing)
+ .debug_str     0x0000000000001566       0xc7 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
                                         0x2d4 (size before relaxing)
- .debug_str     0x00000000000013d0      0x246 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x000000000000162d      0x1fb CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                                         0xb39 (size before relaxing)
- .debug_str     0x0000000000001616      0x2ee CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x0000000000001828      0x2e5 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                                         0xce2 (size before relaxing)
- .debug_str     0x0000000000001904      0x16b CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x0000000000001b0d      0x16b CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                                         0x84f (size before relaxing)
- .debug_str     0x0000000000001a6f      0x7fa CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_str     0x0000000000001c78      0x7fa CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
                                        0x12a2 (size before relaxing)
- .debug_str     0x0000000000002269      0x22a CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x0000000000002472      0x220 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                                         0x9ff (size before relaxing)
- .debug_str     0x0000000000002493      0xcf2 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_str     0x0000000000002692      0xccf CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
                                        0x1729 (size before relaxing)
- .debug_str     0x0000000000003185      0x503 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_str     0x0000000000003361      0x503 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
                                         0xfc6 (size before relaxing)
- .debug_str     0x0000000000003688       0xf2 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
+ .debug_str     0x0000000000003864       0xf2 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
                                         0xdea (size before relaxing)
- .debug_str     0x000000000000377a       0xda CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+ .debug_str     0x0000000000003956       0xda CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
                                         0xc07 (size before relaxing)
- .debug_str     0x0000000000003854       0x66 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
+ .debug_str     0x0000000000003a30       0x66 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/fonts.c.obj
                                         0x65e (size before relaxing)
- .debug_str     0x00000000000038ba      0x142 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+ .debug_str     0x0000000000003a96      0x142 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
                                         0xba2 (size before relaxing)
- .debug_str     0x00000000000039fc      0x18f CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+ .debug_str     0x0000000000003bd8      0x18f CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
                                         0x72a (size before relaxing)
- .debug_str     0x0000000000003b8b      0x103 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-impure.o)
+ .debug_str     0x0000000000003d67      0x7d5 libFREERTOS.a(cmsis_os.c.obj)
+                                        0xf1c (size before relaxing)
+ .debug_str     0x000000000000453c      0x25a libFREERTOS.a(port.c.obj)
+                                        0x43f (size before relaxing)
+ .debug_str     0x0000000000004796      0x233 libFREERTOS.a(heap_4.c.obj)
+                                        0x7c0 (size before relaxing)
+ .debug_str     0x00000000000049c9      0xa3d libFREERTOS.a(tasks.c.obj)
+                                       0x110e (size before relaxing)
+ .debug_str     0x0000000000005406       0xe1 libFREERTOS.a(list.c.obj)
+                                        0x6f6 (size before relaxing)
+ .debug_str     0x00000000000054e7      0x103 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-impure.o)
                                         0x56b (size before relaxing)
- .debug_str     0x0000000000003c8e       0xe4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+ .debug_str     0x00000000000055ea       0xe4 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
                                         0x1ef (size before relaxing)
- .debug_str     0x0000000000003d72      0x20b /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
+ .debug_str     0x00000000000056ce       0xac /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
+ .debug_str     0x000000000000577a      0x201 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
                                         0x70c (size before relaxing)
- .debug_str     0x0000000000003f7d       0x43 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
+ .debug_str     0x000000000000597b       0x43 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
                                         0x6e6 (size before relaxing)
- .debug_str     0x0000000000003fc0      0x42d /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
+ .debug_str     0x00000000000059be      0x42d /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
                                         0xb6e (size before relaxing)
- .debug_str     0x00000000000043ed      0x281 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
+ .debug_str     0x0000000000005deb      0x27b /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
                                         0x7d3 (size before relaxing)
- .debug_str     0x000000000000466e       0xb6 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
+ .debug_str     0x0000000000006066       0x57 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
                                         0x59b (size before relaxing)
- .debug_str     0x0000000000004724       0x44 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
+ .debug_str     0x00000000000060bd       0x44 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
                                         0x593 (size before relaxing)
- .debug_str     0x0000000000004768       0x38 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
+ .debug_str     0x0000000000006101       0x38 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
                                         0x5ae (size before relaxing)
- .debug_str     0x00000000000047a0       0x3d /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
+ .debug_str     0x0000000000006139       0x3d /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
                                         0x581 (size before relaxing)
- .debug_str     0x00000000000047dd       0x7f /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
+ .debug_str     0x0000000000006176       0x7f /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
                                         0xbe8 (size before relaxing)
- .debug_str     0x000000000000485c       0x34 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
+ .debug_str     0x00000000000061f5       0x34 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
                                         0x74c (size before relaxing)
- .debug_str     0x0000000000004890       0x4d /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memcpy.o)
-                                         0xac (size before relaxing)
- .debug_str     0x00000000000048dd       0xac /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
+ .debug_str     0x0000000000006229       0xac /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
                                         0x8b7 (size before relaxing)
- .debug_str     0x0000000000004989       0x4e /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
+ .debug_str     0x00000000000062d5       0x4e /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
                                         0x78a (size before relaxing)
- .debug_str     0x00000000000049d7       0x5a /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
+ .debug_str     0x0000000000006323       0x5a /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
                                         0x5a7 (size before relaxing)
 
-.debug_frame    0x0000000000000000     0x3660
- .debug_frame   0x0000000000000000       0xd0 CMakeFiles/blink.elf.dir/Src/main.c.obj
- .debug_frame   0x00000000000000d0       0xc4 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_frame   0x0000000000000194      0x128 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
- .debug_frame   0x00000000000002bc       0x58 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_frame   0x0000000000000314      0x298 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_frame   0x00000000000005ac      0x428 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_frame   0x00000000000009d4      0x14c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_frame   0x0000000000000b20      0xb30 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .debug_frame   0x0000000000001650      0x218 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_frame   0x0000000000001868      0xfb4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_frame   0x000000000000281c      0x54c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_frame   0x0000000000002d68       0x54 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
- .debug_frame   0x0000000000002dbc      0x168 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
- .debug_frame   0x0000000000002f24      0x138 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
- .debug_frame   0x000000000000305c      0x168 CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
- .debug_frame   0x00000000000031c4       0x2c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
- .debug_frame   0x00000000000031f0       0x9c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
- .debug_frame   0x000000000000328c       0x80 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
- .debug_frame   0x000000000000330c       0x40 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
- .debug_frame   0x000000000000334c       0x4c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
- .debug_frame   0x0000000000003398       0x34 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
- .debug_frame   0x00000000000033cc       0x30 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
- .debug_frame   0x00000000000033fc       0x2c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000003428       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
- .debug_frame   0x0000000000003448       0x98 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
- .debug_frame   0x00000000000034e0       0x80 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
- .debug_frame   0x0000000000003560       0x40 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
- .debug_frame   0x00000000000035a0       0x58 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
- .debug_frame   0x00000000000035f8       0x68 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
+.debug_frame    0x0000000000000000     0x494c
+ .debug_frame   0x0000000000000000      0x13c CMakeFiles/blink.elf.dir/Src/main.c.obj
+ .debug_frame   0x000000000000013c       0xc4 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_frame   0x0000000000000200       0x74 CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj
+ .debug_frame   0x0000000000000274      0x104 CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_frame   0x0000000000000378       0x58 CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_frame   0x00000000000003d0      0x298 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_frame   0x0000000000000668      0x428 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_frame   0x0000000000000a90      0x14c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_frame   0x0000000000000bdc      0xb30 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_frame   0x000000000000170c      0x218 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_frame   0x0000000000001924      0xfb4 CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_frame   0x00000000000028d8      0x54c CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_frame   0x0000000000002e24       0x54 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
+ .debug_frame   0x0000000000002e78      0x168 CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj
+ .debug_frame   0x0000000000002fe0      0x138 CMakeFiles/blink.elf.dir/UserSrc/Lib/ssd1306/Src/ssd1306.c.obj
+ .debug_frame   0x0000000000003118      0x168 CMakeFiles/blink.elf.dir/UserSrc/Lib/syscall/Src/syscalls.c.obj
+ .debug_frame   0x0000000000003280      0x808 libFREERTOS.a(cmsis_os.c.obj)
+ .debug_frame   0x0000000000003a88      0x18c libFREERTOS.a(port.c.obj)
+ .debug_frame   0x0000000000003c14      0x108 libFREERTOS.a(heap_4.c.obj)
+ .debug_frame   0x0000000000003d1c      0x6bc libFREERTOS.a(tasks.c.obj)
+ .debug_frame   0x00000000000043d8       0xd8 libFREERTOS.a(list.c.obj)
+ .debug_frame   0x00000000000044b0       0x2c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)
+ .debug_frame   0x00000000000044dc       0x9c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-snprintf.o)
+ .debug_frame   0x0000000000004578       0x80 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sprintf.o)
+ .debug_frame   0x00000000000045f8       0x40 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfprintf.o)
+ .debug_frame   0x0000000000004638       0x4c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mallocr.o)
+ .debug_frame   0x0000000000004684       0x34 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memchr-stub.o)
+ .debug_frame   0x00000000000046b8       0x30 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-mlock.o)
+ .debug_frame   0x00000000000046e8       0x2c /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000004714       0x20 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-strlen-stub.o)
+ .debug_frame   0x0000000000004734       0x98 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-svfiprintf.o)
+ .debug_frame   0x00000000000047cc       0x80 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-freer.o)
+ .debug_frame   0x000000000000484c       0x40 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-memmove.o)
+ .debug_frame   0x000000000000488c       0x58 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reallocr.o)
+ .debug_frame   0x00000000000048e4       0x68 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-reent.o)
 
 .debug_loc      0x0000000000000000     0x43ba
  .debug_loc     0x0000000000000000       0xa2 /opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/lib/thumb/cortex-m3/libg.a(lib_a-init.o)

@@ -3,6 +3,8 @@ project(blink C CXX ASM)
 
 add_definitions(-DSTM32F103xB)
 
+include("RTOS.cmake")
+
 file(GLOB_RECURSE USER_SOURCES "Src/*.c")
 file(GLOB_RECURSE HAL_SOURCES "Drivers/STM32F1xx_HAL_Driver/Src/*.c")
 file(GLOB_RECURSE USERSOURCES "UserSrc/Src/*.c")
@@ -29,9 +31,9 @@ include_directories(Drivers/CMSIS/Device/ST/STM32F1xx/Include)
 include_directories(UserSrc/Inc)
 
 
-add_executable(${PROJECT_NAME}.elf ${USER_SOURCES} ${HAL_SOURCES} ${USERSOURCES} ${LIBS} ${LINKER_SCRIPT})
+add_executable(${PROJECT_NAME}.elf ${USER_SOURCES} ${FREERTOS} ${HAL_SOURCES} ${USERSOURCES} ${LIBS} ${LINKER_SCRIPT})
 
-target_link_libraries(${PROJECT_NAME}.elf HAL CMSIS USERSRC LIBS)
+target_link_libraries(${PROJECT_NAME}.elf HAL CMSIS USERSRC LIBS FREERTOS)
 
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-Map=${PROJECT_SOURCE_DIR}/build/${PROJECT_NAME}.map")
 set(HEX_FILE ${PROJECT_SOURCE_DIR}/build/${PROJECT_NAME}.hex)

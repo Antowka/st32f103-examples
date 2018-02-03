@@ -191,12 +191,6 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 CMSIS_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
-FREERTOS1_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-FREERTOS2_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
 FREERTOS_LIB_DEPENDS:STATIC=
 
 //Dependencies for target

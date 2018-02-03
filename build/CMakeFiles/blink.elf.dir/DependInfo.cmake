@@ -17,8 +17,10 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
   "/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
   "/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+  "/home/anton/Desktop/Projects/STM32/blink/Src/freertos.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/Src/freertos.c.obj"
   "/home/anton/Desktop/Projects/STM32/blink/Src/main.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/Src/main.c.obj"
   "/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_msp.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_msp.c.obj"
+  "/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal_timebase_TIM.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/Src/stm32f1xx_hal_timebase_TIM.c.obj"
   "/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_it.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj"
   "/home/anton/Desktop/Projects/STM32/blink/Src/system_stm32f1xx.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/Src/system_stm32f1xx.c.obj"
   "/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Src/dht11.c" "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/blink.elf.dir/UserSrc/Lib/dh11/Src/dht11.c.obj"
@@ -38,6 +40,9 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../Middlewares/Third_Party/FreeRTOS/Source/include"
+  "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
+  "../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"
   "/opt/cross/arm-none-eabi/include"
   "../UserSrc/Lib/ssd1306/Inc"
   "../UserSrc/Lib/syscall/Inc"
@@ -55,6 +60,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/CMSIS.dir/DependInfo.cmake"
   "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/USERSRC.dir/DependInfo.cmake"
   "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/LIBS.dir/DependInfo.cmake"
+  "/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/FREERTOS.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
