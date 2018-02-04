@@ -48,11 +48,13 @@
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
-					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
@@ -79,11 +81,13 @@
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
-					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
@@ -110,11 +114,13 @@
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
-					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
@@ -141,11 +147,13 @@
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
-					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
@@ -172,11 +180,13 @@
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
-					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
@@ -203,11 +213,13 @@
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
-					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
@@ -234,11 +246,13 @@
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
-					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
@@ -265,11 +279,13 @@
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
-					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
@@ -296,11 +312,13 @@
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
-					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
@@ -327,11 +345,13 @@
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
-					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
@@ -342,6 +362,72 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 HAL/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="USB">
+				<Option output="/home/anton/Desktop/Projects/STM32/blink/build/libUSB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anton/Desktop/Projects/STM32/blink/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Inc"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include-fixed"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 USB"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="USB/fast">
+				<Option output="/home/anton/Desktop/Projects/STM32/blink/build/libUSB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anton/Desktop/Projects/STM32/blink/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Inc"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/include-fixed"/>
+					<Add directory="/opt/cross/lib/gcc/arm-none-eabi/7.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 USB/fast"/>
 					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/anton/Desktop/Projects/STM32/blink/build/Makefile&quot;  VERBOSE=1 clean"/>
@@ -358,11 +444,13 @@
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
-					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
@@ -389,11 +477,13 @@
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 					<Add directory="/opt/cross/arm-none-eabi/include"/>
+					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/syscall/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Inc"/>
-					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Include"/>
 					<Add directory="/home/anton/Desktop/Projects/STM32/blink/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
@@ -442,6 +532,14 @@
 			<Option target="blink.elf"/>
 			<Option target="HAL"/>
 		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
 		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
 			<Option target="blink.elf"/>
 			<Option target="HAL"/>
@@ -461,6 +559,22 @@
 		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
 			<Option target="blink.elf"/>
 			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c">
+			<Option target="blink.elf"/>
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+			<Option target="USB"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+			<Option target="USB"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+			<Option target="USB"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+			<Option target="USB"/>
 		</Unit>
 		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
 			<Option target="FREERTOS"/>
@@ -514,6 +628,18 @@
 			<Option target="blink.elf"/>
 			<Option target="CMSIS"/>
 		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/usb_device.c">
+			<Option target="blink.elf"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/usbd_cdc_if.c">
+			<Option target="blink.elf"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/usbd_conf.c">
+			<Option target="blink.elf"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/Src/usbd_desc.c">
+			<Option target="blink.elf"/>
+		</Unit>
 		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Src/dht11.c">
 			<Option target="blink.elf"/>
 			<Option target="LIBS"/>
@@ -552,6 +678,9 @@
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/RTOS.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/anton/Desktop/Projects/STM32/blink/USB.cmake">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

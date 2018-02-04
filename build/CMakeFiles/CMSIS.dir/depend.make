@@ -23,11 +23,14 @@ CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_HAL_Driver
 CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
 CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
 CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
+CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
+CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
 CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
 CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
 CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
 CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Inc/main.h
 CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Inc/stm32f1xx_hal_conf.h
 CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.obj: ../Src/system_stm32f1xx.c

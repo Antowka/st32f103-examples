@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "../RTOS.cmake"
   "../STM32F103C8Tx.cmake"
+  "../USB.cmake"
   "CMakeFiles/3.8.2/CMakeASMCompiler.cmake"
   "CMakeFiles/3.8.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.8.2/CMakeCXXCompiler.cmake"
@@ -51,5 +52,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LIBS.dir/DependInfo.cmake"
   "CMakeFiles/CMSIS.dir/DependInfo.cmake"
   "CMakeFiles/HAL.dir/DependInfo.cmake"
+  "CMakeFiles/USB.dir/DependInfo.cmake"
   "CMakeFiles/FREERTOS.dir/DependInfo.cmake"
   )

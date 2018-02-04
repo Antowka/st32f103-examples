@@ -5,4 +5,5 @@
 /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/LIBS.dir
 /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/CMSIS.dir
 /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/HAL.dir
+/home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/USB.dir
 /home/anton/Desktop/Projects/STM32/blink/build/CMakeFiles/FREERTOS.dir

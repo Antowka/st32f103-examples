@@ -8,6 +8,7 @@
 #include "lesson5.h"
 
 dht11 dht;
+u_char messageFromUsbComPort[11];
 
 static void error(DHT11_RESULT res, int8_t bit_pos);
 
@@ -21,7 +22,10 @@ void DisplayOutputTask(void const *argument) {
 
     for(;;) {
 
-        if (!dht.hasNewTemperature) osDelay(100);
+        if (!dht.hasNewTemperature) {
+            osDelay(100);
+            continue;
+        }
 
         u_char tmp[15];
         sprintf(tmp, "t = %d.%dC", dht.temp.number, dht.temp.fraction);
@@ -32,6 +36,11 @@ void DisplayOutputTask(void const *argument) {
         sprintf(hum, "h = %d.%d%c", dht.hum.number, dht.hum.fraction, '%');
         ssd1306_SetCursor(10, 32);
         ssd1306_WriteString(hum, Font_7x10, White);
+
+        u_char mes[16];
+        sprintf(mes, "msg: %s", messageFromUsbComPort);
+        ssd1306_SetCursor(10, 43);
+        ssd1306_WriteString(mes, Font_7x10, White);
 
         ssd1306_UpdateScreen();
         dht.hasNewTemperature = false;

@@ -176,6 +176,19 @@ HAL/fast:
 .PHONY : HAL/fast
 
 #=============================================================================
+# Target rules for targets named USB
+
+# Build rule for target.
+USB: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 USB
+.PHONY : USB
+
+# fast build rule for target.
+USB/fast:
+	$(MAKE) -f CMakeFiles/USB.dir/build.make CMakeFiles/USB.dir/build
+.PHONY : USB/fast
+
+#=============================================================================
 # Target rules for targets named FREERTOS
 
 # Build rule for target.
@@ -428,6 +441,66 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s:
 	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
 
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj
+
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.i
+
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i
+	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.s
+
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s
+	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj
+
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
+	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.i
+
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i
+	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s
+	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s
+
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
 
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj
@@ -577,6 +650,144 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s:
 	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
 	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj
+
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.i
+
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i
+	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.s
+
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s
+	$(MAKE) -f CMakeFiles/HAL.dir/build.make CMakeFiles/HAL.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj:
+	$(MAKE) -f CMakeFiles/USB.dir/build.make CMakeFiles/USB.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i:
+	$(MAKE) -f CMakeFiles/USB.dir/build.make CMakeFiles/USB.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s:
+	$(MAKE) -f CMakeFiles/USB.dir/build.make CMakeFiles/USB.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj:
+	$(MAKE) -f CMakeFiles/USB.dir/build.make CMakeFiles/USB.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i:
+	$(MAKE) -f CMakeFiles/USB.dir/build.make CMakeFiles/USB.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s:
+	$(MAKE) -f CMakeFiles/USB.dir/build.make CMakeFiles/USB.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj:
+	$(MAKE) -f CMakeFiles/USB.dir/build.make CMakeFiles/USB.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i:
+	$(MAKE) -f CMakeFiles/USB.dir/build.make CMakeFiles/USB.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s:
+	$(MAKE) -f CMakeFiles/USB.dir/build.make CMakeFiles/USB.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj:
+	$(MAKE) -f CMakeFiles/USB.dir/build.make CMakeFiles/USB.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i:
+	$(MAKE) -f CMakeFiles/USB.dir/build.make CMakeFiles/USB.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s:
+	$(MAKE) -f CMakeFiles/USB.dir/build.make CMakeFiles/USB.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
 
@@ -986,6 +1197,114 @@ Src/system_stm32f1xx.c.s:
 	$(MAKE) -f CMakeFiles/CMSIS.dir/build.make CMakeFiles/CMSIS.dir/Src/system_stm32f1xx.c.s
 .PHONY : Src/system_stm32f1xx.c.s
 
+Src/usb_device.obj: Src/usb_device.c.obj
+
+.PHONY : Src/usb_device.obj
+
+# target to build an object file
+Src/usb_device.c.obj:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/usb_device.c.obj
+.PHONY : Src/usb_device.c.obj
+
+Src/usb_device.i: Src/usb_device.c.i
+
+.PHONY : Src/usb_device.i
+
+# target to preprocess a source file
+Src/usb_device.c.i:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/usb_device.c.i
+.PHONY : Src/usb_device.c.i
+
+Src/usb_device.s: Src/usb_device.c.s
+
+.PHONY : Src/usb_device.s
+
+# target to generate assembly for a file
+Src/usb_device.c.s:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/usb_device.c.s
+.PHONY : Src/usb_device.c.s
+
+Src/usbd_cdc_if.obj: Src/usbd_cdc_if.c.obj
+
+.PHONY : Src/usbd_cdc_if.obj
+
+# target to build an object file
+Src/usbd_cdc_if.c.obj:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj
+.PHONY : Src/usbd_cdc_if.c.obj
+
+Src/usbd_cdc_if.i: Src/usbd_cdc_if.c.i
+
+.PHONY : Src/usbd_cdc_if.i
+
+# target to preprocess a source file
+Src/usbd_cdc_if.c.i:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.i
+.PHONY : Src/usbd_cdc_if.c.i
+
+Src/usbd_cdc_if.s: Src/usbd_cdc_if.c.s
+
+.PHONY : Src/usbd_cdc_if.s
+
+# target to generate assembly for a file
+Src/usbd_cdc_if.c.s:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.s
+.PHONY : Src/usbd_cdc_if.c.s
+
+Src/usbd_conf.obj: Src/usbd_conf.c.obj
+
+.PHONY : Src/usbd_conf.obj
+
+# target to build an object file
+Src/usbd_conf.c.obj:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/usbd_conf.c.obj
+.PHONY : Src/usbd_conf.c.obj
+
+Src/usbd_conf.i: Src/usbd_conf.c.i
+
+.PHONY : Src/usbd_conf.i
+
+# target to preprocess a source file
+Src/usbd_conf.c.i:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/usbd_conf.c.i
+.PHONY : Src/usbd_conf.c.i
+
+Src/usbd_conf.s: Src/usbd_conf.c.s
+
+.PHONY : Src/usbd_conf.s
+
+# target to generate assembly for a file
+Src/usbd_conf.c.s:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/usbd_conf.c.s
+.PHONY : Src/usbd_conf.c.s
+
+Src/usbd_desc.obj: Src/usbd_desc.c.obj
+
+.PHONY : Src/usbd_desc.obj
+
+# target to build an object file
+Src/usbd_desc.c.obj:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/usbd_desc.c.obj
+.PHONY : Src/usbd_desc.c.obj
+
+Src/usbd_desc.i: Src/usbd_desc.c.i
+
+.PHONY : Src/usbd_desc.i
+
+# target to preprocess a source file
+Src/usbd_desc.c.i:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/usbd_desc.c.i
+.PHONY : Src/usbd_desc.c.i
+
+Src/usbd_desc.s: Src/usbd_desc.c.s
+
+.PHONY : Src/usbd_desc.s
+
+# target to generate assembly for a file
+Src/usbd_desc.c.s:
+	$(MAKE) -f CMakeFiles/blink.elf.dir/build.make CMakeFiles/blink.elf.dir/Src/usbd_desc.c.s
+.PHONY : Src/usbd_desc.c.s
+
 UserSrc/Lib/dh11/Src/dht11.obj: UserSrc/Lib/dh11/Src/dht11.c.obj
 
 .PHONY : UserSrc/Lib/dh11/Src/dht11.obj
@@ -1218,6 +1537,7 @@ help:
 	@echo "... LIBS"
 	@echo "... CMSIS"
 	@echo "... HAL"
+	@echo "... USB"
 	@echo "... FREERTOS"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i"
@@ -1243,6 +1563,12 @@ help:
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.s"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s"
@@ -1258,6 +1584,21 @@ help:
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.i"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.s"
+	@echo "... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj"
+	@echo "... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i"
+	@echo "... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s"
+	@echo "... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj"
+	@echo "... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i"
+	@echo "... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s"
+	@echo "... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj"
+	@echo "... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i"
+	@echo "... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s"
+	@echo "... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj"
+	@echo "... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i"
+	@echo "... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s"
 	@echo "... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj"
 	@echo "... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i"
 	@echo "... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s"
@@ -1303,6 +1644,18 @@ help:
 	@echo "... Src/system_stm32f1xx.obj"
 	@echo "... Src/system_stm32f1xx.i"
 	@echo "... Src/system_stm32f1xx.s"
+	@echo "... Src/usb_device.obj"
+	@echo "... Src/usb_device.i"
+	@echo "... Src/usb_device.s"
+	@echo "... Src/usbd_cdc_if.obj"
+	@echo "... Src/usbd_cdc_if.i"
+	@echo "... Src/usbd_cdc_if.s"
+	@echo "... Src/usbd_conf.obj"
+	@echo "... Src/usbd_conf.i"
+	@echo "... Src/usbd_conf.s"
+	@echo "... Src/usbd_desc.obj"
+	@echo "... Src/usbd_desc.i"
+	@echo "... Src/usbd_desc.s"
 	@echo "... UserSrc/Lib/dh11/Src/dht11.obj"
 	@echo "... UserSrc/Lib/dh11/Src/dht11.i"
 	@echo "... UserSrc/Lib/dh11/Src/dht11.s"

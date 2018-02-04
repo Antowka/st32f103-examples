@@ -40,9 +40,8 @@ static void set_pin_in(dht11* handle) {
     HAL_GPIO_Init(handle->config.gpio_port, &GPIO_InitStruct);
 }
 
-u_int32_t test = 0;
-
 DHT11_RESULT dht11_read_data(dht11* handle) {
+    handle->hasNewTemperature = false;
     if (handle->state != DHT11_READY) return DHT11_ERROR;
 
     handle->state = DHT11_BUSY;
@@ -149,6 +148,7 @@ static void finish_rx(dht11* handle) {
         handle->error_flags.parity = true;
     }
     handle->state = DHT11_FINISHED;
+    handle->hasNewTemperature = true;
 }
 
 #define BETWEEN(a, b) (dt >= (a) && dt <= (b))

@@ -142,6 +142,16 @@ stm32f1xx_hal_def.h
 stm32f1xx_hal_def.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
 
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
+stm32f1xx_ll_usb.h
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
+stm32f1xx_hal_pcd_ex.h
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
+
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
+stm32f1xx_hal_def.h
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 stm32f1xx_hal_def.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
@@ -163,6 +173,10 @@ stm32f1xx_hal_tim_ex.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+stm32f1xx_hal_def.h
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
 stm32f1xx_hal_def.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
 
@@ -245,6 +259,64 @@ stm32f1xx_hal.h
 ../Inc/stm32f1xx_hal.h
 main.h
 ../Inc/main.h
+
+../Inc/usb_device.h
+stm32f1xx.h
+../Inc/stm32f1xx.h
+stm32f1xx_hal.h
+../Inc/stm32f1xx_hal.h
+usbd_def.h
+../Inc/usbd_def.h
+
+../Inc/usbd_cdc_if.h
+usbd_cdc.h
+../Inc/usbd_cdc.h
+
+../Inc/usbd_conf.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stm32f1xx.h
+../Inc/stm32f1xx.h
+stm32f1xx_hal.h
+../Inc/stm32f1xx_hal.h
+usbd_def.h
+../Inc/usbd_def.h
+
+../Inc/usbd_desc.h
+usbd_def.h
+../Inc/usbd_def.h
+
+../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h
+usbd_ioreq.h
+../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_ioreq.h
+
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h
+usbd_conf.h
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_conf.h
+usbd_def.h
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
+usbd_ioreq.h
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
+usbd_ctlreq.h
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+usbd_def.h
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
+
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
+usbd_conf.h
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_conf.h
+
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
+usbd_def.h
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
+usbd_core.h
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h
 
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 FreeRTOS.h
@@ -486,6 +558,14 @@ stm32f1xx_hal.h
 stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.h
 
+/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c
+stm32f1xx_hal.h
+/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.h
+
+/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c
+stm32f1xx_hal.h
+/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.h
+
 /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.h
@@ -506,6 +586,10 @@ stm32f1xx_hal.h
 stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.h
 
+/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c
+stm32f1xx_hal.h
+/home/anton/Desktop/Projects/STM32/blink/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.h
+
 /home/anton/Desktop/Projects/STM32/blink/Src/freertos.c
 FreeRTOS.h
 /home/anton/Desktop/Projects/STM32/blink/Src/FreeRTOS.h
@@ -519,6 +603,8 @@ stm32f1xx_hal.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal.h
 cmsis_os.h
 /home/anton/Desktop/Projects/STM32/blink/Src/cmsis_os.h
+usb_device.h
+/home/anton/Desktop/Projects/STM32/blink/Src/usb_device.h
 lesson5.h
 -
 
@@ -547,6 +633,42 @@ dht11.h
 /home/anton/Desktop/Projects/STM32/blink/Src/system_stm32f1xx.c
 stm32f1xx.h
 /home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx.h
+
+/home/anton/Desktop/Projects/STM32/blink/Src/usb_device.c
+usb_device.h
+/home/anton/Desktop/Projects/STM32/blink/Src/usb_device.h
+usbd_core.h
+/home/anton/Desktop/Projects/STM32/blink/Src/usbd_core.h
+usbd_desc.h
+/home/anton/Desktop/Projects/STM32/blink/Src/usbd_desc.h
+usbd_cdc.h
+/home/anton/Desktop/Projects/STM32/blink/Src/usbd_cdc.h
+usbd_cdc_if.h
+/home/anton/Desktop/Projects/STM32/blink/Src/usbd_cdc_if.h
+
+/home/anton/Desktop/Projects/STM32/blink/Src/usbd_cdc_if.c
+usbd_cdc_if.h
+/home/anton/Desktop/Projects/STM32/blink/Src/usbd_cdc_if.h
+
+/home/anton/Desktop/Projects/STM32/blink/Src/usbd_conf.c
+stm32f1xx.h
+/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx.h
+stm32f1xx_hal.h
+/home/anton/Desktop/Projects/STM32/blink/Src/stm32f1xx_hal.h
+usbd_def.h
+/home/anton/Desktop/Projects/STM32/blink/Src/usbd_def.h
+usbd_core.h
+/home/anton/Desktop/Projects/STM32/blink/Src/usbd_core.h
+usbd_cdc.h
+/home/anton/Desktop/Projects/STM32/blink/Src/usbd_cdc.h
+
+/home/anton/Desktop/Projects/STM32/blink/Src/usbd_desc.c
+usbd_core.h
+/home/anton/Desktop/Projects/STM32/blink/Src/usbd_core.h
+usbd_desc.h
+/home/anton/Desktop/Projects/STM32/blink/Src/usbd_desc.h
+usbd_conf.h
+/home/anton/Desktop/Projects/STM32/blink/Src/usbd_conf.h
 
 /home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Src/dht11.c
 sched.h
@@ -608,6 +730,12 @@ sys/config.h
 
 /opt/cross/arm-none-eabi/include/_newlib_version.h
 
+/opt/cross/arm-none-eabi/include/alloca.h
+_ansi.h
+/opt/cross/arm-none-eabi/include/_ansi.h
+sys/reent.h
+-
+
 /opt/cross/arm-none-eabi/include/assert.h
 _ansi.h
 /opt/cross/arm-none-eabi/include/_ansi.h
@@ -641,6 +769,8 @@ machine/_endian.h
 -
 
 /opt/cross/arm-none-eabi/include/machine/ieeefp.h
+
+/opt/cross/arm-none-eabi/include/machine/stdlib.h
 
 /opt/cross/arm-none-eabi/include/machine/time.h
 sys/_timespec.h
@@ -698,6 +828,44 @@ sys/reent.h
 sys/types.h
 -
 sys/stdio.h
+-
+
+/opt/cross/arm-none-eabi/include/stdlib.h
+machine/ieeefp.h
+-
+_ansi.h
+/opt/cross/arm-none-eabi/include/_ansi.h
+stddef.h
+-
+sys/reent.h
+-
+sys/cdefs.h
+-
+machine/stdlib.h
+-
+alloca.h
+-
+cygwin/stdlib.h
+-
+sys/_locale.h
+-
+
+/opt/cross/arm-none-eabi/include/string.h
+_ansi.h
+/opt/cross/arm-none-eabi/include/_ansi.h
+sys/reent.h
+-
+sys/cdefs.h
+-
+sys/features.h
+-
+stddef.h
+-
+sys/_locale.h
+-
+string.h
+-
+sys/string.h
 -
 
 /opt/cross/arm-none-eabi/include/sys/_intsup.h
@@ -835,6 +1003,8 @@ sys/lock.h
 -
 sys/reent.h
 -
+
+/opt/cross/arm-none-eabi/include/sys/string.h
 
 /opt/cross/arm-none-eabi/include/sys/timespec.h
 sys/cdefs.h
