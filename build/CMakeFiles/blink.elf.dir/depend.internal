@@ -1542,8 +1542,22 @@ CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+ ../Inc/FreeRTOSConfig.h
  ../Inc/main.h
  ../Inc/stm32f1xx_hal_conf.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h
  ../UserSrc/Inc/lesson5.h
  ../UserSrc/Lib/dh11/Inc/dht11.h
  ../UserSrc/Lib/ssd1306/Inc/fonts.h
@@ -1560,6 +1574,7 @@ CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
  /opt/cross/arm-none-eabi/include/machine/ieeefp.h
  /opt/cross/arm-none-eabi/include/machine/types.h
  /opt/cross/arm-none-eabi/include/newlib.h
+ /opt/cross/arm-none-eabi/include/reent.h
  /opt/cross/arm-none-eabi/include/stdint.h
  /opt/cross/arm-none-eabi/include/stdio.h
  /opt/cross/arm-none-eabi/include/sys/_intsup.h

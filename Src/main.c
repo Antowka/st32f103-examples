@@ -62,11 +62,11 @@ TIM_HandleTypeDef htim3;
 
 osThreadId defaultTaskHandle;
 
-osThreadId secondTaskHandle;
-
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-
+osThreadId displayOutputTask;
+osThreadId tempratureTask;
+osThreadId ledTask;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -77,7 +77,7 @@ static void MX_TIM3_Init(void);
 void StartDefaultTask(void const * argument);
 
 /* USER CODE BEGIN PFP */
-void SecondTaskDefaultTask(void const * argument);
+
 /* Private function prototypes -----------------------------------------------*/
 
 /* USER CODE END PFP */
@@ -132,12 +132,19 @@ int main(void)
 
   /* Create the thread(s) */
   /* definition and creation of defaultTask */
-  osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
-  defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
+//  osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
+//  defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
-  osThreadDef(secondTask, SecondTaskDefaultTask, osPriorityNormal, 1, 128);
-  secondTaskHandle = osThreadCreate(osThread(secondTask), NULL);
+  osThreadDef(displayOutputTask, DisplayOutputTask, osPriorityNormal, 1, 128);
+  displayOutputTask = osThreadCreate(osThread(displayOutputTask), NULL);
+
+  osThreadDef(tempratureTask, TemperatureTask, osPriorityAboveNormal, 1, 128);
+  tempratureTask = osThreadCreate(osThread(tempratureTask), NULL);
+
+  osThreadDef(ledTask, LedTask, osPriorityNormal, 1, 128);
+  ledTask = osThreadCreate(osThread(ledTask), NULL);
+
   /* USER CODE END RTOS_THREADS */
 
   /* USER CODE BEGIN RTOS_QUEUES */
@@ -152,11 +159,11 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-    while (1) {
+  while (1) {
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
-    }
+  }
   /* USER CODE END 3 */
 
 }
@@ -295,21 +302,7 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-void SecondTaskDefaultTask(void const * argument)
-{
 
-  /* USER CODE BEGIN 5 */
-  /* Infinite loop */
-  for(;;)
-  {
-    osDelay(250);
-    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
-    osDelay(250);
-    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
-
-  }
-  /* USER CODE END 5 */
-}
 /* USER CODE END 4 */
 
 /* StartDefaultTask function */
@@ -317,7 +310,6 @@ void StartDefaultTask(void const * argument)
 {
 
   /* USER CODE BEGIN 5 */
-    lesson5();
   /* Infinite loop */
   for(;;)
   {

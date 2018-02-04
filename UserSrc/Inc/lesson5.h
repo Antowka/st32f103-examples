@@ -16,4 +16,8 @@ extern TIM_HandleTypeDef  htim3;
 #define TIMER_CHANNEL TIM_CHANNEL_1
 
 void lesson5();
+void DisplayOutputTask(void const *argument);
+void LedTask(void const *argument);
+void TemperatureTask(void const *argument);
+
 #endif //BLINK_LESSON5_H

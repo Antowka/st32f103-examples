@@ -2,7 +2,7 @@
 #include <stm32f1xx_hal_gpio.h>
 #include <dht11.h>
 #include <cmsis_os.h>
-#include "dht11.h"
+
 
 /**
  * Sets up the pin as an output
@@ -40,6 +40,8 @@ static void set_pin_in(dht11* handle) {
     HAL_GPIO_Init(handle->config.gpio_port, &GPIO_InitStruct);
 }
 
+u_int32_t test = 0;
+
 DHT11_RESULT dht11_read_data(dht11* handle) {
     if (handle->state != DHT11_READY) return DHT11_ERROR;
 
@@ -68,14 +70,18 @@ DHT11_RESULT dht11_read_data(dht11* handle) {
         return DHT11_ERROR;
     }
 
-    uint32_t start_tick = HAL_GetTick();
+    uint32_t start_tick = xTaskGetTickCount();
 
     // wait for the state machine to finish
-    while (handle->state != DHT11_FINISHED && HAL_GetTick() - start_tick < 1000) {}
+    while (handle->state != DHT11_FINISHED && xTaskGetTickCount() - start_tick < 1000) {
+        if (handle->system.hasTimInterrupt) {
+            handle->system.hasTimInterrupt = false;
+            dht11_interrupt_handler(handle);
+        }
+    }
 
     // disable the timer interrupts
-    if (HAL_TIM_IC_Stop_IT(handle->config.timer,
-                           handle->config.timer_channel) != HAL_OK) {
+    if (HAL_TIM_IC_Stop_IT(handle->config.timer, handle->config.timer_channel) != HAL_OK) {
         return DHT11_ERROR;
     }
 

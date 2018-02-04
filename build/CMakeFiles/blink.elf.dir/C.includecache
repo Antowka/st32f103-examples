@@ -557,8 +557,6 @@ dht11.h
 -
 cmsis_os.h
 -
-dht11.h
-/home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/dh11/Src/dht11.h
 
 /home/anton/Desktop/Projects/STM32/blink/UserSrc/Lib/ssd1306/Src/fonts.c
 fonts.h
@@ -596,6 +594,8 @@ ssd1306.h
 ssd1306.h
 -
 dht11.h
+-
+cmsis_os.h
 -
 lesson5.h
 /home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson5.h

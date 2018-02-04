@@ -139,6 +139,19 @@ typedef struct {
      * Configuration of the sensor
      */
     dht11_config config;
+
+    /**
+     * Flag about new temperature
+     */
+    bool hasNewTemperature;
+
+    struct { ;
+        /**
+          * Flag about interrupt from timer
+          */
+        bool hasTimInterrupt;
+    } system;
+
 } dht11;
 
 /**
