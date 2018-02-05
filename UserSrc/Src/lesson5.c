@@ -5,6 +5,7 @@
 #include <ssd1306.h>
 #include <dht11.h>
 #include <cmsis_os.h>
+#include <usbd_cdc_if.h>
 #include "lesson5.h"
 
 dht11 dht;
@@ -43,6 +44,7 @@ void DisplayOutputTask(void const *argument) {
         ssd1306_WriteString(mes, Font_7x10, White);
 
         ssd1306_UpdateScreen();
+        ssd1306_Fill(Black);
         dht.hasNewTemperature = false;
         osDelay(1000);
     }
@@ -71,14 +73,21 @@ void TemperatureTask(void const *argument) {
     }
 }
 
-void LedTask(void const *argument) {
+void SendTelemetryToUsb(void const *argument) {
+
+    u_char str[20];
 
     for(;;) {
-        osDelay(250);
+
+        osSemaphoreWait(sendTelemetryToUsbSemaphoreHandle, portMAX_DELAY); //blocked to ISR from USB receive data
+
+        sprintf(str, "t=%d.%dC, h=%d.%d%c\n",
+                dht.temp.number, dht.temp.fraction, dht.hum.number, dht.hum.fraction, '%');
+        CDC_Transmit_FS(str, sizeof(str));
+
         HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
         osDelay(250);
         HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
-
     }
 }
 

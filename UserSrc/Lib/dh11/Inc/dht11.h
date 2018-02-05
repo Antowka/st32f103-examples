@@ -11,6 +11,7 @@
 
 #include <stdbool.h>
 
+
 /**
  * Possible return values of the functions
  */
@@ -153,6 +154,7 @@ typedef struct {
     } system;
 
 } dht11;
+
 
 /**
  * Initializes the DHT11 handle using the provided configuration

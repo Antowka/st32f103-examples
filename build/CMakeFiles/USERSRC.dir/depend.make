@@ -160,6 +160,13 @@ CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../Drivers/STM32F1xx_HAL_Drive
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../Inc/FreeRTOSConfig.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../Inc/main.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../Inc/stm32f1xx_hal_conf.h
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../Inc/usbd_cdc_if.h
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../Inc/usbd_conf.h
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
@@ -180,6 +187,7 @@ CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../UserSrc/Lib/ssd1306/Inc/ssd
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: ../UserSrc/Src/lesson5.c
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/_ansi.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/_newlib_version.h
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/alloca.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/assert.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/limits.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/machine/_default_types.h
@@ -187,12 +195,16 @@ CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/inclu
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/machine/_types.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/machine/endian.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/machine/ieeefp.h
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/machine/stdlib.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/machine/types.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/newlib.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/reent.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/stdint.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/stdio.h
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/stdlib.h
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/string.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/_intsup.h
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/_locale.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/_pthreadtypes.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/_sigset.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/_stdint.h
@@ -208,6 +220,7 @@ CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/inclu
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/sched.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/select.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/stdio.h
+CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/string.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/timespec.h
 CMakeFiles/USERSRC.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/types.h
 

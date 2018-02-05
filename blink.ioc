@@ -1,8 +1,10 @@
 #MicroXplorer Configuration settings - do not modify
+FREERTOS.BinarySemaphores01=sendTelemetryToUsbSemaphore,Dynamic,NULL
 FREERTOS.FootprintOK=true
-FREERTOS.IPParameters=Tasks01,configTOTAL_HEAP_SIZE,FootprintOK
+FREERTOS.IPParameters=Tasks01,configTOTAL_HEAP_SIZE,FootprintOK,BinarySemaphores01,configUSE_COUNTING_SEMAPHORES
 FREERTOS.Tasks01=defaultTask,0,128,StartDefaultTask,Default,NULL
 FREERTOS.configTOTAL_HEAP_SIZE=6144
+FREERTOS.configUSE_COUNTING_SEMAPHORES=1
 File.Version=6
 KeepUserPlacement=false
 Mcu.Family=STM32F1

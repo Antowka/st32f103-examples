@@ -3,6 +3,7 @@
 #include <dht11.h>
 #include <cmsis_os.h>
 
+extern osSemaphoreId timCaptureISRHandle;
 
 /**
  * Sets up the pin as an output
@@ -74,8 +75,8 @@ DHT11_RESULT dht11_read_data(dht11* handle) {
     // wait for the state machine to finish
     while (handle->state != DHT11_FINISHED && xTaskGetTickCount() - start_tick < 1000) {
         if (handle->system.hasTimInterrupt) {
-            handle->system.hasTimInterrupt = false;
-            dht11_interrupt_handler(handle);
+           handle->system.hasTimInterrupt = false;
+           dht11_interrupt_handler(handle);
         }
     }
 

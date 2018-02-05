@@ -9,6 +9,7 @@
 #define BLINK_LESSON5_H
 
 extern TIM_HandleTypeDef  htim3;
+extern osSemaphoreId sendTelemetryToUsbSemaphoreHandle;
 
 #define PIN GPIO_PIN_6
 #define PORT GPIOA
@@ -17,7 +18,7 @@ extern TIM_HandleTypeDef  htim3;
 
 void lesson5();
 void DisplayOutputTask(void const *argument);
-void LedTask(void const *argument);
+void SendTelemetryToUsb(void const *argument);
 void TemperatureTask(void const *argument);
 
 #endif //BLINK_LESSON5_H

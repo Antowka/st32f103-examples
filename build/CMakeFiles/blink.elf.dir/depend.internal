@@ -1516,6 +1516,7 @@ CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
+ ../Inc/FreeRTOSConfig.h
  ../Inc/main.h
  ../Inc/stm32f1xx_hal_conf.h
  ../Inc/usbd_cdc_if.h
@@ -1525,6 +1526,19 @@ CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h
  /home/anton/Desktop/Projects/STM32/blink/Src/usbd_cdc_if.c
  /opt/cross/arm-none-eabi/include/_ansi.h
  /opt/cross/arm-none-eabi/include/_newlib_version.h
@@ -1539,6 +1553,7 @@ CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj
  /opt/cross/arm-none-eabi/include/machine/stdlib.h
  /opt/cross/arm-none-eabi/include/machine/types.h
  /opt/cross/arm-none-eabi/include/newlib.h
+ /opt/cross/arm-none-eabi/include/reent.h
  /opt/cross/arm-none-eabi/include/stdint.h
  /opt/cross/arm-none-eabi/include/stdio.h
  /opt/cross/arm-none-eabi/include/stdlib.h
@@ -2119,6 +2134,13 @@ CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
  ../Inc/FreeRTOSConfig.h
  ../Inc/main.h
  ../Inc/stm32f1xx_hal_conf.h
+ ../Inc/usbd_cdc_if.h
+ ../Inc/usbd_conf.h
+ ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h
+ ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h
+ ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+ ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
+ ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
  ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
@@ -2139,6 +2161,7 @@ CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
  /home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson5.c
  /opt/cross/arm-none-eabi/include/_ansi.h
  /opt/cross/arm-none-eabi/include/_newlib_version.h
+ /opt/cross/arm-none-eabi/include/alloca.h
  /opt/cross/arm-none-eabi/include/assert.h
  /opt/cross/arm-none-eabi/include/limits.h
  /opt/cross/arm-none-eabi/include/machine/_default_types.h
@@ -2146,12 +2169,16 @@ CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
  /opt/cross/arm-none-eabi/include/machine/_types.h
  /opt/cross/arm-none-eabi/include/machine/endian.h
  /opt/cross/arm-none-eabi/include/machine/ieeefp.h
+ /opt/cross/arm-none-eabi/include/machine/stdlib.h
  /opt/cross/arm-none-eabi/include/machine/types.h
  /opt/cross/arm-none-eabi/include/newlib.h
  /opt/cross/arm-none-eabi/include/reent.h
  /opt/cross/arm-none-eabi/include/stdint.h
  /opt/cross/arm-none-eabi/include/stdio.h
+ /opt/cross/arm-none-eabi/include/stdlib.h
+ /opt/cross/arm-none-eabi/include/string.h
  /opt/cross/arm-none-eabi/include/sys/_intsup.h
+ /opt/cross/arm-none-eabi/include/sys/_locale.h
  /opt/cross/arm-none-eabi/include/sys/_pthreadtypes.h
  /opt/cross/arm-none-eabi/include/sys/_sigset.h
  /opt/cross/arm-none-eabi/include/sys/_stdint.h
@@ -2167,5 +2194,6 @@ CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj
  /opt/cross/arm-none-eabi/include/sys/sched.h
  /opt/cross/arm-none-eabi/include/sys/select.h
  /opt/cross/arm-none-eabi/include/sys/stdio.h
+ /opt/cross/arm-none-eabi/include/sys/string.h
  /opt/cross/arm-none-eabi/include/sys/timespec.h
  /opt/cross/arm-none-eabi/include/sys/types.h

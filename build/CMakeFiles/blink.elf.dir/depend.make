@@ -1515,6 +1515,7 @@ CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Drivers/STM32F1xx_HAL_Driver/
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Inc/FreeRTOSConfig.h
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Inc/main.h
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Inc/stm32f1xx_hal_conf.h
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Inc/usbd_cdc_if.h
@@ -1524,6 +1525,19 @@ CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/ST/STM32_USB_Devi
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: ../Src/usbd_cdc_if.c
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: /opt/cross/arm-none-eabi/include/_ansi.h
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: /opt/cross/arm-none-eabi/include/_newlib_version.h
@@ -1538,6 +1552,7 @@ CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: /opt/cross/arm-none-eabi/include
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: /opt/cross/arm-none-eabi/include/machine/stdlib.h
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: /opt/cross/arm-none-eabi/include/machine/types.h
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: /opt/cross/arm-none-eabi/include/newlib.h
+CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: /opt/cross/arm-none-eabi/include/reent.h
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: /opt/cross/arm-none-eabi/include/stdint.h
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: /opt/cross/arm-none-eabi/include/stdio.h
 CMakeFiles/blink.elf.dir/Src/usbd_cdc_if.c.obj: /opt/cross/arm-none-eabi/include/stdlib.h
@@ -2118,6 +2133,13 @@ CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../Drivers/STM32F1xx_HAL_Dri
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../Inc/FreeRTOSConfig.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../Inc/main.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../Inc/stm32f1xx_hal_conf.h
+CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../Inc/usbd_cdc_if.h
+CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../Inc/usbd_conf.h
+CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h
+CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h
+CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
+CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
@@ -2138,6 +2160,7 @@ CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../UserSrc/Lib/ssd1306/Inc/s
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: ../UserSrc/Src/lesson5.c
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/_ansi.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/_newlib_version.h
+CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/alloca.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/assert.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/limits.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/machine/_default_types.h
@@ -2145,12 +2168,16 @@ CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/inc
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/machine/_types.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/machine/endian.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/machine/ieeefp.h
+CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/machine/stdlib.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/machine/types.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/newlib.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/reent.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/stdint.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/stdio.h
+CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/stdlib.h
+CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/string.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/_intsup.h
+CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/_locale.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/_pthreadtypes.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/_sigset.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/_stdint.h
@@ -2166,6 +2193,7 @@ CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/inc
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/sched.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/select.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/stdio.h
+CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/string.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/timespec.h
 CMakeFiles/blink.elf.dir/UserSrc/Src/lesson5.c.obj: /opt/cross/arm-none-eabi/include/sys/types.h
 

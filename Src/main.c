@@ -61,13 +61,14 @@ I2C_HandleTypeDef hi2c1;
 
 TIM_HandleTypeDef htim3;
 
-osThreadId defaultTaskHandle;
+//osThreadId defaultTaskHandle;
+osSemaphoreId sendTelemetryToUsbSemaphoreHandle;
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
 osThreadId displayOutputTask;
 osThreadId tempratureTask;
-osThreadId ledTask;
+osThreadId sendTelemetryToUsb;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -116,15 +117,20 @@ int main(void)
   MX_TIM3_Init();
 
   /* USER CODE BEGIN 2 */
-
+  MX_USB_DEVICE_Init();
   /* USER CODE END 2 */
 
   /* USER CODE BEGIN RTOS_MUTEX */
   /* add mutexes, ... */
   /* USER CODE END RTOS_MUTEX */
 
+  /* Create the semaphores(s) */
+  /* definition and creation of sendTelemetryToUsbSemaphore */
+  osSemaphoreDef(sendTelemetryToUsbSemaphore);
+  sendTelemetryToUsbSemaphoreHandle = osSemaphoreCreate(osSemaphore(sendTelemetryToUsbSemaphore), 1);
+
   /* USER CODE BEGIN RTOS_SEMAPHORES */
-  /* add semaphores, ... */
+
   /* USER CODE END RTOS_SEMAPHORES */
 
   /* USER CODE BEGIN RTOS_TIMERS */
@@ -133,19 +139,18 @@ int main(void)
 
   /* Create the thread(s) */
   /* definition and creation of defaultTask */
-  osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
-  defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
+//  osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
+//  defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
-  osThreadDef(displayOutputTask, DisplayOutputTask, osPriorityNormal, 1, 128);
-  displayOutputTask = osThreadCreate(osThread(displayOutputTask), NULL);
+  osThreadDef(sendTelemetryToUsb, SendTelemetryToUsb, osPriorityRealtime, 1, 128);
+  sendTelemetryToUsb = osThreadCreate(osThread(sendTelemetryToUsb), NULL);
 
   osThreadDef(tempratureTask, TemperatureTask, osPriorityAboveNormal, 1, 128);
   tempratureTask = osThreadCreate(osThread(tempratureTask), NULL);
 
-  osThreadDef(ledTask, LedTask, osPriorityNormal, 1, 128);
-  ledTask = osThreadCreate(osThread(ledTask), NULL);
-
+  osThreadDef(displayOutputTask, DisplayOutputTask, osPriorityNormal, 1, 128);
+  displayOutputTask = osThreadCreate(osThread(displayOutputTask), NULL);
   /* USER CODE END RTOS_THREADS */
 
   /* USER CODE BEGIN RTOS_QUEUES */

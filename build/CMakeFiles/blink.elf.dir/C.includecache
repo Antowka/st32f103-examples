@@ -647,6 +647,8 @@ usbd_cdc_if.h
 /home/anton/Desktop/Projects/STM32/blink/Src/usbd_cdc_if.h
 
 /home/anton/Desktop/Projects/STM32/blink/Src/usbd_cdc_if.c
+cmsis_os.h
+-
 usbd_cdc_if.h
 /home/anton/Desktop/Projects/STM32/blink/Src/usbd_cdc_if.h
 
@@ -718,6 +720,8 @@ ssd1306.h
 dht11.h
 -
 cmsis_os.h
+-
+usbd_cdc_if.h
 -
 lesson5.h
 /home/anton/Desktop/Projects/STM32/blink/UserSrc/Src/lesson5.h
