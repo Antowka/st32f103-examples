@@ -18,74 +18,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dc8c2fb-3b1e-493b-9bbe-c4cdfee2f23f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Inc/FreeRTOSConfig.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Inc/usb_device.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Inc/usbd_cdc_if.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Inc/usbd_conf.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Inc/usbd_desc.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/croutine.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOSConfig_template.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/list.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/task.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/list.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/queue.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/timers.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Src/freertos.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Src/stm32f1xx_hal_timebase_TIM.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Src/usb_device.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Src/usbd_cdc_if.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Src/usbd_conf.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Src/usbd_desc.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Src/main.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Src/main.c.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/Src/stm32f1xx_it.c.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/blink.bin" afterPath="$PROJECT_DIR$/build/blink.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/blink.elf" afterPath="$PROJECT_DIR$/build/blink.elf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libCMSIS.a" afterPath="$PROJECT_DIR$/build/libCMSIS.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libHAL.a" afterPath="$PROJECT_DIR$/build/libHAL.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libUSERSRC.a" afterPath="$PROJECT_DIR$/build/libUSERSRC.a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Src/main.c" afterPath="$PROJECT_DIR$/Src/main.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserSrc/Inc/lesson5.h" afterPath="$PROJECT_DIR$/UserSrc/Inc/lesson5.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserSrc/Lib/dh11/Inc/dht11.h" afterPath="$PROJECT_DIR$/UserSrc/Lib/dh11/Inc/dht11.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserSrc/Lib/dh11/Src/dht11.c" afterPath="$PROJECT_DIR$/UserSrc/Lib/dh11/Src/dht11.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserSrc/Src/lesson5.c" afterPath="$PROJECT_DIR$/UserSrc/Src/lesson5.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blink.ioc" afterPath="$PROJECT_DIR$/blink.ioc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/USERSRC.dir/C.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/USERSRC.dir/C.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/USERSRC.dir/depend.internal" afterPath="$PROJECT_DIR$/build/CMakeFiles/USERSRC.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/USERSRC.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/USERSRC.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/C.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/C.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/depend.internal" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/blink.elf.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/blink.hex" afterPath="$PROJECT_DIR$/build/blink.hex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/blink.map" afterPath="$PROJECT_DIR$/build/blink.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Src/usbd_cdc_if.c" afterPath="$PROJECT_DIR$/Src/usbd_cdc_if.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -99,42 +33,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lesson5.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UserSrc/Src/lesson5.c">
+      <file leaf-file-name="STM32F103C8Tx.cmake" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/STM32F103C8Tx.cmake">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="e#1193#1670#0" expanded="false" />
-                <element signature="e#2210#2442#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson5.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UserSrc/Inc/lesson5.h">
+      <file leaf-file-name="usbd_cdc_if.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Src/usbd_cdc_if.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-              <folding>
-                <element signature="e#40#66#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Src/main.c">
+      <file leaf-file-name="stm32f1xx_it.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Src/stm32f1xx_it.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="145" column="82" lean-forward="false" selection-start-line="145" selection-start-column="82" selection-end-line="145" selection-end-column="82" />
-              <folding>
-                <element signature="e#0#2783#0" expanded="false" />
-                <element signature="e#2866#2883#0" expanded="true" />
-                <element signature="e#11403#11925#0" expanded="true" />
-                <marker date="1517868286378" expanded="false" signature="11953:11966" ph="/**...*/" />
-              </folding>
+            <state relative-caret-position="437">
+              <caret line="197" column="35" lean-forward="false" selection-start-line="197" selection-start-column="35" selection-end-line="197" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -217,8 +141,8 @@
         <option value="$PROJECT_DIR$/UserSrc/Src/lesson5.c" />
         <option value="$PROJECT_DIR$/UserSrc/Lib/dh11/Inc/dht11.h" />
         <option value="$PROJECT_DIR$/UserSrc/Lib/dh11/Src/dht11.c" />
-        <option value="$PROJECT_DIR$/Src/stm32f1xx_it.c" />
         <option value="$PROJECT_DIR$/Src/main.c" />
+        <option value="$PROJECT_DIR$/Src/stm32f1xx_it.c" />
         <option value="$PROJECT_DIR$/Src/usbd_cdc_if.c" />
       </list>
     </option>
@@ -259,6 +183,16 @@
               <item name="blink" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="blink" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blink" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="blink" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blink" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="blink" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -297,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bash.FLASH">
+  <component name="RunManager" selected="Application.Build All">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="blink" RUN_TARGET_NAME="blink.elf" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
@@ -442,30 +376,44 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144137000" />
+    <option name="totallyTimeSpent" value="144188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1660" y="124" width="1600" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38961038" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32337663" sideWeight="0.49675852" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32454127" sideWeight="0.5032415" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24545455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24545455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34285715" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23552124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23552124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39740258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38961038" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32337663" sideWeight="0.49675852" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32454127" sideWeight="0.5032415" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24545455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34285715" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23552124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39740258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -649,8 +597,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/STM32F103C8Tx.cmake">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="69" lean-forward="false" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -718,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,16 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Src/usbd_cdc_if.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2556">
-          <caret line="132" column="2" lean-forward="false" selection-start-line="132" selection-start-column="2" selection-end-line="132" selection-end-column="2" />
-          <folding>
-            <element signature="e#2847#2868#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -846,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Src/stm32f1xx_it.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="437">
+          <caret line="197" column="35" lean-forward="false" selection-start-line="197" selection-start-column="35" selection-end-line="197" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -876,9 +812,15 @@
           <folding>
             <element signature="e#0#2783#0" expanded="false" />
             <element signature="e#2866#2883#0" expanded="true" />
-            <element signature="e#11403#11925#0" expanded="true" />
-            <marker date="1517868286378" expanded="false" signature="11953:11966" ph="/**...*/" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/usbd_cdc_if.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

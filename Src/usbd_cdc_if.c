@@ -47,9 +47,9 @@
 */
 
 /* Includes ------------------------------------------------------------------*/
-#include <cmsis_os.h>
 #include "usbd_cdc_if.h"
 /* USER CODE BEGIN INCLUDE */
+#include <cmsis_os.h>
 /* USER CODE END INCLUDE */
 
 /** @addtogroup STM32_USB_OTG_DEVICE_LIBRARY
