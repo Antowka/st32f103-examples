@@ -1,4 +1,5 @@
 
+#include <cmsis_os.h>
 #include"ssd1306.h"
 
 
@@ -25,7 +26,7 @@ static void ssd1306_WriteCommand(uint8_t command)
 uint8_t ssd1306_Init(void)
 {	
 	// Even wachten zodat het scherm zeker opgestart is
-	HAL_Delay(100);
+	osDelay(100);
 	
 	/* Init LCD */
 	ssd1306_WriteCommand(0xAE); //display off
